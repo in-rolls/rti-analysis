@@ -1,5 +1,5 @@
 # Data and outputs are stored byte for byte. Line-ending normalisation would change their
-# checksums, and data/raw/snapshot_*/MANIFEST.csv records the MD5 of every snapshot file.
+# checksums, and data/raw/snapshot_*/MANIFEST.csv records the MD5 of every snapshot data file.
 data/** -text
 output/** -text
 
