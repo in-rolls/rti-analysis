@@ -5,7 +5,7 @@
 ### 00a_refresh_raw_snapshot.R is deliberately left out: results run from the frozen snapshot.
 # ----
 # INSTALL PACMAN ----
-if (! requireNamespace("pacman", quietly = TRUE)) {
+if (!requireNamespace("pacman", quietly = TRUE)) {
   install.packages("pacman")
   loadNamespace("pacman")
 }
@@ -21,7 +21,8 @@ scripts <- c(
   "05_reply_content.R",
   "06_regressions_legal_salience.R",
   "07_correlates.R",
-  "08_compile_note.R")
+  "08_compile_note.R"
+)
 
 # Run each script sequentially
 for (script in scripts) {

@@ -1,0 +1,11 @@
+# Data and outputs are stored byte for byte. Line-ending normalisation would change their
+# checksums, and data/raw/snapshot_*/MANIFEST.csv records the MD5 of every snapshot file.
+data/** -text
+output/** -text
+
+*.R   text eol=lf
+*.md  text eol=lf
+*.in  text eol=lf
+*.yml text eol=lf
+Makefile text eol=lf
+hooks/* text eol=lf

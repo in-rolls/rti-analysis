@@ -1,0 +1,12 @@
+#!/bin/sh
+# Refuse to push if git is tracking anything personal.
+#
+# CI runs the same check, but CI runs after the data has already reached GitHub, and a push
+# cannot be taken back. Installed by `make hooks`. To push anyway, if you are certain the
+# findings are false positives: git push --no-verify
+
+if ! Rscript --vanilla code/check_privacy.R; then
+    echo "" >&2
+    echo "Push refused. Fix the findings above." >&2
+    exit 1
+fi
