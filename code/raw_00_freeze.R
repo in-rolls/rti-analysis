@@ -1,8 +1,8 @@
 # AMAR & SOOD - RTI FIRST-CUT ANALYSIS (2026)
 ## FILE: raw_00_freeze.R
-### Freezes the inputs that get overwritten: RA sheets and overrides go to a dated Drive folder, and
-### the drawn assignment lists come into git. Everything else only ever gets added to, so
-### raw_00b_manifest.R pins it by checksum where it is. Personal originals never enter git.
+### Freezes the inputs that get overwritten: RA sheets and overrides go to a dated Drive folder.
+### Everything else only ever gets added to, so raw_00b_manifest.R pins it by checksum where it is.
+### Personal originals never enter git.
 ### Run once per data date, by hand: RTI_RAW=<Drive rti folder> Rscript code/raw_00_freeze.R
 # ----
 pacman::p_load(dplyr, purrr, readr, stringr, jsonlite, here)
@@ -54,21 +54,4 @@ write_csv(sheet_rules, file.path(freeze_dir, "ra_sheet_rules.csv"))
 writeLines(unlist(config$stop_terms), file.path(freeze_dir, "stop_terms.txt"))
 file.copy(file.path(raw_root, "email_tracker", "overrides.csv"), freeze_dir)
 
-## Small, non-personal originals that belong in git, byte for byte
-assignment_dir <- here("data", "raw", "assignments")
-dir.create(assignment_dir, recursive = TRUE, showWarnings = FALSE)
-file.copy(file.path(raw_root, "assignments.csv"), file.path(assignment_dir, "tn.csv"),
-  overwrite = TRUE
-)
-repo_lists <- c(
-  tg_wave1 = "rti-telangana/out/tg2026q3_02/assignments.csv",
-  tg_wave2 = "rti-telangana/out/tg2026q3_03/assignments.csv",
-  ka = "rti-karnataka/out/ka2026q3_01/assignments.csv",
-  dm_wave1 = "rti-delhi-maharashtra/out/dm2026q3_01/assignments.csv",
-  dm_wave2 = "rti-delhi-maharashtra/out/dm2026q3_02/assignments.csv"
-)
-iwalk(repo_lists, function(p, nm) {
-  file.copy(file.path(home, p), file.path(assignment_dir, paste0(nm, ".csv")), overwrite = TRUE)
-})
-
-cat("Frozen RA sheets, tab rules, overrides and assignment lists. Now run raw_00b_manifest.R.\n")
+cat("Frozen RA sheets, tab rules and overrides. Now run raw_00b_manifest.R.\n")

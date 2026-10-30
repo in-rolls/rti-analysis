@@ -14,7 +14,7 @@ if (!nzchar(raw_root) || !dir.exists(raw_root)) stop("Set RTI_RAW to the shared 
 
 freeze_dir <- file.path(raw_root, RAW_FREEZE)
 rules <- read_csv(file.path(freeze_dir, "ra_sheet_rules.csv"), show_col_types = FALSE)
-assignments <- read_assignments(here("data", "raw", "assignments"))
+assignments <- read_assignments()
 
 group_ras <- list(RA1_RA3 = c("RA1", "RA3"), RA2_RA4 = c("RA2", "RA4"))
 

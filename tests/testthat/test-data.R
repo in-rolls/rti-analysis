@@ -110,6 +110,16 @@ testthat::test_that("every coded reply has its document in the archive", {
   testthat::expect_true(all(coded$n_reply_pdfs > 0))
 })
 
+testthat::test_that("every upstream file is pinned to a full commit and a checksum", {
+  pins <- read.csv(file.path(root, "data", "upstream.csv"), colClasses = "character")
+  testthat::expect_equal(nrow(pins), 10L)
+  testthat::expect_true(all(grepl("^[0-9a-f]{40}$", pins$ref)))
+  testthat::expect_true(all(grepl("^[0-9a-f]{32}$", pins$md5)))
+  for (name in pins$name) {
+    testthat::expect_true(file.exists(upstream_file(name, root)))
+  }
+})
+
 testthat::test_that("Tamil Nadu tier counts are the frame's", {
   tiers <- read.csv(file.path(root, "data", "derived", "tn_frame_tiers.csv"))
   testthat::expect_equal(tiers$frame_n[tiers$tier == "Department"], 40L)

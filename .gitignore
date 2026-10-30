@@ -17,6 +17,9 @@ data/cleaned/analysis.rds
 # Parsed emails, sheets and attachment text: personal data, rebuilt from the originals
 data/private/
 
+# Downloaded from the public repositories pinned in data/upstream.csv
+data/upstream/
+
 # renv keeps its own ignore file in renv/; never commit the library
 renv/library/
 

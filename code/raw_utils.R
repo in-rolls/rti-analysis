@@ -30,21 +30,6 @@ pinned_originals <- function(raw_root, folder, manifest) {
   found
 }
 
-## A public file pinned to a commit. It is downloaded once, and a different checksum is an error,
-## never a silent substitution.
-fetch_pinned <- function(pin, dest_dir) {
-  dest <- file.path(dest_dir, paste0(pin$ref, "_", basename(pin$path)))
-  if (!file.exists(dest)) {
-    dir.create(dest_dir, recursive = TRUE, showWarnings = FALSE)
-    url <- sprintf("https://raw.githubusercontent.com/%s/%s/%s", pin$repo, pin$ref, pin$path)
-    utils::download.file(url, dest, quiet = TRUE, mode = "wb")
-  }
-  if (unname(tools::md5sum(dest)) != pin$md5) {
-    stop("Pinned file does not match its checksum: ", pin$repo, "/", pin$path)
-  }
-  dest
-}
-
 # Portal senders ----
 ## Registration numbers decide the application; the sender only says which template to expect.
 PORTAL_SENDERS <- c(

@@ -18,7 +18,7 @@ events <- read_csv(here("data", "derived", "events.csv"),
   filter(!is.na(app_id), nzchar(app_id))
 register <- read_rds(here("data", "private", "ra_register.rds"))
 manifest <- read_csv(here("data", "raw_manifest.csv"), show_col_types = FALSE)
-assignments <- read_assignments(here("data", "raw", "assignments"))
+assignments <- read_assignments()
 
 RESPONSE_KINDS <- c("pio_email", "disposed", "returned", "rejected")
 
@@ -137,27 +137,20 @@ stopifnot(nrow(status) == nrow(assignments), !anyDuplicated(status$app_id))
 write_csv(status, here("data", "derived", "status.csv"), na = "")
 
 # Frame sizes ----
-home <- path.expand("~")
-## Tamil Nadu's frame is public in in-rolls/rti. The other states' frames are in the state repos.
-tn_frame <- read_csv(fetch_pinned(TN_FRAME_PIN, here("data", "private", "upstream")),
-  col_types = cols(.default = "c"), show_col_types = FALSE
-) |>
-  filter(state == "Tamil Nadu")
+read_frame <- function(name) {
+  read_csv(upstream_file(name), col_types = cols(.default = "c"), show_col_types = FALSE)
+}
+## Gaurav's frame spans six states; only its Tamil Nadu rows are used
+tn_frame <- read_frame("tn_frame") |> filter(state == "Tamil Nadu")
 tn_frame_tiers <- count(tn_frame, tier = level_label, name = "frame_n")
-dm <- read_csv(file.path(home, "rti-delhi-maharashtra/data/frame_dl_mh.csv"),
-  col_types = cols(.default = "c"), show_col_types = FALSE
-)
+dm <- read_frame("dm_frame")
 state_col <- intersect(c("State", "state"), names(dm))[1]
 frame_sizes <- tibble(
   state = STATE_ORDER,
   frame_n = c(
     sum(tn_frame_tiers$frame_n),
-    nrow(read_csv(file.path(home, "rti-telangana/data/frame_telangana.csv"),
-      col_types = cols(.default = "c"), show_col_types = FALSE
-    )),
-    nrow(read_csv(file.path(home, "rti-karnataka/data/frame_karnataka.csv"),
-      col_types = cols(.default = "c"), show_col_types = FALSE
-    )),
+    nrow(read_frame("tg_frame")),
+    nrow(read_frame("ka_frame")),
     sum(dm[[state_col]] %in% c("Delhi", "DL")),
     sum(dm[[state_col]] %in% c("Maharashtra", "MH"))
   )

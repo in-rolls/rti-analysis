@@ -16,7 +16,7 @@ freeze_dir <- file.path(raw_root, RAW_FREEZE)
 
 emails <- read_rds(here("data", "private", "emails.rds"))
 register <- read_rds(here("data", "private", "ra_register.rds"))
-assignments <- read_assignments(here("data", "raw", "assignments"))
+assignments <- read_assignments()
 overrides <- read_csv(file.path(freeze_dir, "overrides.csv"),
   col_types = cols(.default = "c"), show_col_types = FALSE
 ) |>

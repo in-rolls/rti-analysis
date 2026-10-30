@@ -9,14 +9,6 @@ HORIZONS <- c(7, 14, 21, 30, 35, 45)
 SEED <- 20261030
 RI_DRAWS <- 2000
 
-## Data this project uses but does not own: pinned to a commit and checked by checksum
-TN_FRAME_PIN <- list(
-  repo = "in-rolls/rti",
-  ref = "955861bbeeb886d4e9792db41ad667ce2d3e2bad",
-  path = "data/frame.csv",
-  md5 = "8f4493dacd8a298a737f3a2f0fb5f348"
-)
-
 ## Table and figure notes over this many characters stop the run
 NOTE_LIMIT <- 440
 

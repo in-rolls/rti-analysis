@@ -6,7 +6,7 @@
 raw emails, attachments ─┐
 RA sheets (frozen)       ├─ code/raw_*.R ──> data/derived/ ─┐
 overrides, hand fixes    │                                  │
-assignment lists ────────┘                                  ├─ code/0*.R ──> tables, figures
+frames, assignment lists ┘                                  ├─ code/0*.R ──> tables, figures
                                                             │
 reply PDFs ── read by two coders and an adjudicator ──> data/hand/ ─┘
 ```
@@ -28,7 +28,18 @@ The originals carry filer names and addresses, phone numbers, inbox addresses, o
 
 Only the RA sheets and overrides get overwritten, so only they are copied to the dated folder. The live RA sheets are Google Sheets; these copies are their hourly CSV mirror on the data date. Emails, attachments, PDFs and receipts only get added to, so the manifest pins them where they are. Messages dated after the data date are ignored.
 
-The assignment lists in `data/raw/assignments/` come from Drive (Tamil Nadu) and the public state repos. Tamil Nadu's frame sizes and tier weights come from the public `data/frame.csv` in `in-rolls/rti`, pinned in `code/00_config.R` to a commit and a checksum. The other states' frame sizes come from the state repos.
+## Frames and assignment lists
+
+These are public, so the project does not copy them. `data/upstream.csv` pins each file to a commit and a checksum, and it is downloaded on first run into the gitignored `data/upstream/`. A different checksum stops the run.
+
+| Files | Repository |
+| --- | --- |
+| Tamil Nadu frame and assignment list | `in-rolls/rti` |
+| Telangana frame and two assignment lists | `priyadarshiamar/rti-telangana` |
+| Karnataka frame and assignment list | `priyadarshiamar/rti-karnataka` |
+| Delhi and Maharashtra frame and two assignment lists | `priyadarshiamar/rti-delhi-maharashtra` |
+
+This keeps the chain connected from frame to sample to analysis. On 30 October 2026 the samplers in the three state repositories were rerun on fresh clones, and their frames and seeds regenerated every assignment list with no file changed. Tamil Nadu's sampler in `in-rolls/rti` was not rerun; its list is byte-identical to the copy used since the first cut.
 
 ## Made by hand
 
@@ -82,6 +93,7 @@ This repository is private because filing continues and it holds interim results
 ## A new data date
 
 1. Update `RAW_FREEZE` and `AS_OF` in `code/00_config.R`.
-2. Copy the RA sheets for that date, and set `RTI_SHEETS_COPY` to the copy. Run `code/raw_00_freeze.R`, which writes the dated Drive folder and refreshes the assignment lists. It refuses to overwrite a freeze.
+2. Copy the RA sheets for that date, and set `RTI_SHEETS_COPY` to the copy. Run `code/raw_00_freeze.R`, which writes the dated Drive folder. It refuses to overwrite a freeze.
 3. Run `code/raw_00b_manifest.R` to pin the originals.
-4. `make rebuild`, code any new replies by hand, then revisit the counts checked in `01_data_cleaning.R` and `tests/`.
+4. If a new batch was drawn, add its assignment list to `data/upstream.csv`.
+5. `make rebuild`, code any new replies by hand, then revisit the counts checked in `01_data_cleaning.R` and `tests/`.

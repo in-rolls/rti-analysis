@@ -62,7 +62,7 @@ stopifnot(!any(duplicated(coded$app_id)))
 ## Tamil Nadu: treatment balanced within department x tier, so the block is that stratum.
 ## Other states: the samplers shuffle over the whole batch (state x batch), so that is the block.
 ## Department group is a sampling stratum there, not a randomization block.
-assignments <- read_assignments(here("data", "raw", "assignments")) |>
+assignments <- read_assignments() |>
   mutate(
     tn = state == "TN",
     legal = as.integer(treatment == "legal_salience"),

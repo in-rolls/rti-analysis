@@ -41,7 +41,7 @@ make check
 
 `make check` reruns the analysis, compiles the note, regenerates this README, lints the code, runs the tests and runs the privacy check.
 
-**From the original inputs:** the originals hold personal data, so they stay in the shared Drive folder rather than in git. You also need `poppler`, `tesseract`, and clones of `rti-telangana`, `rti-karnataka` and `rti-delhi-maharashtra` in your home folder for frame sizes.
+**From the original inputs:** the originals hold personal data, so they stay in the shared Drive folder rather than in git. You also need `poppler` and `tesseract`.
 
 ```sh
 export RTI_RAW="/path/to/shared/drive/rti"
@@ -56,8 +56,8 @@ make check
 
 | Path | Contents |
 | --- | --- |
+| `data/upstream.csv` | The frames and drawn assignment lists, pinned to commits in the public repositories; downloaded on first run |
 | `data/raw_manifest.csv` | Size and checksum of each of the original files kept in Drive |
-| `data/raw/assignments/` | The six drawn assignment lists, byte for byte |
 | `data/hand/` | Everything made by judgment: reply coding, second coding, adjudication, hand corrections, phone calls |
 | `data/derived/` | Built from the originals by `code/raw_*.R`, with no personal data |
 | `data/cleaned/` | One row per drawn application, and the function-coding crosswalk |
