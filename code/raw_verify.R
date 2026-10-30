@@ -12,9 +12,7 @@ raw_root <- path.expand(Sys.getenv("RTI_RAW"))
 if (!nzchar(raw_root) || !dir.exists(raw_root)) stop("Set RTI_RAW to the shared Drive rti/ folder.")
 
 manifest <- read_csv(here("data", "raw_manifest.csv"), show_col_types = FALSE)
-folders <- setdiff(unique(manifest$folder), "tn_universe")
-found <- map_dfr(folders, function(d) list_originals(raw_root, d)) |>
-  bind_rows(tibble(path = "tn_universe.csv", path_md5 = path_hash("tn_universe.csv"))) |>
+found <- map_dfr(unique(manifest$folder), function(d) list_originals(raw_root, d)) |>
   mutate(actual = unname(tools::md5sum(file.path(raw_root, path))))
 
 joined <- manifest |> left_join(select(found, path_md5, actual), by = "path_md5")

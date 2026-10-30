@@ -13,11 +13,7 @@ source(here("code", "raw_utils.R"))
 raw_root <- path.expand(Sys.getenv("RTI_RAW"))
 if (!nzchar(raw_root) || !dir.exists(raw_root)) stop("Set RTI_RAW to the shared Drive rti/ folder.")
 
-manifest <- map_dfr(c(ORIGINAL_FOLDERS, RAW_FREEZE), \(d) list_originals(raw_root, d)) |>
-  bind_rows(tibble(
-    folder = "tn_universe", path = "tn_universe.csv", path_md5 = path_hash("tn_universe.csv"),
-    bytes = file.size(file.path(raw_root, "tn_universe.csv"))
-  ))
+manifest <- map_dfr(c(ORIGINAL_FOLDERS, RAW_FREEZE), function(d) list_originals(raw_root, d))
 
 cache <- Sys.getenv("RTI_HASH_CACHE")
 known <- if (nzchar(cache)) read_csv(cache, show_col_types = FALSE) else tibble(path = "", md5 = "")

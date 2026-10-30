@@ -146,3 +146,17 @@ testthat::test_that("office-and-date matching needs office words plus a date, an
   restricted <- office_and_date("Fisheries Inspector 01.09.2026", info, restrict = "TN-002")
   testthat::expect_equal(restricted, "")
 })
+
+testthat::test_that("a pinned file is checked against its checksum", {
+  dir <- tempfile("pin")
+  dir.create(dir)
+  pin <- list(
+    repo = "owner/repo", ref = "abc123", path = "data/frame.csv",
+    md5 = "not-the-checksum"
+  )
+  cached <- file.path(dir, "abc123_frame.csv")
+  writeLines("a,b", cached)
+  testthat::expect_error(fetch_pinned(pin, dir), "does not match")
+  pin$md5 <- unname(tools::md5sum(cached))
+  testthat::expect_equal(fetch_pinned(pin, dir), cached)
+})

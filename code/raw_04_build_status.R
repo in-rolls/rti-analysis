@@ -138,10 +138,12 @@ write_csv(status, here("data", "derived", "status.csv"), na = "")
 
 # Frame sizes ----
 home <- path.expand("~")
-tn_universe <- read_csv(file.path(raw_root, "tn_universe.csv"),
+## Tamil Nadu's frame is public in in-rolls/rti. The other states' frames are in the state repos.
+tn_frame <- read_csv(fetch_pinned(TN_FRAME_PIN, here("data", "private", "upstream")),
   col_types = cols(.default = "c"), show_col_types = FALSE
-)
-tn_frame_tiers <- count(tn_universe, tier = level_label, name = "frame_n")
+) |>
+  filter(state == "Tamil Nadu")
+tn_frame_tiers <- count(tn_frame, tier = level_label, name = "frame_n")
 dm <- read_csv(file.path(home, "rti-delhi-maharashtra/data/frame_dl_mh.csv"),
   col_types = cols(.default = "c"), show_col_types = FALSE
 )

@@ -6,6 +6,7 @@ testthat::test_that("the manifest pins every original, and matches them when the
   testthat::expect_false(any(duplicated(manifest$path_md5)))
   folders <- c("email_tracker/raw", "email_tracker/attachments", "rti responses", "Filed_RTI")
   testthat::expect_true(all(folders %in% manifest$folder))
+  testthat::expect_equal(nrow(manifest), 1473L)
   raw_root <- path.expand(Sys.getenv("RTI_RAW"))
   testthat::skip_if(!nzchar(raw_root) || !dir.exists(raw_root), "originals are not on this machine")
   source(file.path(root, "code", "raw_utils.R"), local = TRUE)
@@ -107,6 +108,13 @@ testthat::test_that("every coded reply has its document in the archive", {
   ## Except the reply filed under the wrong id, which is counted under TG-150's name
   coded <- d[d$coded == 1L & d$app_id != "TG-162", ]
   testthat::expect_true(all(coded$n_reply_pdfs > 0))
+})
+
+testthat::test_that("Tamil Nadu tier counts are the frame's", {
+  tiers <- read.csv(file.path(root, "data", "derived", "tn_frame_tiers.csv"))
+  testthat::expect_equal(tiers$frame_n[tiers$tier == "Department"], 40L)
+  testthat::expect_equal(tiers$frame_n[tiers$tier == "Head of Department"], 321L)
+  testthat::expect_equal(tiers$frame_n[tiers$tier == "Sub Office"], 17056L)
 })
 
 testthat::test_that("derived data carries no personal columns", {

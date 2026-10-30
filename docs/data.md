@@ -25,11 +25,10 @@ The originals carry filer names and addresses, phone numbers, inbox addresses, o
 | Tab rules, overrides, matching stop words | `raw_snapshots/2026-10-29/` | 3 | Which tabs count; earlier manual matches |
 | Reply PDFs | `rti responses/` | 151 | Reply coding |
 | Filing receipts | `Filed_RTI/` | 994 | Filing audit |
-| Tamil Nadu frame | `tn_universe.csv` | 1 | Frame sizes and tier weights |
 
 Only the RA sheets and overrides get overwritten, so only they are copied to the dated folder. The live RA sheets are Google Sheets; these copies are their hourly CSV mirror on the data date. Emails, attachments, PDFs and receipts only get added to, so the manifest pins them where they are. Messages dated after the data date are ignored.
 
-The assignment lists in `data/raw/assignments/` come from Drive (Tamil Nadu) and the public state repos.
+The assignment lists in `data/raw/assignments/` come from Drive (Tamil Nadu) and the public state repos. Tamil Nadu's frame sizes and tier weights come from the public `data/frame.csv` in `in-rolls/rti`, pinned in `code/00_config.R` to a commit and a checksum. The other states' frame sizes come from the state repos.
 
 ## Made by hand
 
