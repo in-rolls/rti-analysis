@@ -57,8 +57,8 @@ save_table(
   "What the coded replies contain",
   sprintf(
     paste0(
-      "All %d coded replies, whenever they came. First-pass coding, not yet ",
-      "double-coded. Fees were quoted in %d replies (median Rs %s, maximum Rs ",
+      "All %d coded replies, whenever they came. Double-coded blind, with ",
+      "disagreements adjudicated. Fees were quoted in %d replies (median Rs %s, maximum Rs ",
       "%s)."
     ),
     n_all, nrow(fees), f0(as.integer(round(median(fees$fee_inr)))),

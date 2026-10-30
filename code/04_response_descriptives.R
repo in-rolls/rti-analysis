@@ -5,7 +5,7 @@
 if (!exists("rti")) source(here::here("code", "02_load_packages_and_data.R"))
 
 # Table: response at day 30 by state ----
-tn_frame <- read_csv(here("data", "raw", SNAPSHOT, "tn_frame_tiers.csv"), show_col_types = FALSE)
+tn_frame <- read_csv(here("data", "derived", "tn_frame_tiers.csv"), show_col_types = FALSE)
 
 state_row <- function(d, label) {
   k <- sum(d$any_30 == 100)
@@ -394,8 +394,8 @@ save_fig_note(
   "What has come back so far, by state",
   sprintf(paste0(
     "Applications past day 30, status as of %s, whenever the reply came. N in ",
-    "parentheses; segments of 8\\%% or more are labeled. First-pass coding of ",
-    "reply documents, not yet double-coded. Telangana is a lower bound because ",
+    "parentheses; segments of 8\\%% or more are labeled. Reply documents double-coded blind, ",
+    "with disagreements adjudicated. Telangana is a lower bound because ",
     "its portal sends no status emails."
   ), format(AS_OF, "%d %B"))
 )

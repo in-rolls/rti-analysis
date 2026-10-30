@@ -6,7 +6,7 @@ testthat::test_that("the note holds only exhibits, with no prose", {
   body <- lines[(which(lines == "\\maketitle") + 1):(which(lines == "\\end{document}") - 1)]
   testthat::expect_true(all(grepl("^\\\\(input\\{|FloatBarrier)", body)))
   inputs <- sub("^\\\\input\\{(.*)\\}$", "\\1", body[grepl("^\\\\input", body)])
-  testthat::expect_length(inputs, 18L)
+  testthat::expect_length(inputs, 20L)
   testthat::expect_true(all(file.exists(out(paste0(inputs, ".tex")))))
   testthat::expect_true(file.exists(out("first_cut_note.pdf")))
 })

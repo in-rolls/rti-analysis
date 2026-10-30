@@ -5,7 +5,7 @@
 # ----
 if (!exists("rti")) source(here::here("code", "02_load_packages_and_data.R"))
 
-frame_sizes <- read_csv(here("data", "raw", SNAPSHOT, "frame_sizes.csv"), show_col_types = FALSE)
+frame_sizes <- read_csv(here("data", "derived", "frame_sizes.csv"), show_col_types = FALSE)
 
 # Table: sample and filing by state ----
 sample_row <- function(d, label, frame = NA) {

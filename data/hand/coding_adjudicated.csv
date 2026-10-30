@@ -1,0 +1,87 @@
+app_id,field,value,basis,round
+DL-006,disposition,partial,Letter lists eight applications by date and mode; Section 25 return unaddressed.,disagreement
+DL-009,clause_cited,6(3);7(9),Transfer letter cites 6(3); headquarters cites 7(9) declining Format A and B compilation.,disagreement
+DL-009,disposition,full,Branch registers and headquarters Format C supplied; Section 25 figures given in letter.,disagreement
+DL-009,fee_inr,34,North East district email demands Rs 2 per page for 17 pages.,disagreement
+DL-009,granularity,format_a,PHW-IV annexure and School Health register give one row per application.,disagreement
+DL-009,q3_sec25,supplied,Headquarters letter of 23/10/26 states Section 25 annual return figures for 2025-26.,disagreement
+DL-009,response_date,2026-10-08,Undated s.6(3) transfer copied to applicant; email file date precedes 9 October reply.,disagreement
+DL-015,clause_cited,2(j)(i),Letter offers inspection of records under Section 2(j)(i) instead of supplying them.,disagreement
+DL-015,disposition,denied,"Not maintained in requested format; inspection offered, no copies supplied.",disagreement
+DL-032,clause_cited,8(1)(j); 2(f),Vigilance letter cites 8(1)(j); Civil Division letter cites 2(f).,disagreement
+DL-032,disposition,partial,Vigilance reply gives period totals; other branch refuses registers and fee-gates item 3.,disagreement
+DL-032,granularity,format_c,"Vigilance letter gives period totals: 11 received, nine disposed within 30 days.",disagreement
+DL-032,response_date,2026-10-13,"Earliest letter, from Civil Division-VII, is handwritten dated 13/10/26.",disagreement
+KA-008,q3_sec25,supplied,"Form-I yearly SPIO report for 2025-26 is in the file, page 10.",disagreement
+KA-019,response_date,2026-09-25,Handwritten date on reply letter reads 25.09.2026; OCR's 24 is a misread.,disagreement
+KA-020,disposition,partial,Application-level sheet only; Section 25 return neither supplied nor mentioned.,disagreement
+KA-020,response_date,2026-10-06,Sheet undated; email file name and PDF creation date both show 6 October.,disagreement
+KA-024,q3_sec25,supplied,"Form-I yearly SPIO report for 2025-26 is in the file, page 5.",disagreement
+KA-025,q3_sec25,offered_on_payment,Rs.22 for eleven pages covers all requested information; no item carved out.,disagreement
+KA-032,disposition,partial,"Portal remark gives one-application, within-30-days total; other Format C counts absent, records refused.",disagreement
+KA-032,granularity,format_c,"Remark states one application filed, disposed within 30 days: a period total.",disagreement
+KA-034,disposition,partial,"Formats A, B, C in file; 'enclosed' Section 25 return is absent.",disagreement
+KA-036,q3_sec25,offered_on_payment,Rs.18 for nine pages covers all requested information; no item carved out.,disagreement
+KA-043,response_date,2026-10-09,"Printed date blank; signature date reads 09/10, an 8 overwritten to 9.",disagreement
+KA-047,disposition,partial,Format A and register scans supplied; Section 25 return absent and unanswered.,disagreement
+KA-058,disposition,partial,"Letter states 28 received, all cleared in time; register gated behind fee.",rule audit
+KA-069,disposition,partial,Only taluk annual forms in file; requested-period totals for one taluk only.,rule audit
+KA-069,granularity,format_c,"Filled Form-I taluk reports show yearly totals received, disposed, denied; no rows.",disagreement
+KA-069,q3_sec25,supplied,Filled Form-I and Form-II yearly returns are in the file.,disagreement
+KA-069,response_date,2026-10-05,Portal disposal reply dated 05/10/2026 predates the posted letter dated 08.10.2026.,disagreement
+KA-073,disposition,partial,Letter and register pages only; no Section 25 return in file.,disagreement
+KA-102,granularity,format_b,"Enclosed table gives monthly counts by requester category, subject, disposal, rejection.",disagreement
+KA-102,response_date,2026-09-15,Reply letter is dated 15-09-2026; 16 September is the portal's disposal date.,disagreement
+KA-106,q3_sec25,offered_on_payment,Portal asks Rs 20 for all requested information; return not carved out.,disagreement
+KA-117,disposition,denied,Information called voluminous; applicant told to inspect in person; no copies supplied.,disagreement
+KA-137,disposition,partial,Letter with handwritten register pages; no Section 25 return in file.,disagreement
+KA-137,granularity,format_a,Register pages list about 46 applications row by row.,disagreement
+KA-137,response_date,2026-10-13,Cover letter dated 13.10.2026 predates portal status of 22/10/2026.,disagreement
+KA-138,disposition,denied,"Portal returned status, but remark disposes of application citing Section 8(1)(e).",disagreement
+KA-140,disposition,partial,Letter and handwritten register only; no Section 25 return in file or mentioned.,disagreement
+KA-148,disposition,returned,"Letter asks for fresh, clearer application and closes it; no legal refusal cited.",disagreement
+KA-154,clause_cited,6(3),"Second letter, copied to applicant, transfers application to block offices citing Section 6(3).",disagreement
+KA-161,disposition,partial,Format A register supplied; Section 25 return neither supplied nor mentioned.,disagreement
+MH-018,clause_cited,none,Portal status records a transfer but cites no section of the Act.,disagreement
+MH-022,response_date,,No reply letter to applicant in file; only February transmittal to Commission.,disagreement
+MH-023,disposition,partial,Application list emailed with letter; no Section 25 return in either attachment.,disagreement
+MH-028,clause_cited,none,Section 3(b) only governs inspection note-taking; not cited to refuse or deflect.,disagreement
+MH-028,disposition,fee_pending,"Beyond inspection, letter offers register copies at Rs.2 per page plus postage.",disagreement
+MH-028,q3_sec25,not_addressed,Letter treats request as register information only; annual return never mentioned.,disagreement
+MH-031,disposition,partial,43-page file holds register rows; Section 25 return never addressed.,disagreement
+MH-031,granularity,format_a,Register lists one row per application with its dates.,disagreement
+MH-031,response_date,2026-09-28,Forwarding letter dated 28.09.2026 copied to applicant; later letter's December date impossible.,disagreement
+MH-033,disposition,partial,Letter and 18 register pages cover register only; no Section 25 return.,disagreement
+MH-053,disposition,partial,Store department register and library totals supplied; Section 25 return not addressed.,disagreement
+MH-053,granularity,format_a,Handwritten register pages list each application by date and type.,disagreement
+MH-053,response_date,2026-10-15,Fee letter dated 15/10/2026 is earliest of three department replies.,disagreement
+MH-066,clause_cited,none,Section 7(1) cited only for the fee; nothing refused or deflected.,disagreement
+MH-066,q3_sec25,offered_on_payment,"Letter says requested information ready, 50 pages for Rs 100; return not excluded.",disagreement
+TN-027,disposition,denied,Letter says formats not maintained; no register or other data in file.,rule audit
+TN-027,q3_sec25,not_addressed,Letter says report enclosed; two-page file contains no report.,rule audit
+TN-029,response_date,2026-09-15,Handwritten digit on letter reads 15.09.2026; scan metadata also dated 15 September.,disagreement
+TN-137,disposition,denied,Register formats declared not maintained; Rs 8 fee covers only Section 25 item.,disagreement
+TN-151,granularity,narrative_only,Letter says in prose all applications answered within 30 days or transferred; no counts.,disagreement
+TN-173,disposition,partial,Letter gives period totals and encloses Section 25 report; register copies need Rs 832.,disagreement
+TN-223,disposition,partial,28.09.2026 letter gives period totals; rest offered by inspection; no return supplied.,disagreement
+TN-223,granularity,format_c,"Letter lists totals received, disposed, rejected, transferred and pending only.",disagreement
+TN-223,response_date,2026-09-05,Forwarding letter dated 05.09.2026 is copied to the applicant.,disagreement
+TN-232,disposition,denied,Register refused as not maintained; Rs 2 per page buys only Section 25 return.,disagreement
+TN-247,granularity,none,Letter only describes 23-page register available for Rs.48; no register in file.,disagreement
+TN-249,granularity,none,"Fee letter only; 14 register pages offered for Rs 28, not in file.",disagreement
+TN-276,disposition,returned,"Portal status returned; remark claims hardcopy posted, but no such document in file.",disagreement
+TN-283,clause_cited,2(f),Tamil letter cites Section 2(f): information cannot be created in requested form.,disagreement
+TN-283,granularity,none,Register and return only offered on Rs.138 payment; neither is in the file.,disagreement
+TN-283,response_date,2026-09-17,Tamil reply letter dated 17.09.2026; 18 September is the portal status date.,disagreement
+TN-285,disposition,partial,Register pages enclosed; letter and file never address the Section 25 return.,disagreement
+TN-308,q3_sec25,referred_to_website,Letter says all information sought is available on portal; refers applicant there.,disagreement
+TN-469,response_date,,Only a portal status showing applicant's document received; no office reply letter.,disagreement
+TN-492,clause_cited,none,Refusal rests on a court judgment; no section of the Act cited.,disagreement
+TN-492,disposition,partial,Register refused as not maintained in format; annual return actually enclosed.,disagreement
+TN-492,fee_inr,,No rupee amount is demanded anywhere in the letter.,disagreement
+TN-492,granularity,format_c,Finest data are period totals in the enclosed annual RTI reports.,disagreement
+TN-492,medium,email,Reply reached the inbox by email; it is filed as an emailed response dated 2026-10-29.,disagreement
+TN-492,q3_sec25,supplied,RTI reports for 2025 and January-June 2026 are in the file.,disagreement
+TN-492,response_date,2026-10-28,Reply letter to the applicant is dated 28.10.2026.,disagreement
+TN-492,supplied_by_email,1,"Same document, sent by email.",disagreement
+TN-926,clause_cited,none,Portal status records a transfer but cites no section of the Act.,disagreement

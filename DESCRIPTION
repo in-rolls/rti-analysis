@@ -10,11 +10,13 @@ Description: Reproducible first-cut tables and figures on response to standardiz
     the effect of a randomized legal-salience letter.
 Encoding: UTF-8
 Imports:
+    digest,
     dplyr,
     fixest,
     forcats,
     ggplot2,
     here,
+    jsonlite,
     lubridate,
     pacman,
     purrr,

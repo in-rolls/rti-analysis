@@ -12,7 +12,8 @@ exhibits <- c(
   "tables/tab_speed", "tables/tab_response_letter", "figures/fig_km_letter",
   "tables/tab_cuts", "figures/fig_function", "tables/tab_filer",
   "tables/tab_content", "tables/tab_calls", "tables/tab_balance",
-  "tables/tab_main", "tables/tab_robust", "figures/fig_horizon", "tables/tab_correlates"
+  "tables/tab_main", "tables/tab_robust", "figures/fig_horizon", "tables/tab_correlates",
+  "tables/tab_audit", "tables/tab_coding"
 )
 
 doc <- c(
@@ -84,7 +85,17 @@ results_table <- c(
   })
 )
 
+coding_agreement <- read_csv(file.path(PATHS$tables, "coding_agreement.csv"),
+  show_col_types = FALSE
+)
+agree_rate <- \(m) sprintf("%.0f", coding_agreement$agree[coding_agreement$measure == m])
+n_coded <- sum(rti$coded)
+n_full <- sum(rti$disposition == "full", na.rm = TRUE)
+n_informed <- sum(rti$disposition %in% c("full", "partial"))
+
 fill <- c(
+  N_CODED = f0(n_coded), N_FULL = f0(n_full), N_INFORMED = f0(n_informed),
+  AGREE_INFO = agree_rate("information"), AGREE_DISP = agree_rate("disposition"),
   AS_OF = format(AS_OF, "%d %B %Y"), N_DRAWN = f0(nrow(rti)), N_FILED = f0(sum(rti$filed)),
   N_PAST30 = f0(sum(rti$past30)), RESULTS_TABLE = paste(results_table, collapse = "\n"),
   ANY_EXTG = rate("All excl. Telangana"), INFO_EXTG = rate("All excl. Telangana", "info"),

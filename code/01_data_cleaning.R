@@ -1,43 +1,49 @@
 # AMAR & SOOD - RTI FIRST-CUT ANALYSIS (2026)
 ## FILE: 01_data_cleaning.R
-### Builds the one-row-per-application analysis file from the frozen snapshot in data/raw/.
-### Stops if the key counts change, so a new snapshot cannot pass silently.
+### Builds the one-row-per-application analysis file from data/derived/, which raw_master.R builds
+### from the original inputs, plus the drawn assignments and the hand-coded files in data/hand/.
+### Stops if the key counts change, so a new data date cannot pass silently.
 # ----
 pacman::p_load(dplyr, tidyr, purrr, readr, stringr, forcats, lubridate, here)
 
 source(here("code", "00_config.R"))
 source(here("code", "00_utils.R"))
 
-read_raw <- function(f) {
-  read_csv(here("data", "raw", SNAPSHOT, f),
-    col_types = cols(.default = "c"),
-    show_col_types = FALSE
-  )
+read_chr <- function(...) {
+  read_csv(here("data", ...), col_types = cols(.default = "c"), show_col_types = FALSE, na = "")
 }
 
-# Verify the snapshot ----
-## A mismatch is an error, never a silent substitution.
-manifest <- read_raw("MANIFEST.csv")
-actual_md5 <- unname(tools::md5sum(here("data", "raw", SNAPSHOT, manifest$file)))
-if (!identical(actual_md5, manifest$md5)) {
-  stop(
-    "Snapshot files do not match MANIFEST.csv: ",
-    paste(manifest$file[actual_md5 != manifest$md5], collapse = ", ")
-  )
+status <- read_chr("derived", "status.csv")
+coded <- read_chr("hand", "responses_coded.csv")
+corrections <- read_chr("hand", "manual_corrections.csv")
+calls <- read_chr("hand", "phone_calls.csv")
+
+# Reply coding: first pass, second coding, adjudication ----
+## Two coders read each reply independently. Where they disagreed, an adjudicator who could not tell
+## them apart settled the field from the documents. See docs/design.md for the rules.
+second <- read_chr("hand", "second_coding.csv")
+adjudicated <- read_chr("hand", "coding_adjudicated.csv")
+
+coded <- bind_rows(
+  coded,
+  second |>
+    filter(!app_id %in% coded$app_id) |>
+    select(app_id, response_date, disposition, granularity, q3_sec25, fee_inr, clause_cited)
+)
+## A letter with no legible date keeps the first-pass date, which came from its arrival: a reply
+## with an unclear date is still a reply
+for (i in seq_len(nrow(adjudicated))) {
+  field <- adjudicated$field[i]
+  value <- adjudicated$value[i]
+  if (field == "response_date" && is.na(value)) next
+  coded[[field]][coded$app_id == adjudicated$app_id[i]] <- value
 }
 
-panel <- read_raw("status_panel.csv")
-events <- read_raw("events.csv")
-coded <- read_raw("responses_coded.csv")
-assign_tn <- read_raw("assignments_tn.csv")
-assign_other <- read_raw("assignments_other.csv")
-corrections <- read_csv(here("data", "raw", "manual_corrections.csv"),
-  col_types = cols(.default = "c"), show_col_types = FALSE
-)
-calls <- read_csv(here("data", "raw", "phone_calls.csv"),
-  col_types = cols(.default = "c"),
-  show_col_types = FALSE
-)
+## A file that turned out to hold no reply from the office is not a coded reply
+not_replies <- corrections |>
+  filter(action == "not_a_reply") |>
+  pull(app_id)
+coded <- coded |> filter(!app_id %in% not_replies)
 
 # Hand corrections to coded replies ----
 ## Move a reply filed under the wrong application id
@@ -56,10 +62,8 @@ stopifnot(!any(duplicated(coded$app_id)))
 ## Tamil Nadu: treatment balanced within department x tier, so the block is that stratum.
 ## Other states: the samplers shuffle over the whole batch (state x batch), so that is the block.
 ## Department group is a sampling stratum there, not a randomization block.
-assignments <- bind_rows(assign_tn, assign_other) |>
-  rename(app_id = application_id) |>
+assignments <- read_assignments() |>
   mutate(
-    state = str_sub(app_id, 1, 2),
     tn = state == "TN",
     legal = as.integer(treatment == "legal_salience"),
     block = if_else(tn, stratum, paste(state, batch_id)),
@@ -80,35 +84,26 @@ assignments <- assignments |>
   ) |>
   select(-function_dept, -function_office)
 
-# Tracker dates ----
-first_event <- function(kinds, name) {
-  events |>
-    filter(kind %in% kinds) |>
-    mutate(date = to_date(date)) |>
-    group_by(app_id) |>
-    summarise(!!name := min(date, na.rm = TRUE), .groups = "drop")
-}
-
-applications <- panel |>
+# Status from the original inputs ----
+applications <- status |>
   transmute(app_id,
-    panel_treatment = treatment,
-    filed = as.integer(filed == "True"),
+    filed = as.integer(filed),
     filing_date = to_date(filing_date),
+    ack_date = to_date(ack_date),
     date_notice = to_date(first_response),
+    first_response_kind, first_response_method, first_response_confidence,
+    date_transfer = to_date(first_transfer_on),
     transferred_on = to_date(transferred_on),
+    date_fee = to_date(first_fee_on),
     fee_demanded_on = to_date(fee_demanded_on),
     disposed_on = to_date(disposed_on),
     returned_on = to_date(returned_on),
     rejected_on = to_date(rejected_on),
     email_response_on = to_date(email_response_on),
-    fee_amount_inr = as.numeric(fee_amount_inr)
-  ) |>
-  left_join(first_event("transferred", "first_transfer"), by = "app_id") |>
-  left_join(first_event("fee_demand", "first_fee"), by = "app_id") |>
-  mutate(
-    filing_date = if_else(filed == 1L, filing_date, as.Date(NA)),
-    date_transfer = coalesce(first_transfer, transferred_on),
-    date_fee = coalesce(first_fee, fee_demanded_on)
+    fee_amount_inr = as.numeric(fee_amount_inr),
+    reg_cell,
+    n_reply_pdfs = as.integer(n_reply_pdfs),
+    n_receipts = as.integer(n_receipts)
   )
 
 ## Portal reply recorded only in an RA note
@@ -141,7 +136,7 @@ rti <- assignments |>
     date_doc = if_else(coded == 1L, coalesce(coded_response_date, date_notice), as.Date(NA))
   )
 
-stopifnot(nrow(rti) == 1665, all(rti$treatment == rti$panel_treatment))
+stopifnot(nrow(rti) == 1665)
 
 # Outcome dates ----
 ## Any response: earliest office action of any kind.
@@ -174,6 +169,13 @@ for (h in HORIZONS) {
     )
   }
 }
+
+## Bound for the robustness table: treat a first response that rests only on a low-confidence email
+## match as no response, even where a reply document is on file
+rti <- rti |>
+  mutate(any_strict_30 = if_else(
+    coalesce(first_response_confidence == "low", FALSE) & !is.na(any_30), 0, any_30
+  ))
 
 # Survival time ----
 ## Time to first response, right-censored at the data date. A same-day reply gets half a day.
@@ -227,13 +229,12 @@ rti <- rti |>
   mutate(
     state_name = factor(STATE_LABELS[state], levels = STATE_LABELS),
     as_of = AS_OF
-  ) |>
-  select(-panel_treatment, -first_transfer, -first_fee)
+  )
 
 # Checks: stop if the numbers below move ----
 stopifnot(
-  sum(rti$filed) == 1000,
-  sum(!is.na(rti$filing_date)) == 999,
+  sum(rti$filed) == 996,
+  sum(!is.na(rti$filing_date)) == 996,
   sum(rti$past30) == 455,
   all(table(rti$state[rti$past30 == 1]) == c(DL = 22, KA = 78, MH = 28, TG = 187, TN = 140)),
   all(is.na(rti$days_any) | rti$days_any >= 0),

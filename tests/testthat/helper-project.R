@@ -5,6 +5,7 @@ suppressPackageStartupMessages({
   library(fixest)
   library(lubridate)
   library(purrr)
+  library(readr)
   library(stringr)
   library(survival)
 })

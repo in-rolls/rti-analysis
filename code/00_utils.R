@@ -74,6 +74,15 @@ wilson <- function(k, n, z = 1.96) {
   list(lo = 100 * pmax(centre - half, 0), hi = 100 * pmin(centre + half, 1))
 }
 
+# Agreement between two coders ----
+cohen_kappa <- function(a, b) {
+  stopifnot(length(a) == length(b))
+  observed <- mean(a == b)
+  levels <- union(a, b)
+  chance <- sum(vapply(levels, \(l) mean(a == l) * mean(b == l), 0))
+  (observed - chance) / (1 - chance)
+}
+
 # Table rows ----
 tab_row <- function(...) paste0(paste(c(...), collapse = " & "), " \\\\")
 tab_panel <- function(text, ncol) {
@@ -160,4 +169,51 @@ km_curve <- function(d, group) {
     ) |>
       filter(at_risk >= 10 | day == 0)
   })
+}
+
+# Upstream data ----
+## Data this project uses but does not own: the frames and the drawn assignment lists, in public
+## repositories. data/upstream.csv pins each to a commit and a checksum. A file is downloaded once,
+## and a different checksum is an error, never a silent substitution.
+fetch_pinned <- function(pin, dest_dir) {
+  dest <- file.path(dest_dir, paste0(pin$ref, "_", basename(pin$path)))
+  if (!file.exists(dest)) {
+    dir.create(dest_dir, recursive = TRUE, showWarnings = FALSE)
+    url <- sprintf("https://raw.githubusercontent.com/%s/%s/%s", pin$repo, pin$ref, pin$path)
+    utils::download.file(url, dest, quiet = TRUE, mode = "wb")
+  }
+  if (unname(tools::md5sum(dest)) != pin$md5) {
+    stop("Pinned file does not match its checksum: ", pin$repo, "/", pin$path)
+  }
+  dest
+}
+
+upstream_file <- function(name, root = here::here()) {
+  pins <- utils::read.csv(file.path(root, "data", "upstream.csv"), colClasses = "character")
+  pin <- pins[pins$name == name, ]
+  if (nrow(pin) != 1) stop("No upstream pin named ", name)
+  ## Each commit gets its own folder, because several pinned files share a base name
+  fetch_pinned(as.list(pin), file.path(root, "data", "upstream", pin$name))
+}
+
+# Assignment lists ----
+## The six lists as drawn, in one shape. Tamil Nadu has a department tree and tiers; the others have
+## a flat roster, so their department group stands in for the department.
+read_assignments <- function(root = here::here()) {
+  read_one <- function(name) {
+    read_csv(upstream_file(name, root),
+      col_types = cols(.default = "c"), show_col_types = FALSE, na = ""
+    )
+  }
+  tn <- read_one("tn") |>
+    transmute(
+      app_id = application_id, batch_id, treatment, assigned_ra, tier,
+      stratum = randomization_stratum, dept = tree_department, office_name, template_version
+    )
+  others <- map_dfr(c("tg_wave1", "tg_wave2", "ka", "dm_wave1", "dm_wave2"), read_one) |>
+    transmute(
+      app_id = application_id, batch_id, treatment, assigned_ra, tier = NA_character_,
+      stratum = dept_group, dept = dept_group, office_name, template_version
+    )
+  bind_rows(tn, others) |> mutate(state = str_sub(app_id, 1, 2))
 }

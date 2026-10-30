@@ -21,6 +21,7 @@ scripts <- c(
   "05_reply_content.R",
   "06_regressions_legal_salience.R",
   "07_correlates.R",
+  "07b_data_checks.R",
   "08_compile_note.R"
 )
 
