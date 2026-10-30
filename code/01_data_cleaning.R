@@ -91,7 +91,6 @@ applications <- status |>
     filing_date = to_date(filing_date),
     ack_date = to_date(ack_date),
     date_notice = to_date(first_response),
-    date_notice_strict = to_date(first_response_strict),
     first_response_kind, first_response_method, first_response_confidence,
     date_transfer = to_date(first_transfer_on),
     transferred_on = to_date(transferred_on),
@@ -114,10 +113,7 @@ added_notices <- corrections |>
 
 applications <- applications |>
   left_join(added_notices, by = "app_id") |>
-  mutate(
-    date_notice = pmin(date_notice, added, na.rm = TRUE),
-    date_notice_strict = pmin(date_notice_strict, added, na.rm = TRUE)
-  ) |>
+  mutate(date_notice = pmin(date_notice, added, na.rm = TRUE)) |>
   select(-added)
 
 # Coded replies ----
@@ -149,7 +145,6 @@ stopifnot(nrow(rti) == 1665)
 rti <- rti |>
   mutate(
     date_any = pmin(date_notice, date_transfer, date_fee, date_doc, na.rm = TRUE),
-    date_any_strict = pmin(date_notice_strict, date_transfer, date_fee, date_doc, na.rm = TRUE),
     date_reply = if_else(coalesce(disposition == "transferred", FALSE), as.Date(NA),
       pmin(date_notice, date_fee, date_doc, na.rm = TRUE)
     ),
@@ -158,7 +153,6 @@ rti <- rti |>
     ),
     exposure = as.integer(AS_OF - filing_date),
     days_any = as.integer(date_any - filing_date),
-    days_any_strict = as.integer(date_any_strict - filing_date),
     days_reply = as.integer(date_reply - filing_date),
     days_info = as.integer(date_info - filing_date),
     past30 = as.integer(coalesce(exposure >= 30, FALSE))
@@ -176,12 +170,11 @@ for (h in HORIZONS) {
   }
 }
 
-## Any response by day 30 without email matches made only on office words and a date
+## Bound for the robustness table: treat a first response that rests only on a low-confidence email
+## match as no response, even where a reply document is on file
 rti <- rti |>
-  mutate(any_strict_30 = case_when(
-    is.na(exposure) | exposure < 30 ~ NA_real_,
-    !is.na(days_any_strict) & days_any_strict <= 30 ~ 100,
-    TRUE ~ 0
+  mutate(any_strict_30 = if_else(
+    coalesce(first_response_confidence == "low", FALSE) & !is.na(any_30), 0, any_30
   ))
 
 # Survival time ----
@@ -236,8 +229,7 @@ rti <- rti |>
   mutate(
     state_name = factor(STATE_LABELS[state], levels = STATE_LABELS),
     as_of = AS_OF
-  ) |>
-  select(-date_notice_strict)
+  )
 
 # Checks: stop if the numbers below move ----
 stopifnot(

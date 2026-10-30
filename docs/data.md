@@ -11,7 +11,7 @@ assignment lists ────────┘                                  �
 reply PDFs ── read by two coders and an adjudicator ──> data/hand/ ─┘
 ```
 
-Everything reruns from the originals except the reply coding, which is judgment. It can be audited against the PDFs or coded again, but not recomputed.
+Everything reruns from the originals except what is made by hand: the reply coding and the small files listed below. Those are judgment. They can be audited against the originals or redone, but not recomputed.
 
 ## Originals
 
@@ -45,7 +45,7 @@ The assignment lists in `data/raw/assignments/` come from Drive (Tamil Nadu) and
 
 ## Cross-checks
 
-`code/raw_05_compare_tracker.R` compares the rebuild with the email tracker's output as of the data date, application by application. The rebuild is a separate R implementation, so a difference means one of them is wrong. It shares the tracker's matching rules, so agreement alone does not prove those rules right, and the rules were audited separately below.
+`code/raw_05_compare_tracker.R` compares the rebuild with the email tracker's output as of the data date, application by application. The rebuild is a separate R implementation, so a difference needs an explanation: an error in one of them, or timing. It shares the tracker's matching rules, so agreement alone does not prove those rules right, and the rules were audited separately below.
 
 Ten of 1,665 applications differ, all explained in `tests/testthat/test-data.R`:
 
@@ -53,16 +53,17 @@ Ten of 1,665 applications differ, all explained in `tests/testthat/test-data.R`:
 | --- | --- |
 | KA-150, TN-509, TN-513, TN-592 | The number cell says no number was issued or the attempt failed. The tracker counted any text as filed, which is why it reported 1,000 |
 | TN-289, TN-900 | Dates held for attempts that were never filed |
-| KA-154, TN-492 | Notices that arrived on the data date after the tracker ran at 08:10 UTC |
+| KA-154, TN-492 | Notices that arrived on the data date after the tracker ran at 09:10 UTC |
 | KA-047, MH-053 | Unmatched office mail, read and matched by hand. Both replies were already counted |
 
 ## Audit of the matching
 
-- **Unmatched mail after the fixes:** 120 Telangana acknowledgments, which carry no number and can only be matched by a filing time the RA did not always record; 2 acknowledgments that are repeat filings (KA-167, TN-971); and 1 junk email.
-- **Low-confidence matches:** 5, made on office words and a date. All 5 have a reply PDF, and the offices in the replies were compared with the assigned offices. Results without these matches are in the robustness table.
-- **Filing dates:** the portal's date where an acknowledgment exists (696), otherwise the RA sheet (300). Where both exist, 564 of 574 agree within a day. The exceptions are 8 Maharashtra filings at 6 days, where payment followed later, KA-025 at 3 days, and TN-308 at 40 days, a typing error.
+- **What was matched:** 961 of the 2,029 messages are about applications. The rest are OTPs, payment-processing notices, system mail and our own sent mail.
+- **Unmatched mail after the fixes:** 120 Telangana acknowledgments, 2 acknowledgments for repeat filings with one office (KA-167, TN-971), and 1 junk email. Telangana's mail carries no number, and only 123 of its 218 filed sheet rows record the filing time needed to match it. That is 23 more acknowledgments than the 97 Telangana filings without one, so some are repeat submissions or attempts not on the sheets. We cannot tell which.
+- **Low-confidence matches:** 5, made on office words, usually with a date. All 5 have a reply PDF, and the offices in the replies were compared by eye with the assigned offices. For 4 of them this match is the first response, and the robustness table reports the letter effect treating those 4 as no response.
+- **Filing dates:** the portal's date where an acknowledgment exists (696), otherwise the RA sheet (300). Among the 574 acknowledgments that print a filing date, 564 agree with the sheet within a day. The exceptions are 8 Maharashtra filings at 6 days, probably because payment followed later; KA-025 at 3 days, a repeat filing; and TN-308 at 40 days, probably a typing error. Telangana acknowledgments cannot test this, because they are matched using the sheet's own time.
 - **Repeat filings with one office:** KA-025, KA-062, KA-152, KA-167, TN-971.
-- **Missing inbox:** 161 Tamil Nadu filings have no acknowledgment, yet they receive portal notices at about the same rate as those that do (6 of 161, 18 of 367). There is no sign of a fourth inbox, though this does not rule one out.
+- **Missing inbox:** 158 Tamil Nadu filings have no acknowledgment, yet they get a portal notice, transfer or fee demand at about the same rate as those that do (6 of 158, 18 of 367). There is no sign of a fourth inbox, though these small counts cannot rule one out.
 
 ## What is still missing
 
@@ -81,6 +82,7 @@ This repository is private because filing continues and it holds interim results
 
 ## A new data date
 
-1. Copy the RA sheets for that date; `code/raw_00_freeze.R` then writes the dated Drive folder and the assignment lists. Set `RTI_SHEETS_COPY` if the copy is not in the default place. It refuses to overwrite a freeze.
-2. Update `RAW_FREEZE` and `AS_OF` in `code/00_config.R`, then run `code/raw_00b_manifest.R` to pin the originals.
-3. `make rebuild`, code any new replies by hand, then revisit the counts checked in `01_data_cleaning.R` and `tests/`.
+1. Update `RAW_FREEZE` and `AS_OF` in `code/00_config.R`, and `TRACKER_CHECK` if you keep a tracker copy for that date.
+2. Copy the RA sheets for that date, and set `RTI_SHEETS_COPY` to the copy. Run `code/raw_00_freeze.R`, which writes the dated Drive folder and refreshes the assignment lists. It refuses to overwrite a freeze.
+3. Run `code/raw_00b_manifest.R` to pin the originals.
+4. `make rebuild`, code any new replies by hand, then revisit the counts checked in `01_data_cleaning.R` and `tests/`.

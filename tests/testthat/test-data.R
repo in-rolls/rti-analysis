@@ -54,6 +54,8 @@ testthat::test_that("outcomes are nested and dated in order", {
   testthat::expect_true(all(e$reply_30 <= e$any_30))
   testthat::expect_true(all(e$info_30 <= e$reply_30))
   testthat::expect_true(all(e$any_strict_30 <= e$any_30))
+  ## The bound has to be able to bite: some first responses rest on a low-confidence match
+  testthat::expect_lt(sum(e$any_strict_30), sum(e$any_30))
 })
 
 testthat::test_that("arms follow the design: 30% legal within each randomization block", {
@@ -92,7 +94,19 @@ testthat::test_that("hand corrections and adjudicated coding are applied", {
   testthat::expect_equal(d$coded_response_date[d$app_id == "MH-022"], as.Date("2026-10-23"))
   testthat::expect_equal(sum(d$coded), 104L)
   ## Full requires the Section 25 return to be answered as well
-  testthat::expect_equal(sum(d$disposition == "full", na.rm = TRUE), 16L)
+  testthat::expect_equal(sum(d$disposition == "full", na.rm = TRUE), 15L)
+})
+
+testthat::test_that("every coded reply obeys the written coding rules", {
+  coded <- d[d$coded == 1L, ]
+  has_data <- coded$granularity %in% c("format_a", "format_b", "format_c")
+  supplied <- coded$q3_sec25 == "supplied"
+  full <- coded$disposition == "full"
+  testthat::expect_true(all(has_data[full] & coded$q3_sec25[full] %in% c("supplied", "not_held")))
+  partial <- coded$disposition == "partial"
+  testthat::expect_true(all((has_data | supplied | coded$granularity == "narrative_only")[partial]))
+  none <- coded$disposition %in% c("fee_pending", "denied", "returned", "transferred")
+  testthat::expect_false(any((has_data | supplied)[none]))
 })
 
 testthat::test_that("every coded reply has its document in the archive", {

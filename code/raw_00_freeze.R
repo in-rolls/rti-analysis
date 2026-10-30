@@ -57,7 +57,9 @@ file.copy(file.path(raw_root, "email_tracker", "overrides.csv"), freeze_dir)
 ## Small, non-personal originals that belong in git, byte for byte
 assignment_dir <- here("data", "raw", "assignments")
 dir.create(assignment_dir, recursive = TRUE, showWarnings = FALSE)
-file.copy(file.path(raw_root, "assignments.csv"), file.path(assignment_dir, "tn.csv"))
+file.copy(file.path(raw_root, "assignments.csv"), file.path(assignment_dir, "tn.csv"),
+  overwrite = TRUE
+)
 repo_lists <- c(
   tg_wave1 = "rti-telangana/out/tg2026q3_02/assignments.csv",
   tg_wave2 = "rti-telangana/out/tg2026q3_03/assignments.csv",
@@ -66,7 +68,7 @@ repo_lists <- c(
   dm_wave2 = "rti-delhi-maharashtra/out/dm2026q3_02/assignments.csv"
 )
 iwalk(repo_lists, function(p, nm) {
-  file.copy(file.path(home, p), file.path(assignment_dir, paste0(nm, ".csv")))
+  file.copy(file.path(home, p), file.path(assignment_dir, paste0(nm, ".csv")), overwrite = TRUE)
 })
 
 cat("Frozen RA sheets, tab rules, overrides and assignment lists. Now run raw_00b_manifest.R.\n")

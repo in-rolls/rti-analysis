@@ -129,6 +129,17 @@ not_replies <- read_csv(here("data", "hand", "manual_corrections.csv"),
   pull(app_id)
 final_disposition <- final_disposition |> filter(!app_id %in% not_replies)
 
+write_csv(
+  tibble(
+    measure = c("information", "disposition"),
+    agree = c(
+      100 * mean((pairs$disposition_a %in% informed) == (pairs$disposition_b %in% informed)),
+      100 * mean(pairs$disposition_a == pairs$disposition_b)
+    )
+  ),
+  file.path(PATHS$tables, "coding_agreement.csv")
+)
+
 disposition_labels <- c(
   full = "Full information", partial = "Partial information", fee_pending = "Fee asked first",
   denied = "Denied or deflected", returned = "Returned", transferred = "Transferred"
