@@ -1,0 +1,46 @@
+# Does RTI Work?
+
+**First-cut tables and figures from an audit of India's Right to Information Act**
+
+Priyadarshi Amar and Gaurav Sood
+
+[Read the tables and figures](output/first_cut_note.pdf) · [Design and definitions](docs/design.md) · [Data and provenance](docs/data.md)
+
+## TL;DR
+
+**Does RTI work for a citizen who files online?** Not reliably, so far. As of @@AS_OF@@, @@N_FILED@@ of @@N_DRAWN@@ drawn applications are filed and @@N_PAST30@@ have passed the 30-day limit in s.7(1). Outside Telangana, @@ANY_EXTG@@% of those got any response in time and @@INFO_EXTG@@% got information.
+
+@@RESULTS_TABLE@@
+
+Any response is any office action, including a transfer or fee demand. Reply excludes transfers. Information supplied is a reply coded full or partial, a lower bound while some replies are uncoded.
+
+- **Response varies widely by state**, from @@ANY_TN@@% in Tamil Nadu (@@ANY_TN_W@@% weighted to its frame, since nearly all its offices are sub-offices) to @@ANY_KA@@% in Karnataka. States differ in portals and in the kinds of offices sampled, so these gaps are not causal.
+- **Telangana's @@ANY_TG@@% is a lower bound.** Its portal sends no status emails and no status checks are recorded, so it cannot yet be read as silence.
+- **The legal letter shows no detectable effect yet.** The effect on any response by day 30 is @@B_TN@@ points (SE @@SE_TN@@) in Tamil Nadu and @@B_OTHER@@ (SE @@SE_OTHER@@) in other states, or @@B_EXTG@@ (SE @@SE_EXTG@@) excluding Telangana. The smallest effects we could detect are about @@MDE_TN@@, @@MDE_OTHER@@ and @@MDE_EXTG@@ points, so a null says little yet. This is an interim, unregistered look while filing continues.
+
+## Reproduce
+
+Use R 4.5.2, GNU Make and a TeX installation with `pdflatex`. R packages are pinned in `renv.lock`.
+
+```sh
+make restore
+make check
+```
+
+`make check` reruns the analysis from the frozen data snapshot, compiles the note, regenerates this README, lints the code, runs the tests and runs the privacy check. `make analysis` runs the pipeline alone. Scripts run in the order listed in `code/00_master.R`.
+
+## Repository
+
+| Path | Contents |
+| --- | --- |
+| `data/raw/` | Frozen snapshot of the trackers with checksums, hand corrections, and the phone-call list |
+| `data/cleaned/` | One row per drawn application, and the function-coding crosswalk for review |
+| `code/` | Numbered pipeline, with shared settings in `00_config.R` and functions in `00_utils.R` |
+| `output/` | The note, tables and figures |
+| `docs/` | Design, definitions, data provenance, and known limits |
+| `tests/` | Sample accounting, estimators, outputs and privacy |
+| `hooks/` | Pre-push guard; install with `make hooks` |
+
+Reply PDFs, filing receipts, emails and RA sheets carry filer details and stay in the shared Drive folder. See [data and provenance](docs/data.md).
+
+The README is generated from `docs/README.md.in`. Edit the template, not this file.
