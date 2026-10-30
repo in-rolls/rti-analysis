@@ -12,35 +12,52 @@ Priyadarshi Amar and Gaurav Sood
 
 @@RESULTS_TABLE@@
 
-Any response is any office action, including a transfer or fee demand. Reply excludes transfers. Information supplied is a reply coded full or partial, a lower bound while some replies are uncoded.
+Any response is any office action, including a transfer or fee demand. Reply excludes transfers. Information supplied is a reply coded full or partial, a lower bound while some replies have not been downloaded.
 
 - **Response varies widely by state**, from @@ANY_TN@@% in Tamil Nadu (@@ANY_TN_W@@% weighted to its frame, since nearly all its offices are sub-offices) to @@ANY_KA@@% in Karnataka. States differ in portals and in the kinds of offices sampled, so these gaps are not causal.
 - **Telangana's @@ANY_TG@@% is a lower bound.** Its portal sends no status emails and no status checks are recorded, so it cannot yet be read as silence.
+- **Few replies answer everything.** Of @@N_CODED@@ coded replies, @@N_INFORMED@@ supply some information and @@N_FULL@@ answer both the register request and the Section 25 return. Two coders agree on whether information was supplied in 92% of replies, but only 74% on the full disposition.
 - **The legal letter shows no detectable effect yet.** The effect on any response by day 30 is @@B_TN@@ points (SE @@SE_TN@@) in Tamil Nadu and @@B_OTHER@@ (SE @@SE_OTHER@@) in other states, or @@B_EXTG@@ (SE @@SE_EXTG@@) excluding Telangana. The smallest effects we could detect are about @@MDE_TN@@, @@MDE_OTHER@@ and @@MDE_EXTG@@ points, so a null says little yet. This is an interim, unregistered look while filing continues.
 
 ## Reproduce
 
 Use R 4.5.2, GNU Make and a TeX installation with `pdflatex`. R packages are pinned in `renv.lock`.
 
+**From the derived data in this repository:**
+
 ```sh
 make restore
 make check
 ```
 
-`make check` reruns the analysis from the frozen data snapshot, compiles the note, regenerates this README, lints the code, runs the tests and runs the privacy check. `make analysis` runs the pipeline alone. Scripts run in the order listed in `code/00_master.R`.
+`make check` reruns the analysis, compiles the note, regenerates this README, lints the code, runs the tests and runs the privacy check.
+
+**From the original inputs:** the originals hold personal data, so they stay in the shared Drive folder rather than in git. You also need `poppler`, `tesseract`, and clones of `rti-telangana`, `rti-karnataka` and `rti-delhi-maharashtra` in your home folder for frame sizes.
+
+```sh
+export RTI_RAW="/path/to/shared/drive/rti"
+make verify-raw
+make rebuild
+make check
+```
+
+`make verify-raw` checks every original against `data/raw_manifest.csv`. `make rebuild` then parses the emails and RA sheets, matches messages to applications, builds status, and compares the result with the email tracker field by field. If the code and originals are unchanged, `git status` stays clean afterwards.
 
 ## Repository
 
 | Path | Contents |
 | --- | --- |
-| `data/raw/` | Frozen snapshot of the trackers with checksums, hand corrections, and the phone-call list |
-| `data/cleaned/` | One row per drawn application, and the function-coding crosswalk for review |
-| `code/` | Numbered pipeline, with shared settings in `00_config.R` and functions in `00_utils.R` |
+| `data/raw_manifest.csv` | Size and checksum of each of the original files kept in Drive |
+| `data/raw/assignments/` | The six drawn assignment lists, byte for byte |
+| `data/hand/` | Everything made by judgment: reply coding, second coding, adjudication, hand corrections, phone calls |
+| `data/derived/` | Built from the originals by `code/raw_*.R`, with no personal data |
+| `data/validation/` | Tracker outputs and first-cut numbers, kept only for comparison |
+| `data/cleaned/` | One row per drawn application, and the function-coding crosswalk |
+| `code/raw_*.R` | Originals to derived data |
+| `code/00_*.R` to `code/08_*.R` | Derived data to tables and figures |
 | `output/` | The note, tables and figures |
-| `docs/` | Design, definitions, data provenance, and known limits |
-| `tests/` | Sample accounting, estimators, outputs and privacy |
+| `docs/` | Design, definitions, provenance, and what is still missing |
+| `tests/` | Parsers, sample accounting, estimators, outputs and privacy |
 | `hooks/` | Pre-push guard; install with `make hooks` |
-
-Reply PDFs, filing receipts, emails and RA sheets carry filer details and stay in the shared Drive folder. See [data and provenance](docs/data.md).
 
 The README is generated from `docs/README.md.in`. Edit the template, not this file.

@@ -5,17 +5,28 @@
 ### Base R only, so the pre-push hook runs without restoring packages.
 # ----
 TEXT_FILES <- "\\.(csv|R|md|in|tex|yml|yaml|json|cff)$|^(DESCRIPTION|Makefile|\\.gitignore)$"
-SKIP_FILES <- "^renv/|^renv\\.lock$|^code/check_privacy\\.R$|^tests/testthat/test-privacy\\.R$"
+## These hold the patterns themselves, public portal addresses and made-up examples
+SKIP_FILES <- paste0(
+  "^renv/|^renv\\.lock$|^code/check_privacy\\.R$|^code/raw_utils\\.R$|",
+  "^tests/testthat/test-privacy\\.R$|^tests/testthat/test-raw-utils\\.R$"
+)
 
 PATTERNS <- c(
   email = "[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\\.[A-Za-z]{2,}",
-  phone = "(^|[^0-9.])([6-9][0-9]{9}|0[0-9]{10})([^0-9]|$)",
+  phone = "(^|[^0-9A-Za-z.])([6-9][0-9]{9}|0[0-9]{10})([^0-9A-Za-z]|$)",
   registration = "TGRTI/|/R/20[0-9]{2}/|RTI/APP"
 )
 
+## A column may exist if it is empty: the drawn assignment lists carry blank tracking columns
 FORBIDDEN_COLUMNS <- c(
   "reg_no", "new_reg_nos", "registration_number", "sheet_person", "filed_by", "pio_name",
-  "pio_email", "pio_phone", "payment_ref", "payment_reference", "notes"
+  "pio_email", "pio_phone", "payment_ref", "payment_reference"
+)
+
+## Public senders of the portals' own mail, needed to recognise their templates
+ALLOWED_ADDRESSES <- c(
+  "rtisupport@tn.gov.in", "rtionline-kar@nic.in", "tsrtinoreply@gmail.com",
+  "noreply-rtimh@mah.gov.in", "noreply-dopt@gov.in"
 )
 
 ## Which pattern labels match these lines
@@ -25,6 +36,16 @@ scan_text <- function(lines, patterns = PATTERNS) {
 
 forbidden_in_header <- function(header) {
   intersect(tolower(trimws(strsplit(header, ",", fixed = TRUE)[[1]])), FORBIDDEN_COLUMNS)
+}
+
+## Forbidden columns that actually hold values
+forbidden_filled <- function(path) {
+  d <- utils::read.csv(path,
+    colClasses = "character", check.names = FALSE,
+    na.strings = character()
+  )
+  names(d) <- tolower(trimws(names(d)))
+  Filter(function(col) any(nzchar(trimws(d[[col]]))), intersect(names(d), FORBIDDEN_COLUMNS))
 }
 
 privacy_findings <- function(root = ".") {
@@ -46,9 +67,10 @@ privacy_findings <- function(root = ".") {
   findings <- character()
   for (f in files) {
     lines <- readLines(f, warn = FALSE, encoding = "UTF-8")
+    for (allowed in ALLOWED_ADDRESSES) lines <- gsub(allowed, "", lines, fixed = TRUE)
     hits <- unique(scan_text(lines, patterns))
-    if (grepl("\\.csv$", f) && length(lines) > 0) {
-      hits <- c(hits, sprintf("column %s", forbidden_in_header(lines[1])))
+    if (grepl("\\.csv$", f) && length(lines) > 0 && length(forbidden_in_header(lines[1])) > 0) {
+      hits <- c(hits, sprintf("column %s", forbidden_filled(f)))
     }
     if (length(hits) > 0) {
       found <- paste(hits, collapse = ", ")

@@ -19,6 +19,23 @@ The exceptions are not modeled: 35 days through an Assistant PIO (s.5(2)), a fre
 
 Silent applications are right-censored at the data date in the Kaplan-Meier curves.
 
+An application counts as **filed** if the RA sheet holds a real registration number or the portal sent an acknowledgment. A note typed into the number cell does not count.
+
+## Coding the replies
+
+Two coders read every reply independently, and the second could not see the first codes. Where they disagreed, an adjudicator who could not tell them apart settled the field from the documents, under the rules below. Codes describe what is in the file, not what a letter claims.
+
+| Disposition | Rule |
+| --- | --- |
+| Full | Register information supplied (Format A, B or C), and the Section 25 return supplied or stated not held |
+| Partial | Some requested information actually supplied, but not all of the above |
+| Fee asked first | Nothing supplied yet, and the register information is offered on payment |
+| Denied | Nothing supplied, and the register information is refused or deflected. This includes "not maintained in that form", inspection-only offers, and fees that buy only the Section 25 return |
+| Returned | Bounced back with nothing, and no refusal reasoning beyond asking to clarify or refile |
+| Transferred | Handed to another office under s.6(3) with no data supplied |
+
+"Full" is stricter than in the first pass, which is the main reason full replies fell from 27 to 16. Whether to require the Section 25 return is a judgment call. "Information supplied" (full or partial) does not depend on it, and it is what the coders agree on most (92%). The reply date is the date on the earliest letter sent to the applicant. A letter with no legible date keeps its arrival date.
+
 ## Randomization and fixed effects
 
 Randomization differs in Tamil Nadu, so Tamil Nadu and the other states are always estimated separately.
@@ -36,7 +53,7 @@ The sampler docstrings in the state repos say treatment is balanced within strat
 - **Filing order is not random.** Tamil Nadu's applications past day 30 are RA1 and RA2's first batch, from 11 of 40 departments, and all 7 department-tier filings among them got the legal letter. Raw comparisons by letter are confounded with tier, which the block fixed effects remove.
 - **Filers are bundled.** RA2 and RA4 are one person, and RA1 and RA3 another. Phone reachability cannot be separated from the filer's name and postal address.
 - **Telangana is a lower bound.** Its portal sends filing acknowledgments only, and the RA sheets record no status checks.
-- **Reply coding is a first pass** by Claude, not yet double-coded.
+- **Reply coding was done by Claude:** the first pass, the second coding and the adjudication, each in a separate context. It has not yet been checked by a person.
 - **Maharashtra's letter is shorter**, because its portal caps requests at 150 words. The robustness table excludes it.
 
 ## Departures from the design document

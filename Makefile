@@ -1,7 +1,14 @@
-.PHONY: restore analysis format lint test privacy hooks check clean
+.PHONY: restore rebuild verify-raw analysis format lint test privacy hooks check clean
 
 restore:
 	Rscript --vanilla -e 'if (!requireNamespace("renv", quietly = TRUE)) install.packages("renv", repos = "https://cloud.r-project.org"); renv::load(project = getwd()); renv::restore(prompt = FALSE)'
+
+# Needs RTI_RAW, the path to the shared Drive rti/ folder
+rebuild:
+	Rscript code/raw_master.R
+
+verify-raw:
+	Rscript code/raw_verify.R
 
 analysis:
 	Rscript code/00_master.R

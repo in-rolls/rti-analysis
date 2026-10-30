@@ -2,10 +2,14 @@ app_id,action,value,source,note
 TG-150,remove_coded_reply,,responses_coded notes + assignment list,Upload filed under TG-150 came from the Sub-Registrar Miryalaguda (Registration & Stamps) which is the office assigned to TG-162; TG-150 is the Panchayat Raj office
 TG-162,add_coded_reply_from,TG-150,responses_coded notes + assignment list,Same document; letter dated 2026-10-15; coded filing date 2026-09-20 equals TG-162's filing date
 MH-002,add_portal_reply,2026-09-29,RA sheet note (RA4),Portal reply asking which department the request concerns; not picked up by the email tracker; not yet coded
-TN-592,flag_only,,RA sheet,Registration column holds text and no filing date; stays in the filed count but has no exposure
+TN-592,flag_only,,RA sheet,Number cell says failed attempt; not counted as filed
 TN-027,flag_only,,RA sheet note (RA2),Legal letter filed although assigned plain; analyzed as assigned (intent to treat)
 TN-082,flag_only,,RA sheet note (RA1),Filed in the same department as TN-075 by mistake; kept
 KA-036,flag_only,,2026-10-25 session log,Filed with the District Registrar rather than the assigned District Court; kept as assigned
 KA-025,flag_only,,responses_coded vs tracker,Coded filing date 2026-09-15 vs tracker 2026-09-12; possible duplicate filing with KA-062; tracker date used; day-30 status unaffected
 TN-231,flag_only,,responses_coded vs tracker,Coded filing date 2026-08-30 vs tracker 2026-09-02; tracker date used; day-30 status unaffected
 TN-249,flag_only,,responses_coded vs tracker,Coded filing date 2026-09-09 vs tracker 2026-09-01; tracker date used; day-30 status unaffected
+TN-469,not_a_reply,,Blind second coding and adjudication,File is only a portal status page saying a supporting document was received; no reply from the office
+KA-150,flag_only,,RA sheet,Number cell says no registration number was issued though payment was deducted; not counted as filed
+TN-509,flag_only,,RA sheet,Number cell says fees were deducted but no registration number was issued; not counted as filed
+TN-513,flag_only,,RA sheet,Number cell says failed attempt; not counted as filed

@@ -6,6 +6,12 @@ testthat::test_that("Wilson intervals match prop.test without continuity correct
   }
 })
 
+testthat::test_that("Cohen's kappa matches values worked by hand", {
+  testthat::expect_equal(cohen_kappa(c("a", "b"), c("a", "b")), 1)
+  ## Agreement on 3 of 4, chance agreement of 0.5
+  testthat::expect_equal(cohen_kappa(c("a", "a", "b", "b"), c("a", "b", "b", "b")), 0.5)
+})
+
 testthat::test_that("number formatting handles negatives, negative zero and missing values", {
   testthat::expect_equal(f1(-0.04), "0.0")
   testthat::expect_equal(f1(-1.23), "$-$1.2")

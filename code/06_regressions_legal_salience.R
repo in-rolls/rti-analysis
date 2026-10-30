@@ -121,6 +121,9 @@ robust_rows <- c(
   robust_row("By day 35", \(s) fit_lpm(s(filed_dated), "any_35", base_fe)),
   robust_row("By day 45", \(s) fit_lpm(s(filed_dated), "any_45", base_fe)),
   robust_row("By day 14, all exposed that long", \(s) fit_lpm(s(filed_dated), "any_14", base_fe)),
+  robust_row("Without low-confidence email matches", \(s) {
+    fit_lpm(s(eligible), "any_strict_30", base_fe)
+  }),
   robust_row("Adding RA fixed effects", \(s) {
     fit_lpm(s(eligible), "any_30", paste(base_fe, "+ assigned_ra"))
   }),

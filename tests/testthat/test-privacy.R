@@ -10,7 +10,7 @@ testthat::test_that("the scan catches each kind of personal data", {
 testthat::test_that("the scan leaves ordinary project text alone", {
   ok <- c(
     "TG-150,tg2026q3_02,plain,RA1", "Commissioner of Police, Navi Mumbai", "SEED <- 20261030",
-    "1665,1000,455", "2026-10-29"
+    "1665,1000,455", "2026-10-29", "1a05fc9876543210,2026-09-02", "ca1c11bff11b8dea8854ed9876543210"
   )
   testthat::expect_length(scan_text(ok), 0L)
 })

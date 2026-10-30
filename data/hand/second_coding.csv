@@ -1,0 +1,106 @@
+app_id,response_date,disposition,granularity,q3_sec25,fee_inr,clause_cited,readable,note
+DL-003,2026-10-19,transferred,none,not_addressed,,6(3),yes,Transferred under 6(3) to national commission; subject line names a different applicant.
+DL-006,2026-10-14,partial,format_a,not_addressed,,none,yes,"Eight rows with receipt date, mode, disposal status only; s.25 not addressed."
+DL-009,2026-10-27,full,format_a,supplied,34,7(9),yes,"HQ Format C, s25 figures; three branches' registers; one asked Rs34; full over partial."
+DL-014,2026-10-16,partial,format_b,not_addressed,,none,yes,"Quarter-wise counts, nearer format_b than format_c; no register; annual return not addressed."
+DL-015,2026-10-21,denied,none,not_addressed,,2(j)(i),yes,Not kept in requested formats; only inspection invited; copies on unspecified fee.
+DL-032,2026-10-21,partial,format_c,offered_on_payment,6,8(1)(j); 2(f),yes,"Two PIOs: totals, register refused 8(1)(j), return unavailable; other s.2(f), Rs 6 item 3."
+DL-033,2026-10-15,denied,none,not_addressed,,2(f); 7(9),yes,Formats not maintained; compilation refused under 2(f) and 7(9); s25 not discussed.
+DL-040,2026-10-08,partial,format_c,referred_to_website,,2(f);7(9),yes,"Totals only, no A/B format; website link for register and return; date hand-corrected."
+DL-042,2026-10-16,partial,format_c,not_addressed,,none,yes,Approximate offline and portal totals only; rest returned to the nodal branch.
+KA-002,2026-09-23,partial,format_c,supplied,,none,yes,Encloses only yearly Form-I for 2025-26 to March; register not addressed.
+KA-003,2026-09-24,partial,format_a,not_addressed,,none,yes,"Formats A, B, C enclosed; s25 not addressed; partial over full."
+KA-005,2026-10-05,returned,none,not_addressed,,none,yes,Portal returned application: no public interest shown; nothing supplied.
+KA-008,2026-10-07,full,format_a,supplied,,none,yes,27-row register in requested columns plus Form I and II annual returns.
+KA-013,2026-10-05,returned,none,not_addressed,,none,yes,Portal status screen: returned; remark says request lacks public interest.
+KA-016,2026-09-29,returned,none,not_addressed,,none,yes,"Portal returned, asking which year the information relates to."
+KA-019,2026-09-25,full,format_a,supplied,,none,yes,Handwritten register extract plus annual report forms; hand-filled day read as 25.
+KA-020,,partial,format_a,not_addressed,,none,yes,"One-page 75-row register, no cover letter, no Section 25 return."
+KA-022,2026-09-16,returned,none,not_addressed,,none,yes,Portal status screen: returned; told to submit a manual application.
+KA-023,,partial,format_c,supplied,,none,yes,Belagavi annual statement 2025-26 only; no cover letter or register.
+KA-024,2026-10-22,full,format_a,supplied,,none,yes,"Typed and handwritten register rows, plus Form-I and Form-II annual return."
+KA-025,2026-09-24,fee_pending,none,offered_on_payment,22,none,yes,"Eleven pages offered for Rs 22; Section 25 not named, blanket offer."
+KA-029,2026-10-05,full,format_a,not_held,,none,partly,"Handwritten register attached, faint and rotated, sampled; return unavailable since 2024-25."
+KA-032,2026-10-29,partial,format_c,not_held,,2(f),yes,"Portal returned citing 2(f), yet states one application, disposed in time; partial over denied."
+KA-033,,partial,format_b,not_addressed,,none,yes,"Twelve monthly Form-I/II reports, no cover letter, no register or annual return."
+KA-034,2026-10-13,partial,format_a,not_addressed,,none,yes,"Formats A, B, C enclosed; letter says enclosed but no Section 25 return."
+KA-036,2026-10-03,fee_pending,none,offered_on_payment,18,none,yes,Nine pages offered on Rs 18 payment; return not named separately.
+KA-040,2026-10-08,returned,none,not_addressed,,none,yes,"Portal returned; DIET says cannot furnish, contact Admin Section; duplicate files."
+KA-041,2026-10-12,full,format_a,supplied,,none,yes,Seven-row register; return item 'attached' is a bare two-year summary table.
+KA-043,2026-10-09,full,format_c,supplied,,none,yes,"Nil applications, coded format_c; return enclosed; day from overwritten signature date."
+KA-046,2026-10-03,full,format_a,not_held,,none,yes,Register table filled with eight rows; return stated not available in office.
+KA-047,2026-10-09,partial,format_a,not_addressed,,none,yes,Format A and scanned register supplied; s25 not addressed; partial over full.
+KA-051,2026-10-08,partial,format_c,supplied,,none,yes,Letter answers only item 3; Form-I annual totals by office; no register.
+KA-054,2026-10-08,returned,none,not_addressed,,none,yes,Portal status returned; asks applicant to name the local body.
+KA-055,2026-09-19,returned,none,not_addressed,,none,yes,Portal status screen: returned; told to contact the concerned department.
+KA-057,2026-09-18,partial,format_a,refused_separate_application,,none,yes,Scanned handwritten register enclosed; s25 needs separate application; no section cited.
+KA-058,2026-09-19,fee_pending,format_c,not_addressed,40,none,yes,One-line total given; 20-page register offered on Rs 40 IPO; portal says returned.
+KA-059,2026-10-01,partial,format_b,not_addressed,,none,yes,Monthly counts in annual-return layout for requested period; no separate Section 25 return.
+KA-061,2026-09-30,transferred,none,not_addressed,,6(3),yes,Forwarded to taluk offices under s.6(3); copy to applicant; nothing supplied.
+KA-067,2026-10-13,full,format_a,supplied,,none,yes,"Formats A, B, C and annual report 2025-26 all supplied."
+KA-069,2026-10-08,partial,format_c,supplied,,none,yes,"Annual Form-I totals for five taluks, some forms blank; no register extract."
+KA-073,2026-10-03,partial,format_a,not_addressed,,none,yes,"Certified handwritten register pages, application-wise; no Section 25 return in file."
+KA-075,2026-10-05,denied,none,refused_separate_application,,6,yes,Demands separate application per subject under Section 6; nothing supplied.
+KA-078,2026-10-13,partial,format_c,supplied,,none,yes,"Annual reports 2024-25, 2025-26 only, 16 pages; no register; other departments apply separately."
+KA-081,2026-10-27,returned,none,not_addressed,,none,yes,"Portal returned: not relevant, contact head office; nothing supplied. File sits in MH folder."
+KA-083,2026-10-05,returned,none,not_addressed,,none,yes,Portal status returned; Kannada remark says information does not concern this district.
+KA-097,2026-09-22,returned,none,not_addressed,,none,yes,Portal status screen: returned; application did not specify which PIO's office.
+KA-102,2026-09-15,partial,format_b,not_addressed,,none,yes,Monthly counts table only; s25 not supplied or mentioned; partial over full.
+KA-104,2026-10-14,returned,none,not_addressed,,none,yes,Portal returned; told to inspect register at office and specify format; nothing supplied.
+KA-106,2026-10-17,fee_pending,none,offered_on_payment,20,none,yes,Portal demands Rs 20 for the information; Section 25 not named.
+KA-115,2026-09-21,returned,none,not_addressed,,none,yes,Portal status screen: returned; says application does not pertain to office.
+KA-117,2026-09-25,denied,none,not_addressed,,none,yes,"Voluminous; invites in-person inspection, first hour free, Rs10 half-hour after; denied over fee_pending."
+KA-137,2026-10-13,partial,format_a,not_addressed,,none,partly,"Smudged handwritten register enclosed, rows 1-6 seemingly absent; no annual return; portal says returned."
+KA-138,2026-10-09,denied,none,not_addressed,,8(1)(e),yes,"Portal says returned; remark refuses, Kannada clause letter read as 8(1)(e); denied fits better."
+KA-140,2026-09-29,partial,format_a,not_addressed,,none,yes,Says formats not maintained; handwritten register copy sent; return not addressed.
+KA-148,2026-09-28,returned,none,not_addressed,,none,yes,"Calls request unspecific; closed, fresh application asked; returned over denied."
+KA-149,2026-10-15,transferred,none,not_addressed,,none,yes,"Portal transfer to taluk panchayat office; no section named, nothing supplied."
+KA-152,2026-10-13,returned,none,not_addressed,,none,yes,Portal status returned; asks applicant to specify document and taluk.
+KA-154,2026-10-28,partial,format_c,supplied,,6(3),yes,Emailed yearly Forms I-IV for 2024-25; register request transferred to block offices.
+KA-161,2026-10-12,partial,format_a,not_addressed,,none,yes,"Format A with record copies, 21 pages; s25 not addressed; partial over full."
+KA-172,2026-09-21,fee_pending,none,offered_on_payment,62,none,yes,31 pages of register and annual report priced Rs 62; challan unpaid.
+MH-005,2026-10-05,transferred,none,not_addressed,,6(3),yes,Two letters both transfer to local police station under 6(3); earlier date used.
+MH-006,2026-09-16,transferred,none,not_addressed,,6(3),yes,Police commissionerate forwarded to rural police under s.6(3); copy to applicant.
+MH-011,2026-10-07,partial,format_c,supplied,,none,yes,Section 25 statement 2025 supplied; January-July 2026 said unavailable; no register.
+MH-016,2026-10-23,full,format_a,supplied,,none,yes,215-row register and 2025 annual report attached.
+MH-018,2026-09-29,transferred,none,not_addressed,,none,yes,"Portal status only: transferred to another department, forwarded to its PIO; no section cited."
+MH-022,,full,format_a,supplied,,none,yes,No cover letter; register rows for full period plus 2025 annual report.
+MH-023,2026-09-30,partial,format_a,not_addressed,,none,yes,"Application list, 352 rows, lacks category and disposition; s25 absent; partial over full."
+MH-025,2026-10-26,denied,none,not_addressed,,8(1)(j),yes,Whole request refused under 8(j) and state circular; no item-level treatment of return.
+MH-028,2026-10-22,denied,none,not_addressed,,3(b),yes,"Only inspection invited, copies Rs 2 per page; letter cites Act 3(kha), no total."
+MH-031,2026-12-19,partial,format_a,not_addressed,,6(3),yes,"Register rows sent, return not addressed; letter date written 19/12/2026, likely typo."
+MH-033,2026-10-05,partial,format_a,not_addressed,,none,yes,"Handwritten register, 18 pages, monthly abstracts; s25 not addressed; partial over full."
+MH-037,2026-10-15,fee_pending,none,offered_on_payment,280,none,yes,110 pages Rs 220 plus Rs 60 postage; date from digital signature.
+MH-049,2026-10-16,full,format_a,supplied,,none,partly,388 portal register rows plus 2025 Section 25 statements; part 1 read via OCR.
+MH-053,2026-10-19,partial,format_a,not_addressed,2,none,yes,"Three departments: Rs 2 fee letter, handwritten register extract, library totals."
+MH-056,2026-10-28,partial,format_c,supplied,,none,yes,"Only Section 25 statements for 2025, free; no register or period figures."
+MH-066,2026-10-12,fee_pending,none,offered_on_payment,100,7(1),yes,"50 pages at Rs 2; return not named separately, coded with whole request."
+TG-150,2026-10-15,full,format_b,supplied,,none,yes,Month-wise category counts plus Section 25 annual statement enclosed.
+TG-232,2026-10-12,partial,format_b,not_addressed,,none,yes,Quarterly statements July 2025 to June 2026; no register; return not addressed.
+TN-027,2026-09-26,partial,none,supplied,,none,yes,Formats not maintained; annual report said enclosed but absent from two-page file.
+TN-029,2026-09-16,denied,none,not_addressed,,7(9),yes,All items refused as voluminous under 7(9); no q3 refusal code; date digit overwritten.
+TN-048,2026-09-15,denied,none,not_addressed,,7(9),yes,Blanket 7(9) refusal covers all three items; Section 25 not separately answered.
+TN-052,2026-09-03,partial,format_c,referred_to_website,,7(9),yes,"Register not maintained, s.7(9); totals for calendar 2025 only; return on website."
+TN-055,2026-09-22,partial,format_c,supplied,,2(f),yes,Register and counts refused under 2(f); 2025 annual report enclosed.
+TN-057,2026-09-18,full,format_a,not_held,,none,yes,Single application's register details plus month table; no Section 25 return held.
+TN-137,2026-09-25,denied,none,offered_on_payment,8,none,yes,Register formats refused as uncompiled; only Section 25 offered for Rs 8; fee_pending close.
+TN-146,2026-10-14,full,format_c,not_held,,none,yes,"Nil reply: no applications received, return none; zero coded as period total."
+TN-151,2026-09-25,denied,narrative_only,not_held,,7(9),yes,"Refused compiling under s.7(9), printed 7(j); says no annual report procedure."
+TN-173,2026-09-03,partial,format_c,supplied,832,none,yes,Totals by half-year and mode; 416-page registers need Rs 832; 2025 return enclosed.
+TN-223,2026-09-28,partial,format_c,not_addressed,,none,yes,Period totals given; rest and item 3 deflected to inspection; three related letters.
+TN-231,2026-09-29,partial,format_b,not_addressed,,none,yes,"Monthly counts annexed; annexure claimed for all items, no s.25 return enclosed."
+TN-232,2026-09-30,denied,none,offered_on_payment,12,none,yes,"Register not maintained, CBSE case cited; s25 six pages Rs2 each; denied over fee_pending."
+TN-233,2026-10-13,denied,none,not_addressed,,6(2),yes,Disposed citing court order on s.6(2) about personal details; nothing supplied.
+TN-247,2026-09-15,fee_pending,none,offered_on_payment,48,none,yes,Register extract and annual report offered for Rs 48; nothing enclosed.
+TN-249,2026-09-15,fee_pending,none,offered_on_payment,54,none,yes,"Register 14 pages, monthly reports 13 pages, offered for Rs 54."
+TN-276,2026-09-24,returned,none,not_addressed,,none,yes,Portal returned; remark claims hardcopy posted 11 Sept; no information in file.
+TN-283,2026-09-17,fee_pending,none,offered_on_payment,138,2(f),yes,"Requested format not kept, 2(f); 66-page register and 3-page return need Rs 138."
+TN-285,2026-09-29,partial,format_a,not_addressed,,none,yes,"Handwritten register pages, names masked; no Section 25 return in file."
+TN-308,2026-09-10,denied,none,referred_to_website,,none,yes,"Titled information furnished, but only refers to CIC portal; nothing supplied."
+TN-393,2026-10-07,denied,none,not_addressed,,2(f),yes,"Blanket reply: request speculative, refused under 2(f); s25 not separately answered."
+TN-469,,returned,none,not_addressed,,none,yes,"Portal status only: applicant's document received, no office reply; 'returned' is nearest code."
+TN-492,2026-10-28,partial,format_c,supplied,,none,yes,"Formats refused citing Supreme Court case, no section; Section 25 reports give totals."
+TN-685,2026-10-23,transferred,none,not_addressed,,none,yes,Portal status screen: transferred to another authority; no section cited.
+TN-926,2026-10-21,transferred,none,not_addressed,,6(3),yes,"Portal status: transferred to Home Department; section implied, not printed."
+TN-941,2026-10-21,transferred,none,not_addressed,,none,yes,"Portal transfer to Transport Department; no section named, nothing supplied."
+TN-949,2026-10-20,transferred,none,not_addressed,,none,yes,Portal status only: transferred to another authority; no section cited.

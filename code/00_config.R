@@ -2,7 +2,9 @@
 ## FILE: 00_config.R
 ### Settings shared by the pipeline and the tests. A new data date starts here.
 # ----
-SNAPSHOT <- "snapshot_2026-10-29"
+## Originals are frozen in the shared Drive folder; tracker outputs are kept only as a cross-check
+RAW_FREEZE <- "raw_snapshots/2026-10-29"
+TRACKER_CHECK <- "tracker_2026-10-29"
 AS_OF <- as.Date("2026-10-29")
 HORIZONS <- c(7, 14, 21, 30, 35, 45)
 SEED <- 20261030
