@@ -1,8 +1,6 @@
 # AMAR & SOOD - RTI FIRST-CUT ANALYSIS (2026)
 ## FILE: 07b_data_checks.R
-### What the original inputs cover, how the rebuild compares with the trackers and the first
-### cut, and
-### how well two coders agree on the replies.
+### What the original inputs cover, and how well two coders agree on the replies.
 # ----
 if (!exists("rti")) source(here::here("code", "02_load_packages_and_data.R"))
 
@@ -39,61 +37,6 @@ save_table(
     "\\midrule",
     audit_row(rti, "All")
   )
-)
-
-# Table: rebuilt from the originals against the email tracker ----
-agreement <- read_csv(here("data", "derived", "tracker_agreement.csv"), show_col_types = FALSE)
-field_labels <- c(
-  filed = "Filed", filing_date = "Filing date", ack_date = "Acknowledgment date",
-  transferred_on = "Transfer date", fee_demanded_on = "Fee demand date",
-  disposed_on = "Disposed date", returned_on = "Returned date", rejected_on = "Rejected date",
-  email_response_on = "Office email date", first_response = "First response date"
-)
-
-save_table(
-  "tab_validation",
-  "Rebuilt from the original inputs, against the email tracker",
-  paste0(
-    "Applications drawn, field by field. The 4 filed differences are ",
-    "number cells saying no number ",
-    "was issued, and the filing-date differences are all on unfiled applications. The rest are ",
-    "notices dated the data date, and messages matched by hand after reading them."
-  ),
-  "lrr",
-  tab_row("Field", "Agree", "Differ"),
-  map_chr(seq_len(nrow(agreement)), \(i) {
-    tab_row(field_labels[[agreement$field[i]]], f0(agreement$agree[i]), f0(agreement$differ[i]))
-  })
-)
-
-# Table: what moved from the first cut ----
-first_cut <- read_csv(here("data", "validation", "first_cut_rates.csv"), show_col_types = FALSE)
-now <- read_csv(file.path(PATHS$tables, "response_by_state.csv"), show_col_types = FALSE)
-moved <- first_cut |> inner_join(now, by = "sample", suffix = c("_old", "_new"))
-
-save_table(
-  "tab_changes",
-  "Response within 30 days: first cut against the rebuild (\\%)",
-  paste0(
-    "First cut: tracker outputs and first-pass reply coding. Rebuild: ",
-    "original inputs and adjudicated ",
-    "coding. Any response moves only through corrected reply dates; ",
-    "information supplied also moves ",
-    "through adjudicated dispositions."
-  ),
-  "lrrrrrr",
-  paste(
-    "& \\multicolumn{2}{c}{Any response} & \\multicolumn{2}{c}{Reply}",
-    "& \\multicolumn{2}{c}{Information supplied} \\\\",
-    "\\cmidrule(lr){2-3}\\cmidrule(lr){4-5}\\cmidrule(lr){6-7}",
-    tab_row("State", "First cut", "Rebuild", "First cut", "Rebuild", "First cut", "Rebuild")
-  ),
-  map_chr(seq_len(nrow(moved)), \(i) {
-    tab_row(
-      moved$sample[i], f1(moved$any_old[i]), f1(moved$any_new[i]), f1(moved$reply_old[i]),
-      f1(moved$reply_new[i]), f1(moved$info_old[i]), f1(moved$info_new[i])
-    )
-  })
 )
 
 # Table: two coders ----

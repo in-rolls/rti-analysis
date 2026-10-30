@@ -43,11 +43,11 @@ The assignment lists in `data/raw/assignments/` come from Drive (Tamil Nadu) and
 | `data/hand/phone_calls.csv` | Office calls from RA notes |
 | `raw_snapshots/2026-10-29/overrides.csv` (Drive) | 25 earlier manual matches; its notes hold contact details, so it stays out of git |
 
-## Cross-checks
+## A one-off check against the email tracker
 
-`code/raw_05_compare_tracker.R` compares the rebuild with the email tracker's output as of the data date, application by application. The rebuild is a separate R implementation, so a difference needs an explanation: an error in one of them, or timing. It shares the tracker's matching rules, so agreement alone does not prove those rules right, and the rules were audited separately below.
+On 30 October 2026 the rebuild was compared with the email tracker's output for the data date, application by application. The rebuild is a separate R implementation, so a difference needs an explanation: an error in one of them, or timing. It shares the tracker's matching rules, so agreement alone does not prove those rules right, and the rules were audited separately below. Nothing in this repository reads tracker output, and the comparison is not rerun.
 
-Ten of 1,665 applications differ, all explained in `tests/testthat/test-data.R`:
+Ten of 1,665 applications differed:
 
 | Applications | Why |
 | --- | --- |
@@ -82,7 +82,7 @@ This repository is private because filing continues and it holds interim results
 
 ## A new data date
 
-1. Update `RAW_FREEZE` and `AS_OF` in `code/00_config.R`, and `TRACKER_CHECK` if you keep a tracker copy for that date.
+1. Update `RAW_FREEZE` and `AS_OF` in `code/00_config.R`.
 2. Copy the RA sheets for that date, and set `RTI_SHEETS_COPY` to the copy. Run `code/raw_00_freeze.R`, which writes the dated Drive folder and refreshes the assignment lists. It refuses to overwrite a freeze.
 3. Run `code/raw_00b_manifest.R` to pin the originals.
 4. `make rebuild`, code any new replies by hand, then revisit the counts checked in `01_data_cleaning.R` and `tests/`.

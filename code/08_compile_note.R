@@ -13,7 +13,7 @@ exhibits <- c(
   "tables/tab_cuts", "figures/fig_function", "tables/tab_filer",
   "tables/tab_content", "tables/tab_calls", "tables/tab_balance",
   "tables/tab_main", "tables/tab_robust", "figures/fig_horizon", "tables/tab_correlates",
-  "tables/tab_audit", "tables/tab_validation", "tables/tab_changes", "tables/tab_coding"
+  "tables/tab_audit", "tables/tab_coding"
 )
 
 doc <- c(

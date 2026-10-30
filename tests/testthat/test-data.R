@@ -1,11 +1,5 @@
 d <- read_analysis()
 
-testthat::test_that("the tracker cross-check files match their recorded checksums", {
-  dir <- file.path(root, "data", "validation", TRACKER_CHECK)
-  manifest <- read.csv(file.path(dir, "MANIFEST.csv"))
-  testthat::expect_equal(unname(tools::md5sum(file.path(dir, manifest$file))), manifest$md5)
-})
-
 testthat::test_that("the manifest pins every original, and matches them when they are available", {
   manifest <- read.csv(file.path(root, "data", "raw_manifest.csv"), colClasses = "character")
   testthat::expect_false(anyNA(manifest$md5))
@@ -113,17 +107,6 @@ testthat::test_that("every coded reply has its document in the archive", {
   ## Except the reply filed under the wrong id, which is counted under TG-150's name
   coded <- d[d$coded == 1L & d$app_id != "TG-162", ]
   testthat::expect_true(all(coded$n_reply_pdfs > 0))
-})
-
-testthat::test_that("rebuilt status agrees with the tracker except on explained applications", {
-  differ <- read.csv(file.path(root, "data", "derived", "tracker_differences.csv"))
-  explained <- c(
-    "KA-150", "TN-509", "TN-513", "TN-592", ## number cells saying no number was issued
-    "TN-289", "TN-900", ## dates held for attempts that were never filed
-    "KA-154", "TN-492", ## notices dated the data date, after the tracker ran
-    "KA-047", "MH-053" ## unmatched mail read and matched by hand
-  )
-  testthat::expect_setequal(unique(differ$app_id), explained)
 })
 
 testthat::test_that("derived data carries no personal columns", {

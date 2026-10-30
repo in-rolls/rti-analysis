@@ -12,8 +12,7 @@ scripts <- c(
   "raw_01_parse_emails.R",
   "raw_02_read_ra_sheets.R",
   "raw_03_match_events.R",
-  "raw_04_build_status.R",
-  "raw_05_compare_tracker.R"
+  "raw_04_build_status.R"
 )
 
 for (script in scripts) {

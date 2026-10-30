@@ -50,7 +50,7 @@ make rebuild
 make check
 ```
 
-`make verify-raw` checks every original against `data/raw_manifest.csv`. `make rebuild` then parses the emails and RA sheets, matches messages to applications, builds status, and compares the result with the email tracker field by field. If the code and originals are unchanged, `git status` stays clean afterwards.
+`make verify-raw` checks every original against `data/raw_manifest.csv`. `make rebuild` then parses the emails and RA sheets, matches messages to applications, and builds status. If the code and originals are unchanged, `git status` stays clean afterwards.
 
 ## Repository
 
@@ -60,7 +60,6 @@ make check
 | `data/raw/assignments/` | The six drawn assignment lists, byte for byte |
 | `data/hand/` | Everything made by judgment: reply coding, second coding, adjudication, hand corrections, phone calls |
 | `data/derived/` | Built from the originals by `code/raw_*.R`, with no personal data |
-| `data/validation/` | Tracker outputs and first-cut numbers, kept only for comparison |
 | `data/cleaned/` | One row per drawn application, and the function-coding crosswalk |
 | `code/raw_*.R` | Originals to derived data |
 | `code/00_*.R` to `code/08_*.R` | Derived data to tables and figures |
