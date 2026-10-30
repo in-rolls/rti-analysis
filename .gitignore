@@ -1,0 +1,12 @@
+# System and R session files
+.DS_Store
+.Rhistory
+.RData
+.Rproj.user/
+Rplots.pdf
+
+# LaTeX build files
+*.aux
+*.log
+*.out
+*.synctex.gz

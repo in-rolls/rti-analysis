@@ -1,0 +1,8 @@
+file,rows,md5,snapshot_taken
+status_panel.csv,1665,03d2f9c3aa6942734c6a82c7dc440005,2026-10-30 11:52 CET
+events.csv,831,c6bd1ca53051e2bf561eedbe91be5c2f,2026-10-30 11:52 CET
+responses_coded.csv,104,d8623e527551f61434decb032a4d7fb2,2026-10-30 11:52 CET
+assignments_tn.csv,1000,c15531fd6c7cd55b779a0fc4f7496e6d,2026-10-30 11:52 CET
+assignments_other.csv,665,64e641456b37ff2144f65271b85dba25,2026-10-30 11:52 CET
+tn_frame_tiers.csv,3,38788bc9c71d8636e8a17f12ae101808,2026-10-30 11:52 CET
+frame_sizes.csv,5,fa3ee49e4fd312b770ada64afa76ef55,2026-10-30 11:52 CET

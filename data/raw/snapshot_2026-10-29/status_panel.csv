@@ -1,0 +1,1666 @@
+app_id,state,treatment,assigned_ra,filed,filing_date,ack_date,due_date,transferred_on,fee_demanded_on,fee_amount_inr,disposed_on,returned_on,rejected_on,email_response_on,first_response,days_to_response,portal_status,portal_status_date,response_document,appeal_filed_on,status
+DL-001,DL,plain,RA4,True,2026-09-26,,2026-10-26,,,,,,,,,,Filed (per RA sheet),2026-09-26,,,overdue
+DL-002,DL,plain,RA4,True,2026-09-26,,2026-10-26,,,,,,,,,,Filed (per RA sheet),2026-09-26,,,overdue
+DL-003,DL,plain,RA2,True,2026-09-19,,2026-10-19,,,,,,,,,,Filed (per RA sheet),2026-09-19,on file and coded,,overdue
+DL-004,DL,plain,RA1,True,2026-09-27,,2026-10-27,,,,,,,,,,Filed (per RA sheet),2026-09-27,,,overdue
+DL-005,DL,plain,RA1,True,2026-09-27,,2026-10-27,,,,,,,,,,Filed (per RA sheet),2026-09-27,,,overdue
+DL-006,DL,legal_salience,RA1,True,2026-09-27,,2026-10-27,,,,,,,2026-10-14,2026-10-14,17,Response emailed by the office,2026-10-14,on file and coded,,responded
+DL-007,DL,legal_salience,RA2,True,2026-09-19,,2026-10-19,,,,,,,,,,Filed (per RA sheet),2026-09-19,,,overdue
+DL-008,DL,plain,RA2,True,2026-09-19,,2026-10-19,,,,,,,,,,Filed (per RA sheet),2026-09-19,,,overdue
+DL-009,DL,plain,RA1,True,2026-09-27,,2026-10-27,,,,,,,2026-10-08,2026-10-08,11,Response emailed by the office,2026-10-27,on file and coded,,responded
+DL-010,DL,plain,RA2,True,2026-09-19,,2026-10-19,,,,,,,,,,Filed (per RA sheet),2026-09-19,,,overdue
+DL-011,DL,legal_salience,RA3,True,2026-09-27,,2026-10-27,,,,,,,,,,Filed (per RA sheet),2026-09-27,,,overdue
+DL-012,DL,legal_salience,RA3,True,2026-09-27,,2026-10-27,,,,,,,,,,Filed (per RA sheet),2026-09-27,,,overdue
+DL-013,DL,plain,RA3,True,2026-09-27,,2026-10-27,,,,,,,,,,Filed (per RA sheet),2026-09-27,,,overdue
+DL-014,DL,plain,RA2,True,2026-09-21,,2026-10-21,,,,,,,2026-10-16,2026-10-16,25,Response emailed by the office,2026-10-16,on file and coded,,responded
+DL-015,DL,legal_salience,RA1,True,2026-09-27,,2026-10-27,,,,,,,2026-10-21,2026-10-21,24,Response emailed by the office,2026-10-21,on file and coded,,responded
+DL-016,DL,plain,RA4,True,2026-09-26,,2026-10-26,,,,,,,,,,Filed (per RA sheet),2026-09-26,,,overdue
+DL-017,DL,plain,RA3,True,2026-09-27,,2026-10-27,,,,,,,,,,Filed (per RA sheet),2026-09-27,,,overdue
+DL-018,DL,legal_salience,RA4,True,2026-09-26,,2026-10-26,,,,,,,,,,Filed (per RA sheet),2026-09-26,,,overdue
+DL-019,DL,plain,RA4,True,2026-09-26,,2026-10-26,,,,,,,,,,Filed (per RA sheet),2026-09-26,,,overdue
+DL-020,DL,plain,RA1,True,2026-09-27,,2026-10-27,,,,,,,,,,Filed (per RA sheet),2026-09-27,,,overdue
+DL-021,DL,legal_salience,RA2,True,2026-09-21,,2026-10-21,,,,,,,,,,Filed (per RA sheet),2026-09-21,,,overdue
+DL-022,DL,plain,RA3,True,2026-09-27,,2026-10-27,,,,,,,,,,Filed (per RA sheet),2026-09-27,,,overdue
+DL-023,DL,plain,RA4,True,2026-10-01,,2026-10-31,,,,,,,,,,Filed (per RA sheet),2026-10-01,,,awaiting
+DL-024,DL,plain,RA1,True,2026-10-26,,2026-11-25,,,,,,,,,,Filed (per RA sheet),2026-10-26,,,awaiting
+DL-025,DL,plain,RA4,True,2026-10-01,,2026-10-31,,,,,,,,,,Filed (per RA sheet),2026-10-01,,,awaiting
+DL-026,DL,plain,RA1,True,2026-10-26,,2026-11-25,,,,,,,,,,Filed (per RA sheet),2026-10-26,,,awaiting
+DL-027,DL,legal_salience,RA1,True,2026-10-26,,2026-11-25,,,,,,,,,,Filed (per RA sheet),2026-10-26,,,awaiting
+DL-028,DL,plain,RA1,True,2026-10-26,,2026-11-25,,,,,,,,,,Filed (per RA sheet),2026-10-26,,,awaiting
+DL-029,DL,plain,RA3,True,2026-10-26,,2026-11-25,,,,,,,,,,Filed (per RA sheet),2026-10-26,,,awaiting
+DL-030,DL,legal_salience,RA3,True,2026-10-26,,2026-11-25,,,,,,,,,,Filed (per RA sheet),2026-10-26,,,awaiting
+DL-031,DL,legal_salience,RA2,True,2026-09-30,,2026-10-30,,,,,,,,,,Filed (per RA sheet),2026-09-30,,,awaiting
+DL-032,DL,legal_salience,RA2,True,2026-09-30,,2026-10-30,,,,,,,,,,Filed (per RA sheet),2026-09-30,on file and coded,,awaiting
+DL-033,DL,plain,RA2,True,2026-09-30,,2026-10-30,,,,,,,,,,Filed (per RA sheet),2026-09-30,on file and coded,,awaiting
+DL-034,DL,plain,RA2,True,2026-09-30,,2026-10-30,,,,,,,,,,Filed (per RA sheet),2026-09-30,,,awaiting
+DL-035,DL,legal_salience,RA3,True,2026-10-26,,2026-11-25,,,,,,,,,,Filed (per RA sheet),2026-10-26,,,awaiting
+DL-036,DL,plain,RA2,True,2026-09-30,,2026-10-30,,,,,,,,,,Filed (per RA sheet),2026-09-30,,,awaiting
+DL-037,DL,plain,RA4,True,2026-10-01,,2026-10-31,,,,,,,,,,Filed (per RA sheet),2026-10-01,,,awaiting
+DL-038,DL,plain,RA3,True,2026-10-26,,2026-11-25,,,,,,,,,,Filed (per RA sheet),2026-10-26,,,awaiting
+DL-039,DL,legal_salience,RA1,True,2026-10-26,,2026-11-25,,,,,,,,,,Filed (per RA sheet),2026-10-26,,,awaiting
+DL-040,DL,plain,RA2,True,2026-09-30,,2026-10-30,,,,,,,2026-10-09,2026-10-09,9,Response emailed by the office,2026-10-09,on file and coded,,responded
+DL-041,DL,plain,RA3,True,2026-10-26,,2026-11-25,,,,,,,,,,Filed (per RA sheet),2026-10-26,,,awaiting
+DL-042,DL,legal_salience,RA4,True,2026-10-01,,2026-10-31,,,,,,,,,,Filed (per RA sheet),2026-10-01,on file and coded,,awaiting
+DL-043,DL,plain,RA4,True,2026-10-01,,2026-10-31,,,,,,,,,,Filed (per RA sheet),2026-10-01,,,awaiting
+DL-044,DL,plain,RA1,True,2026-10-26,,2026-11-25,,,,,,,,,,Filed (per RA sheet),2026-10-26,,,awaiting
+KA-001,KA,legal_salience,RA2,True,2026-09-11,2026-09-11,2026-10-11,,,,,,,,,,Filed (portal acknowledgement),2026-09-11,,,overdue
+KA-002,KA,plain,RA2,True,2026-09-11,2026-09-11,2026-10-11,,,,2026-09-25,,,2026-09-23,2026-09-23,12,Disposed of (response on the portal),2026-09-25,on file and coded,,responded
+KA-003,KA,legal_salience,RA2,True,2026-09-11,2026-09-11,2026-10-11,,,,2026-09-24,,,,2026-09-24,13,Disposed of (response on the portal),2026-09-24,on file and coded,,responded
+KA-004,KA,legal_salience,RA3,True,2026-10-17,2026-10-17,2026-11-16,,,,,,,,,,Filed (portal acknowledgement),2026-10-17,,,awaiting
+KA-005,KA,plain,RA4,True,2026-09-28,2026-09-28,2026-10-28,,,,,2026-10-05,,,2026-10-05,7,Returned to applicant (response on the portal),2026-10-05,on file and coded,,responded
+KA-006,KA,legal_salience,RA3,True,2026-10-17,2026-10-17,2026-11-16,,,,,,,,,,Filed (portal acknowledgement),2026-10-17,,,awaiting
+KA-007,KA,legal_salience,RA3,True,2026-10-17,2026-10-17,2026-11-16,,,,,,2026-10-17,,2026-10-17,0,Rejected,2026-10-17,download from the portal,,responded
+KA-008,KA,plain,RA2,True,2026-09-11,2026-09-11,2026-10-11,,,,,,,2026-10-07,2026-10-07,26,Response emailed by the office,2026-10-07,on file and coded,,responded
+KA-009,KA,plain,RA3,True,2026-10-17,2026-10-17,2026-11-16,,,,,,,,,,Filed (portal acknowledgement),2026-10-17,,,awaiting
+KA-010,KA,plain,RA3,True,2026-10-17,2026-10-17,2026-11-16,,,,,,,,,,Filed (portal acknowledgement),2026-10-17,,,awaiting
+KA-011,KA,plain,RA1,True,2026-09-12,2026-09-12,2026-10-12,,,,,,,,,,Filed (portal acknowledgement),2026-09-12,,,overdue
+KA-012,KA,plain,RA2,True,2026-09-11,2026-09-11,2026-10-11,,,,,,,,,,Filed (portal acknowledgement),2026-09-11,,,overdue
+KA-013,KA,plain,RA1,True,2026-09-12,2026-09-12,2026-10-12,,,,,2026-10-05,,,2026-10-05,23,Returned to applicant (response on the portal),2026-10-05,on file and coded,,responded
+KA-014,KA,plain,RA4,True,2026-09-28,2026-09-28,2026-10-28,,,,,,,,,,Filed (portal acknowledgement),2026-09-28,,,overdue
+KA-015,KA,plain,RA3,True,2026-10-17,2026-10-17,2026-11-16,,,,,,,,,,Filed (portal acknowledgement),2026-10-17,,,awaiting
+KA-016,KA,legal_salience,RA2,True,2026-09-11,2026-09-11,2026-10-11,,,,,2026-09-29,,,2026-09-29,18,Returned to applicant (response on the portal),2026-09-29,on file and coded,,responded
+KA-017,KA,plain,RA2,True,2026-09-11,2026-09-11,2026-10-11,,,,,,,,,,Filed (portal acknowledgement),2026-09-11,,,overdue
+KA-018,KA,plain,RA4,True,2026-09-28,2026-09-28,2026-10-28,,,,2026-10-28,,,,2026-10-28,30,Disposed of (response on the portal),2026-10-28,download from the portal,,responded
+KA-019,KA,plain,RA2,True,2026-09-11,2026-09-11,2026-10-11,,,,2026-09-26,,,,2026-09-26,15,Disposed of (response on the portal),2026-09-26,on file and coded,,responded
+KA-020,KA,plain,RA4,True,2026-09-29,2026-09-29,2026-10-29,,,,,2026-10-06,,2026-10-06,2026-10-06,7,Returned to applicant (response on the portal),2026-10-06,on file and coded,,responded
+KA-021,KA,plain,RA2,True,2026-09-11,2026-09-11,2026-10-11,,,,,,,,,,Filed (portal acknowledgement),2026-09-11,,,overdue
+KA-022,KA,legal_salience,RA1,True,2026-09-12,2026-09-12,2026-10-12,,,,,2026-09-16,,,2026-09-16,4,Returned to applicant (response on the portal),2026-09-16,on file and coded,,responded
+KA-023,KA,plain,RA4,True,2026-09-29,2026-09-29,2026-10-29,,,,2026-10-28,,,,2026-10-28,29,Disposed of (response on the portal),2026-10-28,on file,,responded
+KA-024,KA,legal_salience,RA3,True,2026-10-17,2026-10-17,2026-11-16,,,,2026-10-22,,,2026-10-22,2026-10-22,5,Disposed of (response on the portal),2026-10-22,on file and coded,,responded
+KA-025,KA,legal_salience,RA1,True,2026-09-12,2026-09-12,2026-10-12,,,,,,,,,,Filed (portal acknowledgement),2026-09-15,on file and coded,,overdue
+KA-026,KA,plain,RA3,True,2026-10-17,2026-10-17,2026-11-16,,,,,,,,,,Filed (portal acknowledgement),2026-10-17,,,awaiting
+KA-027,KA,plain,RA3,True,2026-10-17,2026-10-17,2026-11-27,2026-10-28,,,,,,,,,Transferred to another office (s.6(3)),2026-10-28,,,transferred
+KA-028,KA,legal_salience,RA4,True,2026-10-04,2026-10-04,2026-11-03,,,,,,,,,,Filed (portal acknowledgement),2026-10-04,,,awaiting
+KA-029,KA,plain,RA2,True,2026-09-11,2026-09-11,2026-10-11,,,,2026-10-08,,,,2026-10-08,27,Disposed of (response on the portal),2026-10-08,on file and coded,,responded
+KA-030,KA,legal_salience,RA2,True,2026-09-11,2026-09-11,2026-10-11,,,,,,,,,,Filed (portal acknowledgement),2026-09-11,,,overdue
+KA-031,KA,plain,RA2,True,2026-09-12,2026-09-12,2026-10-12,,,,,,,,,,Filed (portal acknowledgement),2026-09-12,,,overdue
+KA-032,KA,legal_salience,RA4,True,2026-10-04,2026-10-04,2026-11-03,,,,,2026-10-29,,,2026-10-29,25,Returned to applicant (response on the portal),2026-10-29,on file,,responded
+KA-033,KA,plain,RA2,True,2026-09-12,2026-09-12,2026-10-12,,,,2026-09-23,,,,2026-09-23,11,Disposed of (response on the portal),2026-09-23,on file and coded,,responded
+KA-034,KA,plain,RA1,True,2026-09-15,2026-09-15,2026-10-15,,,,2026-10-14,,,2026-10-13,2026-10-13,28,Disposed of (response on the portal),2026-10-14,on file and coded,,responded
+KA-035,KA,plain,RA1,True,2026-09-15,2026-09-15,2026-10-15,,,,,,,,,,Filed (portal acknowledgement),2026-09-15,,,overdue
+KA-036,KA,legal_salience,RA1,True,2026-09-15,2026-09-15,2026-10-15,,,,,,,,,,Filed (portal acknowledgement),2026-09-15,on file and coded,,overdue
+KA-037,KA,plain,RA1,False,,,,,,,,,,,,,Not filed,,,,not_filed
+KA-038,KA,legal_salience,RA3,True,2026-10-17,2026-10-17,2026-11-16,,,,,,,,,,Filed (portal acknowledgement),2026-10-17,,,awaiting
+KA-039,KA,plain,RA3,True,2026-10-17,2026-10-17,2026-11-16,,,,,,,,,,Filed (portal acknowledgement),2026-10-17,,,awaiting
+KA-040,KA,plain,RA2,True,2026-09-12,2026-09-12,2026-10-12,,,,,2026-10-08,,,2026-10-08,26,Returned to applicant (response on the portal),2026-10-08,on file and coded,,responded
+KA-041,KA,plain,RA4,True,2026-10-04,2026-10-04,2026-11-03,,,,2026-10-17,,,2026-10-13,2026-10-13,9,Disposed of (response on the portal),2026-10-17,on file and coded,,responded
+KA-042,KA,plain,RA3,True,2026-10-17,2026-10-17,2026-11-16,,,,,,,,,,Filed (portal acknowledgement),2026-10-17,,,awaiting
+KA-043,KA,plain,RA4,True,2026-10-04,2026-10-04,2026-11-03,,,,2026-10-14,,,,2026-10-14,10,Disposed of (response on the portal),2026-10-14,on file and coded,,responded
+KA-044,KA,plain,RA3,True,2026-10-19,2026-10-19,2026-11-18,,,,,,,,,,Filed (portal acknowledgement),2026-10-19,,,awaiting
+KA-045,KA,plain,RA1,True,2026-09-15,2026-09-15,2026-10-15,,,,,,,,,,Filed (portal acknowledgement),2026-09-15,,,overdue
+KA-046,KA,plain,RA2,True,2026-09-12,2026-09-12,2026-10-12,,,,,2026-10-05,,2026-10-05,2026-10-05,23,Response emailed by the office,2026-10-05,on file and coded,,responded
+KA-047,KA,plain,RA2,True,2026-09-12,2026-09-12,2026-10-12,,,,2026-10-09,,,,2026-10-09,27,Disposed of (response on the portal),2026-10-12,on file and coded,,responded
+KA-048,KA,plain,RA3,True,2026-10-25,2026-10-25,2026-11-24,,,,,,,,,,Filed (portal acknowledgement),2026-10-25,,,awaiting
+KA-049,KA,plain,RA3,True,2026-10-25,2026-10-25,2026-11-24,,,,,,,,,,Filed (portal acknowledgement),2026-10-25,,,awaiting
+KA-050,KA,plain,RA3,True,2026-10-25,2026-10-25,2026-11-24,,,,,2026-10-29,,,2026-10-29,4,Returned to applicant (response on the portal),2026-10-29,download from the portal,,responded
+KA-051,KA,legal_salience,RA2,True,2026-09-12,2026-09-12,2026-10-12,,,,,2026-10-08,,,2026-10-08,26,Returned to applicant (response on the portal),2026-10-08,on file and coded,,responded
+KA-052,KA,plain,RA2,True,2026-09-12,2026-09-12,2026-10-12,,,,,,,,,,Filed (portal acknowledgement),2026-09-12,,,overdue
+KA-053,KA,plain,RA3,True,2026-10-25,2026-10-25,2026-11-24,,,,,,,,,,Filed (portal acknowledgement),2026-10-25,,,awaiting
+KA-054,KA,plain,RA4,True,2026-10-04,2026-10-04,2026-11-03,,,,,2026-10-08,,,2026-10-08,4,Returned to applicant (response on the portal),2026-10-08,on file and coded,,responded
+KA-055,KA,legal_salience,RA2,True,2026-09-12,2026-09-12,2026-10-12,,,,,2026-09-19,,,2026-09-19,7,Returned to applicant (response on the portal),2026-09-19,on file and coded,,responded
+KA-056,KA,legal_salience,RA1,True,2026-09-16,2026-09-16,2026-10-16,,,,,,,,,,Filed (portal acknowledgement),2026-09-16,,,overdue
+KA-057,KA,plain,RA2,True,2026-09-12,2026-09-12,2026-10-12,,,,2026-09-18,,,,2026-09-18,6,Disposed of (response on the portal),2026-09-18,on file and coded,,responded
+KA-058,KA,legal_salience,RA1,True,2026-09-16,2026-09-16,2026-10-16,,,,,2026-09-21,,,2026-09-21,5,Returned to applicant (response on the portal),2026-09-21,on file and coded,,responded
+KA-059,KA,legal_salience,RA1,True,2026-09-16,2026-09-16,2026-10-16,,,,2026-10-03,,,,2026-10-03,17,Disposed of (response on the portal),2026-10-03,on file and coded,,responded
+KA-060,KA,legal_salience,RA1,True,2026-09-16,2026-09-16,2026-10-16,,,,,,,,,,Filed (portal acknowledgement),2026-09-16,,,overdue
+KA-061,KA,legal_salience,RA2,True,2026-09-13,2026-09-13,2026-10-13,,,,,2026-09-25,,,2026-09-25,12,Returned to applicant (response on the portal),2026-09-25,on file and coded,,responded
+KA-062,KA,plain,RA1,True,2026-09-16,2026-09-16,2026-10-16,,,,,,,,,,Filed (portal acknowledgement),2026-09-16,,,overdue
+KA-063,KA,plain,RA3,True,2026-10-25,2026-10-25,2026-11-24,,,,,,,,,,Filed (portal acknowledgement),2026-10-25,,,awaiting
+KA-064,KA,plain,RA3,True,2026-10-28,2026-10-28,2026-11-27,,,,,,,,,,Filed (portal acknowledgement),2026-10-28,,,awaiting
+KA-065,KA,plain,RA3,False,,,,,,,,,,,,,Not filed,,,,not_filed
+KA-066,KA,plain,RA3,False,,,,,,,,,,,,,Not filed,,,,not_filed
+KA-067,KA,plain,RA1,True,2026-09-16,2026-09-16,2026-10-16,,,,2026-10-14,,,2026-10-14,2026-10-14,28,Disposed of (response on the portal),2026-10-14,on file and coded,,responded
+KA-068,KA,legal_salience,RA3,False,,,,,,,,,,,,,Not filed,,,,not_filed
+KA-069,KA,plain,RA1,True,2026-09-16,2026-09-16,2026-10-16,,,,2026-10-05,,,,2026-10-05,19,Disposed of (response on the portal),2026-10-05,on file and coded,,responded
+KA-070,KA,plain,RA4,True,2026-10-04,2026-10-04,2026-11-03,,,,,,,,,,Filed (portal acknowledgement),2026-10-04,,,awaiting
+KA-071,KA,legal_salience,RA4,True,2026-10-04,2026-10-04,2026-11-03,,,,,,,,,,Filed (portal acknowledgement),2026-10-04,,,awaiting
+KA-072,KA,legal_salience,RA3,False,,,,,,,,,,,,,Not filed,,,,not_filed
+KA-073,KA,legal_salience,RA2,True,2026-09-13,2026-09-13,2026-10-13,,,,,2026-10-06,,2026-10-06,2026-10-06,23,Returned to applicant (response on the portal),2026-10-06,on file and coded,,responded
+KA-074,KA,plain,RA4,True,2026-10-04,2026-10-04,2026-11-03,,,,,,,,,,Filed (portal acknowledgement),2026-10-04,,,awaiting
+KA-075,KA,plain,RA1,True,2026-09-16,2026-09-16,2026-10-16,,,,2026-10-06,,,,2026-10-06,20,Disposed of (response on the portal),2026-10-06,on file and coded,,responded
+KA-076,KA,plain,RA4,True,2026-10-04,2026-10-04,2026-11-03,,,,,,,,,,Filed (portal acknowledgement),2026-10-04,,,awaiting
+KA-077,KA,plain,RA4,True,2026-10-04,2026-10-04,2026-11-03,,,,,,,,,,Filed (portal acknowledgement),2026-10-04,,,awaiting
+KA-078,KA,plain,RA1,True,2026-09-20,2026-09-20,2026-10-20,,,,2026-10-16,,,2026-10-16,2026-10-16,26,Disposed of (response on the portal),2026-10-16,on file and coded,,responded
+KA-079,KA,plain,RA4,True,2026-10-04,2026-10-04,2026-11-03,,,,,,,,,,Filed (portal acknowledgement),2026-10-04,,,awaiting
+KA-080,KA,legal_salience,RA3,False,,,,,,,,,,,,,Not filed,,,,not_filed
+KA-081,KA,plain,RA4,True,2026-10-05,2026-10-05,2026-11-04,,,,,2026-10-27,,,2026-10-27,22,Returned to applicant (response on the portal),2026-10-27,on file,,responded
+KA-082,KA,plain,RA4,True,2026-10-05,2026-10-05,2026-11-04,,,,,,,,,,Filed (portal acknowledgement),2026-10-05,,,awaiting
+KA-083,KA,plain,RA2,True,2026-09-13,2026-09-13,2026-10-13,,,,,2026-10-05,,,2026-10-05,22,Returned to applicant (response on the portal),2026-10-05,on file and coded,,responded
+KA-084,KA,legal_salience,RA4,True,2026-10-05,2026-10-05,2026-11-04,,,,,2026-10-06,,,2026-10-06,1,Returned to applicant (response on the portal),2026-10-06,download from the portal,,responded
+KA-085,KA,plain,RA2,True,2026-09-13,2026-09-13,2026-10-13,,,,,,,,,,Filed (portal acknowledgement),2026-09-13,,,overdue
+KA-086,KA,plain,RA3,False,,,,,,,,,,,,,Not filed,,,,not_filed
+KA-087,KA,plain,RA3,False,,,,,,,,,,,,,Not filed,,,,not_filed
+KA-088,KA,plain,RA2,True,2026-09-13,2026-09-13,2026-10-13,,,,2026-10-13,,,,2026-10-13,30,Disposed of (response on the portal),2026-10-13,download from the portal,,responded
+KA-089,KA,plain,RA3,False,,,,,,,,,,,,,Not filed,,,,not_filed
+KA-090,KA,plain,RA4,True,2026-10-07,2026-10-07,2026-11-06,,,,,,,,,,Filed (portal acknowledgement),2026-10-07,,,awaiting
+KA-091,KA,plain,RA3,False,,,,,,,,,,,,,Not filed,,,,not_filed
+KA-092,KA,plain,RA4,True,2026-10-07,2026-10-07,2026-11-06,,,,,,,,,,Filed (portal acknowledgement),2026-10-07,,,awaiting
+KA-093,KA,legal_salience,RA4,True,2026-10-07,2026-10-07,2026-11-06,,,,,,,,,,Filed (portal acknowledgement),2026-10-07,,,awaiting
+KA-094,KA,plain,RA2,True,2026-09-13,2026-09-13,2026-10-13,,,,,,,,,,Filed (portal acknowledgement),2026-09-13,,,overdue
+KA-095,KA,legal_salience,RA4,True,2026-10-07,2026-10-07,2026-11-06,,,,,,,,,,Filed (portal acknowledgement),2026-10-07,,,awaiting
+KA-096,KA,plain,RA3,False,,,,,,,,,,,,,Not filed,,,,not_filed
+KA-097,KA,plain,RA1,True,2026-09-20,2026-09-20,2026-10-20,,,,,2026-09-22,,,2026-09-22,2,Returned to applicant (response on the portal),2026-09-22,on file and coded,,responded
+KA-098,KA,plain,RA4,True,2026-10-07,2026-10-07,2026-11-06,,,,,,,,,,Filed (portal acknowledgement),2026-10-07,,,awaiting
+KA-099,KA,plain,RA3,False,,,,,,,,,,,,,Not filed,,,,not_filed
+KA-100,KA,plain,RA2,True,2026-09-14,2026-09-14,2026-10-14,,,,,,,,,,Filed (portal acknowledgement),2026-09-14,,,overdue
+KA-101,KA,legal_salience,RA4,True,2026-10-07,2026-10-07,2026-11-06,,,,2026-10-12,,,,2026-10-12,5,Disposed of (response on the portal),2026-10-12,download from the portal,,responded
+KA-102,KA,plain,RA2,True,2026-09-14,2026-09-14,2026-10-14,,,,2026-09-16,,,2026-09-16,2026-09-16,2,Response emailed by the office,2026-09-16,on file and coded,,responded
+KA-103,KA,plain,RA4,True,2026-10-09,2026-10-09,2026-11-08,,,,,,,,,,Filed (portal acknowledgement),2026-10-09,,,awaiting
+KA-104,KA,legal_salience,RA1,True,2026-09-20,2026-09-20,2026-10-20,,,,,2026-10-14,,,2026-10-14,24,Returned to applicant (response on the portal),2026-10-14,on file and coded,,responded
+KA-105,KA,plain,RA3,False,,,,,,,,,,,,,Not filed,,,,not_filed
+KA-106,KA,plain,RA4,True,2026-10-09,2026-10-09,2026-11-08,,2026-10-17,20,,,,,,,Additional fee demanded (s.7(3)),2026-10-17,on file and coded,,awaiting
+KA-107,KA,plain,RA3,False,,,,,,,,,,,,,Not filed,,,,not_filed
+KA-108,KA,plain,RA2,True,2026-09-14,2026-09-14,2026-10-14,,,,,,,,,,Filed (portal acknowledgement),2026-09-14,,,overdue
+KA-109,KA,plain,RA4,True,2026-10-09,2026-10-09,2026-11-08,,,,,,,,,,Filed (portal acknowledgement),2026-10-09,,,awaiting
+KA-110,KA,plain,RA1,True,2026-09-20,2026-09-20,2026-10-20,,,,,,,,,,Filed (portal acknowledgement),2026-09-20,,,overdue
+KA-111,KA,plain,RA2,True,2026-09-14,2026-09-14,2026-10-14,,,,,,,,,,Filed (portal acknowledgement),2026-09-14,,,overdue
+KA-112,KA,plain,RA3,False,,,,,,,,,,,,,Not filed,,,,not_filed
+KA-113,KA,plain,RA1,True,2026-09-20,2026-09-20,2026-10-20,,,,,,,,,,Filed (portal acknowledgement),2026-09-20,,,overdue
+KA-114,KA,plain,RA4,True,2026-10-09,2026-10-09,2026-11-08,,,,,,,,,,Filed (portal acknowledgement),2026-10-09,,,awaiting
+KA-115,KA,plain,RA1,True,2026-09-20,2026-09-20,2026-10-20,,,,,2026-09-21,,,2026-09-21,1,Returned to applicant (response on the portal),2026-09-21,on file and coded,,responded
+KA-116,KA,plain,RA4,True,2026-10-09,2026-10-09,2026-11-08,,,,,,,,,,Filed (portal acknowledgement),2026-10-09,,,awaiting
+KA-117,KA,legal_salience,RA1,True,2026-09-20,2026-09-20,2026-10-20,,,,,,,,,,Filed (portal acknowledgement),2026-09-20,on file and coded,,overdue
+KA-118,KA,legal_salience,RA3,False,,,,,,,,,,,,,Not filed,,,,not_filed
+KA-119,KA,plain,RA3,False,,,,,,,,,,,,,Not filed,,,,not_filed
+KA-120,KA,legal_salience,RA3,False,,,,,,,,,,,,,Not filed,,,,not_filed
+KA-121,KA,plain,RA4,True,2026-10-11,2026-10-11,2026-11-10,,,,,,,,,,Filed (portal acknowledgement),2026-10-11,,,awaiting
+KA-122,KA,plain,RA1,True,2026-09-20,2026-09-20,2026-10-20,,,,,,,,,,Filed (portal acknowledgement),2026-09-20,,,overdue
+KA-123,KA,plain,RA1,True,2026-09-20,2026-09-20,2026-10-20,,,,,,,,,,Filed (portal acknowledgement),2026-09-20,,,overdue
+KA-124,KA,plain,RA3,False,,,,,,,,,,,,,Not filed,,,,not_filed
+KA-125,KA,plain,RA2,True,2026-09-14,2026-09-14,2026-10-14,,,,,,,,,,Filed (portal acknowledgement),2026-09-14,,,overdue
+KA-126,KA,plain,RA3,False,,,,,,,,,,,,,Not filed,,,,not_filed
+KA-127,KA,legal_salience,RA4,True,2026-10-11,2026-10-11,2026-11-10,,,,,,,,,,Filed (portal acknowledgement),2026-10-11,,,awaiting
+KA-128,KA,plain,RA4,True,2026-10-11,2026-10-11,2026-11-10,,,,,,,,,,Filed (portal acknowledgement),2026-10-11,,,awaiting
+KA-129,KA,legal_salience,RA3,False,,,,,,,,,,,,,Not filed,,,,not_filed
+KA-130,KA,plain,RA4,True,2026-10-11,2026-10-11,2026-11-10,,,,,,,,,,Filed (portal acknowledgement),2026-10-11,,,awaiting
+KA-131,KA,legal_salience,RA2,True,2026-09-14,2026-09-14,2026-10-14,,,,,,,,,,Filed (portal acknowledgement),2026-09-14,,,overdue
+KA-132,KA,legal_salience,RA1,True,2026-09-20,2026-09-20,2026-10-20,,,,,,,,,,Filed (portal acknowledgement),2026-09-20,,,overdue
+KA-133,KA,legal_salience,RA2,True,2026-09-14,2026-09-14,2026-10-14,,,,,,,,,,Filed (portal acknowledgement),2026-09-14,,,overdue
+KA-134,KA,legal_salience,RA1,True,2026-09-20,2026-09-20,2026-10-20,,,,,,,,,,Filed (portal acknowledgement),2026-09-20,,,overdue
+KA-135,KA,legal_salience,RA4,True,2026-10-11,2026-10-11,2026-11-10,,,,2026-10-12,,,,2026-10-12,1,Disposed of (response on the portal),2026-10-12,download from the portal,,responded
+KA-136,KA,legal_salience,RA2,True,2026-09-14,2026-09-14,2026-10-14,,,,,,,,,,Filed (portal acknowledgement),2026-09-14,,,overdue
+KA-137,KA,legal_salience,RA1,True,2026-09-20,2026-09-20,2026-10-20,,,,,2026-10-22,,,2026-10-22,32,Returned to applicant (response on the portal),2026-10-22,on file and coded,,responded
+KA-138,KA,plain,RA1,True,2026-10-06,2026-10-06,2026-11-05,,,,,2026-10-09,,,2026-10-09,3,Returned to applicant (response on the portal),2026-10-09,on file and coded,,responded
+KA-139,KA,plain,RA1,True,2026-10-06,2026-10-06,2026-11-05,,,,,,,,,,Filed (portal acknowledgement),2026-10-06,,,awaiting
+KA-140,KA,legal_salience,RA2,True,2026-09-14,2026-09-14,2026-10-14,,,,2026-10-06,,,2026-10-06,2026-10-06,22,Disposed of (response on the portal),2026-10-06,on file and coded,,responded
+KA-141,KA,plain,RA1,True,2026-10-06,2026-10-06,2026-11-05,,,,,,,,,,Filed (portal acknowledgement),2026-10-06,,,awaiting
+KA-142,KA,legal_salience,RA3,False,,,,,,,,,,,,,Not filed,,,,not_filed
+KA-143,KA,plain,RA2,True,2026-09-14,2026-09-14,2026-10-14,,,,,,,,,,Filed (portal acknowledgement),2026-09-14,,,overdue
+KA-144,KA,plain,RA3,False,,,,,,,,,,,,,Not filed,,,,not_filed
+KA-145,KA,plain,RA4,False,,,,,,,,,,,,,Not filed,,,,not_filed
+KA-146,KA,plain,RA3,False,,,,,,,,,,,,,Not filed,,,,not_filed
+KA-147,KA,plain,RA2,True,2026-09-16,2026-09-16,2026-10-16,,,,,,,,,,Filed (portal acknowledgement),2026-09-16,,,overdue
+KA-148,KA,plain,RA2,True,2026-09-16,2026-09-16,2026-10-16,,,,2026-10-28,,,,2026-10-28,42,Disposed of (response on the portal),2026-10-28,on file and coded,,responded
+KA-149,KA,plain,RA1,True,2026-10-06,2026-10-06,2026-11-14,2026-10-15,,,,,,,,,Transferred to another office (s.6(3)),2026-10-15,on file and coded,,transferred
+KA-150,KA,plain,RA1,True,2026-10-11,,2026-11-10,,,,,,,,,,Filed (per RA sheet),2026-10-11,,,awaiting
+KA-151,KA,legal_salience,RA3,False,,,,,,,,,,,,,Not filed,,,,not_filed
+KA-152,KA,plain,RA1,True,2026-10-11,2026-10-11,2026-11-10,,,,,2026-10-13,,,2026-10-13,2,Returned to applicant (response on the portal),2026-10-13,on file and coded,,responded
+KA-153,KA,plain,RA2,True,2026-09-16,2026-09-16,2026-10-16,,,,2026-10-29,,,,2026-10-29,43,Disposed of (response on the portal),2026-10-29,download from the portal,,responded
+KA-154,KA,plain,RA4,True,2026-10-18,2026-10-18,2026-11-17,,,,,,,2026-10-29,2026-10-29,11,Response emailed by the office,2026-10-29,on file,,responded
+KA-155,KA,plain,RA1,True,2026-10-11,2026-10-11,2026-11-10,,,,,,2026-10-15,,2026-10-15,4,Rejected,2026-10-15,download from the portal,,responded
+KA-156,KA,legal_salience,RA4,True,2026-10-18,2026-10-18,2026-11-17,,,,,,,,,,Filed (portal acknowledgement),2026-10-18,,,awaiting
+KA-157,KA,plain,RA1,True,2026-10-11,2026-10-11,2026-11-10,,,,,,,,,,Filed (portal acknowledgement),2026-10-11,,,awaiting
+KA-158,KA,legal_salience,RA1,True,2026-10-11,2026-10-11,2026-11-10,,,,,,,,,,Filed (portal acknowledgement),2026-10-11,,,awaiting
+KA-159,KA,plain,RA1,True,2026-10-11,2026-10-11,2026-11-10,,,,,,,,,,Filed (portal acknowledgement),2026-10-11,,,awaiting
+KA-160,KA,plain,RA2,True,2026-09-16,2026-09-16,2026-10-16,,,,,,,,,,Filed (portal acknowledgement),2026-09-16,,,overdue
+KA-161,KA,plain,RA1,True,2026-10-11,2026-10-11,2026-11-10,,,,2026-10-15,,,2026-10-12,2026-10-12,1,Disposed of (response on the portal),2026-10-15,on file and coded,,responded
+KA-162,KA,plain,RA2,True,2026-09-19,2026-09-19,2026-10-19,,,,,,,,,,Filed (portal acknowledgement),2026-09-19,,,overdue
+KA-163,KA,legal_salience,RA4,True,2026-10-18,2026-10-18,2026-11-17,,,,,,,,,,Filed (portal acknowledgement),2026-10-18,,,awaiting
+KA-164,KA,plain,RA1,True,2026-10-11,2026-10-11,2026-11-10,,,,,,,,,,Filed (portal acknowledgement),2026-10-11,,,awaiting
+KA-165,KA,plain,RA4,True,2026-10-18,2026-10-18,2026-11-17,,,,,,,,,,Filed (portal acknowledgement),2026-10-18,,,awaiting
+KA-166,KA,plain,RA4,False,,,,,,,,,,,,,Not filed,,,,not_filed
+KA-167,KA,legal_salience,RA4,True,2026-10-20,2026-10-20,2026-11-19,,,,,,,,,,Filed (portal acknowledgement),2026-10-20,,,awaiting
+KA-168,KA,legal_salience,RA1,True,2026-10-15,2026-10-15,2026-11-14,,,,,,,,,,Filed (portal acknowledgement),2026-10-15,,,awaiting
+KA-169,KA,plain,RA1,True,2026-10-15,2026-10-15,2026-11-14,,,,,,,,,,Filed (portal acknowledgement),2026-10-15,,,awaiting
+KA-170,KA,plain,RA3,False,,,,,,,,,,,,,Not filed,,,,not_filed
+KA-171,KA,plain,RA4,True,2026-10-20,2026-10-20,2026-11-19,,,,,,,,,,Filed (portal acknowledgement),2026-10-20,,,awaiting
+KA-172,KA,legal_salience,RA2,True,2026-09-19,2026-09-19,2026-10-19,,,,,,,2026-09-21,2026-09-21,2,Office wrote about fees,2026-10-13,on file and coded,,responded
+KA-173,KA,legal_salience,RA4,False,,,,,,,,,,,,,Not filed,,,,not_filed
+KA-174,KA,plain,RA2,True,2026-09-19,2026-09-19,2026-10-19,,,,,2026-10-27,,,2026-10-27,38,Returned to applicant (response on the portal),2026-10-27,download from the portal,,responded
+KA-175,KA,plain,RA1,True,2026-10-15,2026-10-15,2026-11-14,,,,,,,,,,Filed (portal acknowledgement),2026-10-15,,,awaiting
+KA-176,KA,plain,RA4,False,,,,,,,,,,,,,Not filed,,,,not_filed
+KA-177,KA,plain,RA1,True,2026-10-15,2026-10-15,2026-11-14,,,,,,,,,,Filed (portal acknowledgement),2026-10-15,,,awaiting
+KA-178,KA,legal_salience,RA2,True,2026-09-19,2026-09-19,2026-10-19,,,,,,,,,,Filed (portal acknowledgement),2026-09-19,,,overdue
+KA-179,KA,plain,RA2,True,2026-09-19,2026-09-19,2026-10-19,,,,,,,,,,Filed (portal acknowledgement),2026-09-19,,,overdue
+KA-180,KA,plain,RA3,False,,,,,,,,,,,,,Not filed,,,,not_filed
+MH-001,MH,plain,RA4,True,2026-09-26,2026-09-26,2026-10-26,,,,,,,,,,Filed (portal acknowledgement),2026-09-26,,,overdue
+MH-002,MH,legal_salience,RA4,True,2026-09-26,2026-09-26,2026-10-26,,,,,,,,,,Filed (portal acknowledgement),2026-09-26,,,overdue
+MH-003,MH,plain,RA4,True,2026-09-26,2026-09-26,2026-10-26,,,,,,,2026-10-26,2026-10-26,30,Response emailed by the office,2026-10-26,emailed (being filed),,responded
+MH-004,MH,plain,RA3,True,2026-09-27,2026-09-27,2026-10-27,,,,,,,,,,Filed (portal acknowledgement),2026-09-27,,,overdue
+MH-005,MH,plain,RA2,True,2026-09-22,2026-09-22,2026-10-22,,,,,,,2026-10-24,2026-10-24,32,Response emailed by the office,2026-10-26,on file and coded,,responded
+MH-006,MH,legal_salience,RA1,True,2026-09-15,,2026-10-15,,,,,,,,,,Filed (per RA sheet),2026-09-15,on file and coded,,overdue
+MH-007,MH,legal_salience,RA4,True,2026-09-26,2026-09-26,2026-10-26,,,,,,,,,,Filed (portal acknowledgement),2026-09-26,,,overdue
+MH-008,MH,plain,RA4,True,2026-09-26,2026-09-26,2026-10-26,,,,,,,,,,Filed (portal acknowledgement),2026-09-26,,,overdue
+MH-009,MH,plain,RA1,True,2026-09-27,2026-09-27,2026-10-27,,,,,,,,,,Filed (portal acknowledgement),2026-09-27,,,overdue
+MH-010,MH,plain,RA2,True,2026-09-22,2026-09-22,2026-10-22,,,,,,,,,,Filed (portal acknowledgement),2026-09-22,,,overdue
+MH-011,MH,legal_salience,RA3,True,2026-09-27,2026-09-27,2026-10-27,,,,,,,2026-10-07,2026-10-07,10,Response emailed by the office,2026-10-07,on file and coded,,responded
+MH-012,MH,plain,RA3,True,2026-09-27,2026-09-27,2026-10-27,,,,,,,,,,Filed (portal acknowledgement),2026-09-27,,,overdue
+MH-013,MH,plain,RA1,True,2026-09-27,2026-09-27,2026-10-27,,,,,,,,,,Filed (portal acknowledgement),2026-09-27,,,overdue
+MH-014,MH,plain,RA3,True,2026-09-27,2026-09-27,2026-10-27,,,,,,,,,,Filed (portal acknowledgement),2026-09-27,,,overdue
+MH-015,MH,plain,RA3,True,2026-10-05,2026-10-05,2026-11-04,,,,,,,,,,Filed (portal acknowledgement),2026-10-05,,,awaiting
+MH-016,MH,plain,RA2,True,2026-09-25,2026-09-25,2026-10-25,,,,,,,2026-10-23,2026-10-23,28,Response emailed by the office,2026-10-23,on file and coded,,responded
+MH-017,MH,legal_salience,RA2,True,2026-09-25,2026-09-25,2026-10-25,,,,,,,,,,Filed (portal acknowledgement),2026-09-25,,,overdue
+MH-018,MH,plain,RA1,True,2026-09-27,2026-09-27,2026-10-27,,,,,,,,,,Filed (portal acknowledgement),2026-09-27,on file and coded,,overdue
+MH-019,MH,plain,RA1,True,2026-09-27,2026-09-27,2026-10-27,,,,,,,,,,Filed (portal acknowledgement),2026-09-27,,,overdue
+MH-020,MH,plain,RA3,True,2026-10-05,2026-10-05,2026-11-04,,,,,,,,,,Filed (portal acknowledgement),2026-10-05,,,awaiting
+MH-021,MH,plain,RA1,True,2026-09-27,2026-09-27,2026-10-27,,,,,,,,,,Filed (portal acknowledgement),2026-09-27,,,overdue
+MH-022,MH,plain,RA4,True,2026-09-26,2026-09-26,2026-10-26,,,,,,,,,,Filed (portal acknowledgement),2026-09-26,on file and coded,,overdue
+MH-023,MH,plain,RA1,True,2026-09-27,2026-09-27,2026-10-27,,,,,,,2026-10-07,2026-10-07,10,Response emailed by the office,2026-10-07,on file and coded,,responded
+MH-024,MH,plain,RA3,True,2026-10-05,2026-10-05,2026-11-04,,,,,,,,,,Filed (portal acknowledgement),2026-10-05,,,awaiting
+MH-025,MH,legal_salience,RA4,True,2026-09-26,2026-09-26,2026-10-26,,,,,,,2026-10-27,2026-10-27,31,Response emailed by the office,2026-10-27,on file,,responded
+MH-026,MH,legal_salience,RA2,True,2026-09-25,2026-09-25,2026-10-25,,,,,,,,,,Filed (portal acknowledgement),2026-09-25,,,overdue
+MH-027,MH,plain,RA2,True,2026-09-25,2026-09-25,2026-10-25,,,,,,,,,,Filed (portal acknowledgement),2026-09-25,,,overdue
+MH-028,MH,plain,RA2,True,2026-09-25,2026-09-25,2026-10-25,,,,,,,,,,Filed (portal acknowledgement),2026-09-25,on file,,overdue
+MH-029,MH,legal_salience,RA3,True,2026-10-05,2026-10-05,2026-11-04,,,,,,,,,,Filed (portal acknowledgement),2026-10-05,,,awaiting
+MH-030,MH,legal_salience,RA1,True,2026-09-27,2026-09-27,2026-10-27,,,,,,,,,,Filed (portal acknowledgement),2026-09-27,,,overdue
+MH-031,MH,plain,RA4,True,2026-09-26,2026-09-26,2026-10-26,,,,,,,2026-09-28,2026-09-28,2,Response emailed by the office,2026-09-29,on file and coded,,responded
+MH-032,MH,legal_salience,RA3,True,2026-10-05,2026-10-05,2026-11-04,,,,,,,,,,Filed (portal acknowledgement),2026-10-05,,,awaiting
+MH-033,MH,plain,RA2,True,2026-09-25,2026-09-25,2026-10-25,,,,,,,2026-10-15,2026-10-15,20,Response emailed by the office,2026-10-15,on file and coded,,responded
+MH-034,MH,plain,RA1,True,2026-10-27,2026-10-27,2026-11-26,,,,,,,,,,Filed (portal acknowledgement),2026-10-27,,,awaiting
+MH-035,MH,plain,RA3,True,2026-10-26,2026-10-26,2026-11-25,,,,,,,,,,Filed (portal acknowledgement),2026-10-26,,,awaiting
+MH-036,MH,plain,RA2,True,2026-09-30,2026-09-30,2026-10-30,,,,,,,,,,Filed (portal acknowledgement),2026-09-30,,,awaiting
+MH-037,MH,legal_salience,RA2,True,2026-09-30,2026-09-30,2026-10-30,,,,,,,,,,Filed (portal acknowledgement),2026-09-30,on file and coded,,awaiting
+MH-038,MH,plain,RA3,True,2026-10-26,2026-10-26,2026-11-25,,,,,,,,,,Filed (portal acknowledgement),2026-10-26,,,awaiting
+MH-039,MH,plain,RA3,True,2026-10-27,2026-10-27,2026-11-26,,,,,,,,,,Filed (portal acknowledgement),2026-10-27,,,awaiting
+MH-040,MH,legal_salience,RA1,True,2026-10-27,2026-10-27,2026-11-26,,,,,,,,,,Filed (portal acknowledgement),2026-10-27,,,awaiting
+MH-041,MH,legal_salience,RA3,True,2026-10-27,2026-10-27,2026-11-26,,,,,,,,,,Filed (portal acknowledgement),2026-10-27,,,awaiting
+MH-042,MH,plain,RA4,True,2026-10-07,2026-10-07,2026-11-06,,,,,,,,,,Filed (portal acknowledgement),2026-10-07,,,awaiting
+MH-043,MH,plain,RA4,True,2026-10-07,2026-10-07,2026-11-06,,,,,,,,,,Filed (portal acknowledgement),2026-10-07,,,awaiting
+MH-044,MH,legal_salience,RA3,False,,,,,,,,,,,,,Not filed,,,,not_filed
+MH-045,MH,legal_salience,RA4,True,2026-10-07,2026-10-07,2026-11-06,,,,,,,,,,Filed (portal acknowledgement),2026-10-07,,,awaiting
+MH-046,MH,plain,RA1,True,2026-10-27,2026-10-27,2026-11-26,,,,,,,,,,Filed (portal acknowledgement),2026-10-27,,,awaiting
+MH-047,MH,plain,RA1,True,2026-10-27,2026-10-27,2026-11-26,,,,,,,,,,Filed (portal acknowledgement),2026-10-27,,,awaiting
+MH-048,MH,legal_salience,RA1,True,2026-10-27,2026-10-27,2026-11-26,,,,,,,,,,Filed (portal acknowledgement),2026-10-27,,,awaiting
+MH-049,MH,plain,RA4,True,2026-10-07,2026-10-07,2026-11-06,,,,,,,,,,Filed (portal acknowledgement),2026-10-07,on file and coded,,awaiting
+MH-050,MH,legal_salience,RA4,True,2026-10-07,2026-10-07,2026-11-06,,,,,,,,,,Filed (portal acknowledgement),2026-10-07,,,awaiting
+MH-051,MH,plain,RA3,False,,,,,,,,,,,,,Not filed,,,,not_filed
+MH-052,MH,legal_salience,RA3,False,,,,,,,,,,,,,Not filed,,,,not_filed
+MH-053,MH,legal_salience,RA4,True,2026-10-07,2026-10-07,2026-11-06,,,,,,,,,,Filed (portal acknowledgement),2026-10-07,on file and coded,,awaiting
+MH-054,MH,plain,RA2,True,2026-09-30,2026-09-30,2026-10-30,,,,,,,,,,Filed (portal acknowledgement),2026-09-30,,,awaiting
+MH-055,MH,plain,RA4,True,2026-10-07,2026-10-07,2026-11-06,,,,,,,,,,Filed (portal acknowledgement),2026-10-07,,,awaiting
+MH-056,MH,plain,RA2,True,2026-09-30,2026-09-30,2026-10-30,,,,,,,2026-10-28,2026-10-28,28,Response emailed by the office,2026-10-28,on file,,responded
+MH-057,MH,plain,RA1,True,2026-10-27,2026-10-27,2026-11-26,,,,,,,,,,Filed (portal acknowledgement),2026-10-27,,,awaiting
+MH-058,MH,legal_salience,RA2,True,2026-09-30,2026-09-30,2026-10-30,,,,,,,,,,Filed (portal acknowledgement),2026-09-30,,,awaiting
+MH-059,MH,plain,RA1,True,2026-10-27,2026-10-27,2026-11-26,,,,,,,,,,Filed (portal acknowledgement),2026-10-27,,,awaiting
+MH-060,MH,plain,RA3,False,,,,,,,,,,,,,Not filed,,,,not_filed
+MH-061,MH,plain,RA3,False,,,,,,,,,,,,,Not filed,,,,not_filed
+MH-062,MH,plain,RA2,True,2026-09-30,2026-09-30,2026-10-30,,,,,,,,,,Filed (portal acknowledgement),2026-09-30,,,awaiting
+MH-063,MH,plain,RA2,True,2026-09-30,2026-09-30,2026-10-30,,,,,,,,,,Filed (portal acknowledgement),2026-09-30,,,awaiting
+MH-064,MH,plain,RA1,True,2026-10-27,2026-10-27,2026-11-26,,,,,,,,,,Filed (portal acknowledgement),2026-10-27,,,awaiting
+MH-065,MH,plain,RA4,True,2026-10-07,2026-10-07,2026-11-06,,,,,,,,,,Filed (portal acknowledgement),2026-10-07,,,awaiting
+MH-066,MH,plain,RA2,True,2026-09-30,2026-09-30,2026-10-30,,,,,,,,,,Filed (portal acknowledgement),2026-09-30,on file and coded,,awaiting
+TG-001,TG,plain,RA4,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TG-002,TG,plain,RA2,True,2026-09-04,,2026-10-04,,,,,,,,,,Filed (per RA sheet),2026-09-04,,,overdue
+TG-003,TG,plain,RA4,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TG-004,TG,plain,RA3,True,2026-09-06,2026-09-06,2026-10-06,,,,,,,,,,Filed (portal acknowledgement),2026-09-06,,,overdue
+TG-005,TG,plain,RA2,True,2026-09-04,,2026-10-04,,,,,,,,,,Filed (per RA sheet),2026-09-04,,,overdue
+TG-006,TG,plain,RA4,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TG-007,TG,plain,RA4,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TG-008,TG,plain,RA2,True,2026-09-04,,2026-10-04,,,,,,,,,,Filed (per RA sheet),2026-09-04,,,overdue
+TG-009,TG,legal_salience,RA4,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TG-010,TG,plain,RA3,True,2026-09-06,2026-09-06,2026-10-06,,,,,,,,,,Filed (portal acknowledgement),2026-09-06,,,overdue
+TG-011,TG,plain,RA1,True,2026-09-04,2026-09-04,2026-10-04,,,,,,,,,,Filed (portal acknowledgement),2026-09-04,,,overdue
+TG-012,TG,plain,RA4,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TG-013,TG,plain,RA4,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TG-014,TG,legal_salience,RA2,True,2026-09-04,,2026-10-04,,,,,,,,,,Filed (per RA sheet),2026-09-04,,,overdue
+TG-015,TG,plain,RA3,True,2026-09-06,2026-09-06,2026-10-06,,,,,,,,,,Filed (portal acknowledgement),2026-09-06,,,overdue
+TG-016,TG,plain,RA4,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TG-017,TG,plain,RA2,True,2026-09-04,,2026-10-04,,,,,,,,,,Filed (per RA sheet),2026-09-04,,,overdue
+TG-018,TG,legal_salience,RA3,True,2026-09-06,2026-09-06,2026-10-06,,,,,,,,,,Filed (portal acknowledgement),2026-09-06,,,overdue
+TG-019,TG,plain,RA2,True,2026-09-04,,2026-10-04,,,,,,,,,,Filed (per RA sheet),2026-09-04,,,overdue
+TG-020,TG,plain,RA3,True,2026-09-06,2026-09-06,2026-10-06,,,,,,,,,,Filed (portal acknowledgement),2026-09-06,,,overdue
+TG-021,TG,plain,RA2,True,2026-09-04,,2026-10-04,,,,,,,,,,Filed (per RA sheet),2026-09-04,,,overdue
+TG-022,TG,legal_salience,RA2,True,2026-09-04,,2026-10-04,,,,,,,,,,Filed (per RA sheet),2026-09-04,,,overdue
+TG-023,TG,legal_salience,RA1,True,2026-09-04,2026-09-04,2026-10-04,,,,,,,,,,Filed (portal acknowledgement),2026-09-04,,,overdue
+TG-024,TG,plain,RA3,True,2026-09-06,2026-09-06,2026-10-06,,,,,,,,,,Filed (portal acknowledgement),2026-09-06,,,overdue
+TG-025,TG,plain,RA3,True,2026-09-06,2026-09-06,2026-10-06,,,,,,,,,,Filed (portal acknowledgement),2026-09-06,,,overdue
+TG-026,TG,plain,RA3,True,2026-09-06,2026-09-06,2026-10-06,,,,,,,,,,Filed (portal acknowledgement),2026-09-06,,,overdue
+TG-027,TG,plain,RA2,True,2026-09-04,,2026-10-04,,,,,,,,,,Filed (per RA sheet),2026-09-04,,,overdue
+TG-028,TG,plain,RA4,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TG-029,TG,plain,RA3,True,2026-09-06,2026-09-06,2026-10-06,,,,,,,,,,Filed (portal acknowledgement),2026-09-06,,,overdue
+TG-030,TG,plain,RA3,True,2026-09-06,2026-09-06,2026-10-06,,,,,,,,,,Filed (portal acknowledgement),2026-09-06,,,overdue
+TG-031,TG,plain,RA1,True,2026-09-04,2026-09-04,2026-10-04,,,,,,,,,,Filed (portal acknowledgement),2026-09-04,,,overdue
+TG-032,TG,plain,RA1,True,2026-09-04,2026-09-04,2026-10-04,,,,,,,,,,Filed (portal acknowledgement),2026-09-04,,,overdue
+TG-033,TG,plain,RA3,True,2026-09-06,2026-09-06,2026-10-06,,,,,,,,,,Filed (portal acknowledgement),2026-09-06,,,overdue
+TG-034,TG,legal_salience,RA3,True,2026-09-06,2026-09-06,2026-10-06,,,,,,,,,,Filed (portal acknowledgement),2026-09-06,,,overdue
+TG-035,TG,plain,RA2,True,2026-09-04,,2026-10-04,,,,,,,,,,Filed (per RA sheet),2026-09-04,,,overdue
+TG-036,TG,plain,RA2,True,2026-09-04,,2026-10-04,,,,,,,,,,Filed (per RA sheet),2026-09-04,,,overdue
+TG-037,TG,plain,RA3,True,2026-09-06,2026-09-06,2026-10-06,,,,,,,,,,Filed (portal acknowledgement),2026-09-06,,,overdue
+TG-038,TG,plain,RA1,True,2026-09-04,2026-09-04,2026-10-04,,,,,,,,,,Filed (portal acknowledgement),2026-09-04,,,overdue
+TG-039,TG,legal_salience,RA2,True,2026-09-06,,2026-10-06,,,,,,,,,,Filed (per RA sheet),2026-09-06,,,overdue
+TG-040,TG,plain,RA4,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TG-041,TG,plain,RA1,True,2026-09-04,2026-09-04,2026-10-04,,,,,,,,,,Filed (portal acknowledgement),2026-09-04,,,overdue
+TG-042,TG,plain,RA1,True,2026-09-04,2026-09-04,2026-10-04,,,,,,,,,,Filed (portal acknowledgement),2026-09-04,,,overdue
+TG-043,TG,legal_salience,RA3,True,2026-09-16,,2026-10-16,,,,,,,,,,Filed (per RA sheet),2026-09-16,,,overdue
+TG-044,TG,plain,RA4,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TG-045,TG,plain,RA4,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TG-046,TG,legal_salience,RA4,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TG-047,TG,plain,RA4,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TG-048,TG,legal_salience,RA1,True,2026-09-04,2026-09-04,2026-10-04,,,,,,,,,,Filed (portal acknowledgement),2026-09-04,,,overdue
+TG-049,TG,plain,RA3,True,2026-09-16,2026-09-16,2026-10-16,,,,,,,,,,Filed (portal acknowledgement),2026-09-16,,,overdue
+TG-050,TG,legal_salience,RA1,True,2026-09-04,2026-09-04,2026-10-04,,,,,,,,,,Filed (portal acknowledgement),2026-09-04,,,overdue
+TG-051,TG,plain,RA2,True,2026-09-06,,2026-10-06,,,,,,,,,,Filed (per RA sheet),2026-09-06,,,overdue
+TG-052,TG,legal_salience,RA3,True,2026-09-16,2026-09-16,2026-10-16,,,,,,,,,,Filed (portal acknowledgement),2026-09-16,,,overdue
+TG-053,TG,plain,RA1,True,2026-09-04,2026-09-04,2026-10-04,,,,,,,,,,Filed (portal acknowledgement),2026-09-04,,,overdue
+TG-054,TG,plain,RA4,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TG-055,TG,plain,RA2,True,2026-09-06,,2026-10-06,,,,,,,,,,Filed (per RA sheet),2026-09-06,,,overdue
+TG-056,TG,legal_salience,RA4,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TG-057,TG,plain,RA2,True,2026-09-06,,2026-10-06,,,,,,,,,,Filed (per RA sheet),2026-09-06,,,overdue
+TG-058,TG,plain,RA2,True,2026-09-06,,2026-10-06,,,,,,,,,,Filed (per RA sheet),2026-09-06,,,overdue
+TG-059,TG,legal_salience,RA1,True,2026-09-04,2026-09-04,2026-10-04,,,,,,,,,,Filed (portal acknowledgement),2026-09-04,,,overdue
+TG-060,TG,plain,RA4,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TG-061,TG,legal_salience,RA2,True,2026-09-06,,2026-10-06,,,,,,,,,,Filed (per RA sheet),2026-09-06,,,overdue
+TG-062,TG,plain,RA4,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TG-063,TG,legal_salience,RA3,True,2026-09-16,2026-09-16,2026-10-16,,,,,,,,,,Filed (portal acknowledgement),2026-09-16,,,overdue
+TG-064,TG,plain,RA2,True,2026-09-06,,2026-10-06,,,,,,,,,,Filed (per RA sheet),2026-09-06,,,overdue
+TG-065,TG,plain,RA3,True,2026-09-16,2026-09-16,2026-10-16,,,,,,,,,,Filed (portal acknowledgement),2026-09-16,,,overdue
+TG-066,TG,plain,RA4,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TG-067,TG,plain,RA2,True,2026-09-06,,2026-10-06,,,,,,,,,,Filed (per RA sheet),2026-09-06,,,overdue
+TG-068,TG,legal_salience,RA1,True,2026-09-04,2026-09-04,2026-10-04,,,,,,,,,,Filed (portal acknowledgement),2026-09-04,,,overdue
+TG-069,TG,plain,RA3,True,2026-09-16,2026-09-16,2026-10-16,,,,,,,,,,Filed (portal acknowledgement),2026-09-16,,,overdue
+TG-070,TG,plain,RA3,True,2026-09-16,2026-09-16,2026-10-16,,,,,,,,,,Filed (portal acknowledgement),2026-09-16,,,overdue
+TG-071,TG,plain,RA4,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TG-072,TG,plain,RA3,True,2026-09-16,2026-09-16,2026-10-16,,,,,,,,,,Filed (portal acknowledgement),2026-09-16,,,overdue
+TG-073,TG,plain,RA4,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TG-074,TG,plain,RA4,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TG-075,TG,plain,RA2,True,2026-09-06,,2026-10-06,,,,,,,,,,Filed (per RA sheet),2026-09-06,,,overdue
+TG-076,TG,legal_salience,RA3,True,2026-09-16,2026-09-16,2026-10-16,,,,,,,,,,Filed (portal acknowledgement),2026-09-16,,,overdue
+TG-077,TG,plain,RA1,True,2026-09-04,2026-09-04,2026-10-04,,,,,,,,,,Filed (portal acknowledgement),2026-09-04,,,overdue
+TG-078,TG,plain,RA2,True,2026-09-06,,2026-10-06,,,,,,,,,,Filed (per RA sheet),2026-09-06,,,overdue
+TG-079,TG,plain,RA2,True,2026-09-06,,2026-10-06,,,,,,,,,,Filed (per RA sheet),2026-09-06,,,overdue
+TG-080,TG,plain,RA3,True,2026-09-16,2026-09-16,2026-10-16,,,,,,,,,,Filed (portal acknowledgement),2026-09-16,,,overdue
+TG-081,TG,plain,RA2,True,2026-09-06,,2026-10-06,,,,,,,,,,Filed (per RA sheet),2026-09-06,,,overdue
+TG-082,TG,legal_salience,RA2,True,2026-09-06,,2026-10-06,,,,,,,,,,Filed (per RA sheet),2026-09-06,,,overdue
+TG-083,TG,plain,RA1,True,2026-09-04,2026-09-04,2026-10-04,,,,,,,,,,Filed (portal acknowledgement),2026-09-04,,,overdue
+TG-084,TG,plain,RA1,True,2026-09-04,2026-09-04,2026-10-04,,,,,,,,,,Filed (portal acknowledgement),2026-09-04,,,overdue
+TG-085,TG,plain,RA3,True,2026-09-16,2026-09-16,2026-10-16,,,,,,,,,,Filed (portal acknowledgement),2026-09-16,,,overdue
+TG-086,TG,plain,RA1,True,2026-09-04,2026-09-04,2026-10-04,,,,,,,,,,Filed (portal acknowledgement),2026-09-04,,,overdue
+TG-087,TG,plain,RA1,True,2026-09-04,2026-09-04,2026-10-04,,,,,,,,,,Filed (portal acknowledgement),2026-09-04,,,overdue
+TG-088,TG,plain,RA3,True,2026-09-20,2026-09-20,2026-10-20,,,,,,,,,,Filed (portal acknowledgement),2026-09-20,,,overdue
+TG-089,TG,legal_salience,RA4,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TG-090,TG,legal_salience,RA2,True,2026-09-06,,2026-10-06,,,,,,,,,,Filed (per RA sheet),2026-09-06,,,overdue
+TG-091,TG,legal_salience,RA2,True,2026-09-06,,2026-10-06,,,,,,,,,,Filed (per RA sheet),2026-09-06,,,overdue
+TG-092,TG,legal_salience,RA1,True,2026-09-04,2026-09-04,2026-10-04,,,,,,,,,,Filed (portal acknowledgement),2026-09-04,,,overdue
+TG-093,TG,plain,RA1,True,2026-09-04,2026-09-04,2026-10-04,,,,,,,,,,Filed (portal acknowledgement),2026-09-04,,,overdue
+TG-094,TG,plain,RA1,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TG-095,TG,plain,RA2,True,2026-09-06,,2026-10-06,,,,,,,,,,Filed (per RA sheet),2026-09-06,,,overdue
+TG-096,TG,plain,RA4,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TG-097,TG,plain,RA2,True,2026-09-06,,2026-10-06,,,,,,,,,,Filed (per RA sheet),2026-09-06,,,overdue
+TG-098,TG,legal_salience,RA3,True,2026-09-20,2026-09-20,2026-10-20,,,,,,,,,,Filed (portal acknowledgement),2026-09-20,,,overdue
+TG-099,TG,plain,RA1,True,2026-09-05,2026-09-05,2026-10-05,,,,,,,,,,Filed (portal acknowledgement),2026-09-05,,,overdue
+TG-100,TG,plain,RA1,True,2026-09-05,2026-09-05,2026-10-05,,,,,,,,,,Filed (portal acknowledgement),2026-09-05,,,overdue
+TG-101,TG,legal_salience,RA2,True,2026-09-06,,2026-10-06,,,,,,,,,,Filed (per RA sheet),2026-09-06,,,overdue
+TG-102,TG,plain,RA4,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TG-103,TG,plain,RA1,True,2026-09-05,2026-09-05,2026-10-05,,,,,,,,,,Filed (portal acknowledgement),2026-09-05,,,overdue
+TG-104,TG,plain,RA1,True,2026-09-05,2026-09-05,2026-10-05,,,,,,,,,,Filed (portal acknowledgement),2026-09-05,,,overdue
+TG-105,TG,plain,RA2,True,2026-09-06,,2026-10-06,,,,,,,,,,Filed (per RA sheet),2026-09-06,,,overdue
+TG-106,TG,plain,RA4,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TG-107,TG,plain,RA2,True,2026-09-06,,2026-10-06,,,,,,,,,,Filed (per RA sheet),2026-09-06,,,overdue
+TG-108,TG,legal_salience,RA4,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TG-109,TG,legal_salience,RA3,True,2026-09-20,2026-09-20,2026-10-20,,,,,,,,,,Filed (portal acknowledgement),2026-09-20,,,overdue
+TG-110,TG,legal_salience,RA4,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TG-111,TG,plain,RA4,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TG-112,TG,plain,RA3,True,2026-09-20,2026-09-20,2026-10-20,,,,,,,,,,Filed (portal acknowledgement),2026-09-20,,,overdue
+TG-113,TG,legal_salience,RA3,True,2026-09-20,2026-09-20,2026-10-20,,,,,,,,,,Filed (portal acknowledgement),2026-09-20,,,overdue
+TG-114,TG,plain,RA4,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TG-115,TG,legal_salience,RA1,True,2026-09-05,2026-09-05,2026-10-05,,,,,,,,,,Filed (portal acknowledgement),2026-09-05,,,overdue
+TG-116,TG,legal_salience,RA3,True,2026-09-20,2026-09-20,2026-10-20,,,,,,,,,,Filed (portal acknowledgement),2026-09-20,,,overdue
+TG-117,TG,legal_salience,RA1,True,2026-09-05,2026-09-05,2026-10-05,,,,,,,,,,Filed (portal acknowledgement),2026-09-05,,,overdue
+TG-118,TG,plain,RA3,True,2026-09-20,2026-09-20,2026-10-20,,,,,,,,,,Filed (portal acknowledgement),2026-09-20,,,overdue
+TG-119,TG,plain,RA3,True,2026-09-20,2026-09-20,2026-10-20,,,,,,,,,,Filed (portal acknowledgement),2026-09-20,,,overdue
+TG-120,TG,plain,RA3,True,2026-09-20,2026-09-20,2026-10-20,,,,,,,,,,Filed (portal acknowledgement),2026-09-20,,,overdue
+TG-121,TG,plain,RA1,True,2026-09-05,2026-09-05,2026-10-05,,,,,,,,,,Filed (portal acknowledgement),2026-09-05,,,overdue
+TG-122,TG,plain,RA2,True,2026-09-06,,2026-10-06,,,,,,,,,,Filed (per RA sheet),2026-09-06,,,overdue
+TG-123,TG,legal_salience,RA4,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TG-124,TG,legal_salience,RA1,True,2026-09-05,2026-09-05,2026-10-05,,,,,,,,,,Filed (portal acknowledgement),2026-09-05,,,overdue
+TG-125,TG,plain,RA1,True,2026-09-05,2026-09-05,2026-10-05,,,,,,,,,,Filed (portal acknowledgement),2026-09-05,,,overdue
+TG-126,TG,legal_salience,RA3,True,2026-09-20,,2026-10-20,,,,,,,,,,Filed (per RA sheet),2026-09-20,,,overdue
+TG-127,TG,plain,RA4,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TG-128,TG,plain,RA2,True,2026-09-06,,2026-10-06,,,,,,,,,,Filed (per RA sheet),2026-09-06,,,overdue
+TG-129,TG,legal_salience,RA1,True,2026-09-05,2026-09-05,2026-10-05,,,,,,,,,,Filed (portal acknowledgement),2026-09-05,,,overdue
+TG-130,TG,plain,RA3,True,2026-09-20,,2026-10-20,,,,,,,,,,Filed (per RA sheet),2026-09-20,,,overdue
+TG-131,TG,plain,RA4,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TG-132,TG,plain,RA1,True,2026-09-05,2026-09-05,2026-10-05,,,,,,,,,,Filed (portal acknowledgement),2026-09-05,,,overdue
+TG-133,TG,plain,RA4,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TG-134,TG,plain,RA4,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TG-135,TG,plain,RA3,True,2026-09-20,2026-09-20,2026-10-20,,,,,,,,,,Filed (portal acknowledgement),2026-09-20,,,overdue
+TG-136,TG,legal_salience,RA2,True,2026-09-06,,2026-10-06,,,,,,,,,,Filed (per RA sheet),2026-09-06,,,overdue
+TG-137,TG,plain,RA2,True,2026-09-06,,2026-10-06,,,,,,,,,,Filed (per RA sheet),2026-09-06,,,overdue
+TG-138,TG,plain,RA2,True,2026-09-06,,2026-10-06,,,,,,,,,,Filed (per RA sheet),2026-09-06,,,overdue
+TG-139,TG,plain,RA1,True,2026-09-05,2026-09-05,2026-10-05,,,,,,,,,,Filed (portal acknowledgement),2026-09-05,,,overdue
+TG-140,TG,plain,RA2,True,2026-09-06,,2026-10-06,,,,,,,,,,Filed (per RA sheet),2026-09-06,,,overdue
+TG-141,TG,plain,RA3,True,2026-09-20,2026-09-20,2026-10-20,,,,,,,,,,Filed (portal acknowledgement),2026-09-20,,,overdue
+TG-142,TG,plain,RA1,True,2026-09-05,2026-09-05,2026-10-05,,,,,,,,,,Filed (portal acknowledgement),2026-09-05,,,overdue
+TG-143,TG,plain,RA3,True,2026-09-20,2026-09-20,2026-10-20,,,,,,,,,,Filed (portal acknowledgement),2026-09-20,,,overdue
+TG-144,TG,legal_salience,RA1,True,2026-09-05,2026-09-05,2026-10-05,,,,,,,,,,Filed (portal acknowledgement),2026-09-05,,,overdue
+TG-145,TG,plain,RA2,True,2026-09-06,,2026-10-06,,,,,,,,,,Filed (per RA sheet),2026-09-06,,,overdue
+TG-146,TG,legal_salience,RA2,True,2026-09-06,,2026-10-06,,,,,,,,,,Filed (per RA sheet),2026-09-06,,,overdue
+TG-147,TG,legal_salience,RA4,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TG-148,TG,plain,RA2,True,2026-09-06,,2026-10-06,,,,,,,,,,Filed (per RA sheet),2026-09-06,,,overdue
+TG-149,TG,legal_salience,RA4,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TG-150,TG,plain,RA1,True,2026-09-05,2026-09-05,2026-10-05,,,,,,,,,,Filed (portal acknowledgement),2026-09-05,on file and coded,,overdue
+TG-151,TG,legal_salience,RA3,True,2026-09-20,2026-09-20,2026-10-20,,,,,,,,,,Filed (portal acknowledgement),2026-09-20,,,overdue
+TG-152,TG,plain,RA1,True,2026-09-05,2026-09-05,2026-10-05,,,,,,,,,,Filed (portal acknowledgement),2026-09-05,,,overdue
+TG-153,TG,plain,RA2,True,2026-09-06,,2026-10-06,,,,,,,,,,Filed (per RA sheet),2026-09-06,,,overdue
+TG-154,TG,plain,RA4,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TG-155,TG,legal_salience,RA2,True,2026-09-07,,2026-10-07,,,,,,,,,,Filed (per RA sheet),2026-09-07,,,overdue
+TG-156,TG,legal_salience,RA3,True,2026-09-20,2026-09-20,2026-10-20,,,,,,,,,,Filed (portal acknowledgement),2026-09-20,,,overdue
+TG-157,TG,plain,RA3,True,2026-09-20,2026-09-20,2026-10-20,,,,,,,,,,Filed (portal acknowledgement),2026-09-20,,,overdue
+TG-158,TG,plain,RA1,True,2026-09-05,2026-09-05,2026-10-05,,,,,,,,,,Filed (portal acknowledgement),2026-09-05,,,overdue
+TG-159,TG,plain,RA4,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TG-160,TG,legal_salience,RA3,True,2026-09-20,2026-09-20,2026-10-20,,,,,,,,,,Filed (portal acknowledgement),2026-09-20,,,overdue
+TG-161,TG,plain,RA1,True,2026-09-05,2026-09-05,2026-10-05,,,,,,,,,,Filed (portal acknowledgement),2026-09-05,,,overdue
+TG-162,TG,plain,RA3,True,2026-09-20,2026-09-20,2026-10-20,,,,,,,,,,Filed (portal acknowledgement),2026-09-20,,,overdue
+TG-163,TG,plain,RA3,True,2026-09-20,2026-09-20,2026-10-20,,,,,,,,,,Filed (portal acknowledgement),2026-09-20,,,overdue
+TG-164,TG,plain,RA1,True,2026-09-05,2026-09-05,2026-10-05,,,,,,,,,,Filed (portal acknowledgement),2026-09-05,,,overdue
+TG-165,TG,plain,RA4,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TG-166,TG,legal_salience,RA4,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TG-167,TG,plain,RA4,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TG-168,TG,plain,RA3,True,2026-09-20,2026-09-20,2026-10-20,,,,,,,,,,Filed (portal acknowledgement),2026-09-20,,,overdue
+TG-169,TG,plain,RA2,True,2026-09-07,,2026-10-07,,,,,,,,,,Filed (per RA sheet),2026-09-07,,,overdue
+TG-170,TG,plain,RA1,True,2026-09-05,2026-09-05,2026-10-05,,,,,,,,,,Filed (portal acknowledgement),2026-09-05,,,overdue
+TG-171,TG,plain,RA3,True,2026-09-20,2026-09-20,2026-10-20,,,,,,,,,,Filed (portal acknowledgement),2026-09-20,,,overdue
+TG-172,TG,legal_salience,RA4,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TG-173,TG,plain,RA2,True,2026-09-07,,2026-10-07,,,,,,,,,,Filed (per RA sheet),2026-09-07,,,overdue
+TG-174,TG,plain,RA3,True,2026-09-20,2026-09-20,2026-10-20,,,,,,,,,,Filed (portal acknowledgement),2026-09-20,,,overdue
+TG-175,TG,plain,RA4,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TG-176,TG,plain,RA3,True,2026-09-20,2026-09-20,2026-10-20,,,,,,,,,,Filed (portal acknowledgement),2026-09-20,,,overdue
+TG-177,TG,legal_salience,RA4,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TG-178,TG,plain,RA1,True,2026-09-05,2026-09-05,2026-10-05,,,,,,,,,,Filed (portal acknowledgement),2026-09-05,,,overdue
+TG-179,TG,plain,RA3,True,2026-09-20,2026-09-20,2026-10-20,,,,,,,,,,Filed (portal acknowledgement),2026-09-20,,,overdue
+TG-180,TG,legal_salience,RA3,True,2026-09-20,2026-09-20,2026-10-20,,,,,,,,,,Filed (portal acknowledgement),2026-09-20,,,overdue
+TG-181,TG,plain,RA4,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TG-182,TG,plain,RA2,True,2026-09-07,,2026-10-07,,,,,,,,,,Filed (per RA sheet),2026-09-07,,,overdue
+TG-183,TG,plain,RA1,True,2026-09-05,2026-09-05,2026-10-05,,,,,,,,,,Filed (portal acknowledgement),2026-09-05,,,overdue
+TG-184,TG,legal_salience,RA1,True,2026-09-05,2026-09-05,2026-10-05,,,,,,,,,,Filed (portal acknowledgement),2026-09-05,,,overdue
+TG-185,TG,legal_salience,RA4,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TG-186,TG,plain,RA3,True,2026-09-20,2026-09-20,2026-10-20,,,,,,,,,,Filed (portal acknowledgement),2026-09-20,,,overdue
+TG-187,TG,plain,RA1,True,2026-09-05,2026-09-05,2026-10-05,,,,,,,,,,Filed (portal acknowledgement),2026-09-05,,,overdue
+TG-188,TG,plain,RA2,True,2026-09-07,,2026-10-07,,,,,,,,,,Filed (per RA sheet),2026-09-07,,,overdue
+TG-189,TG,legal_salience,RA3,True,2026-09-20,2026-09-20,2026-10-20,,,,,,,,,,Filed (portal acknowledgement),2026-09-20,,,overdue
+TG-190,TG,legal_salience,RA2,True,2026-09-07,,2026-10-07,,,,,,,,,,Filed (per RA sheet),2026-09-07,,,overdue
+TG-191,TG,plain,RA3,True,2026-09-20,2026-09-20,2026-10-20,,,,,,,,,,Filed (portal acknowledgement),2026-09-20,,,overdue
+TG-192,TG,plain,RA3,True,2026-09-20,2026-09-20,2026-10-20,,,,,,,,,,Filed (portal acknowledgement),2026-09-20,,,overdue
+TG-193,TG,plain,RA3,True,2026-09-20,2026-09-20,2026-10-20,,,,,,,,,,Filed (portal acknowledgement),2026-09-20,,,overdue
+TG-194,TG,legal_salience,RA2,True,2026-09-07,,2026-10-07,,,,,,,,,,Filed (per RA sheet),2026-09-07,,,overdue
+TG-195,TG,plain,RA2,True,2026-09-07,,2026-10-07,,,,,,,,,,Filed (per RA sheet),2026-09-07,,,overdue
+TG-196,TG,legal_salience,RA1,True,2026-09-05,2026-09-05,2026-10-05,,,,,,,,,,Filed (portal acknowledgement),2026-09-05,,,overdue
+TG-197,TG,plain,RA1,True,2026-09-05,2026-09-05,2026-10-05,,,,,,,,,,Filed (portal acknowledgement),2026-09-05,,,overdue
+TG-198,TG,legal_salience,RA3,True,2026-09-20,2026-09-20,2026-10-20,,,,,,,,,,Filed (portal acknowledgement),2026-09-20,,,overdue
+TG-199,TG,plain,RA4,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TG-200,TG,plain,RA1,True,2026-09-05,2026-09-05,2026-10-05,,,,,,,,,,Filed (portal acknowledgement),2026-09-05,,,overdue
+TG-201,TG,legal_salience,RA4,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TG-202,TG,legal_salience,RA1,True,2026-09-05,2026-09-05,2026-10-05,,,,,,,,,,Filed (portal acknowledgement),2026-09-05,,,overdue
+TG-203,TG,plain,RA4,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TG-204,TG,legal_salience,RA2,True,2026-09-07,,2026-10-07,,,,,,,,,,Filed (per RA sheet),2026-09-07,,,overdue
+TG-205,TG,plain,RA2,True,2026-09-07,,2026-10-07,,,,,,,,,,Filed (per RA sheet),2026-09-07,,,overdue
+TG-206,TG,legal_salience,RA3,True,2026-09-20,2026-09-20,2026-10-20,,,,,,,,,,Filed (portal acknowledgement),2026-09-20,,,overdue
+TG-207,TG,plain,RA4,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TG-208,TG,plain,RA1,True,2026-09-05,2026-09-05,2026-10-05,,,,,,,,,,Filed (portal acknowledgement),2026-09-05,,,overdue
+TG-209,TG,plain,RA3,True,2026-09-20,2026-09-20,2026-10-20,,,,,,,,,,Filed (portal acknowledgement),2026-09-20,,,overdue
+TG-210,TG,legal_salience,RA4,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TG-211,TG,plain,RA2,True,2026-09-07,,2026-10-07,,,,,,,,,,Filed (per RA sheet),2026-09-07,,,overdue
+TG-212,TG,plain,RA4,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TG-213,TG,plain,RA1,True,2026-09-05,2026-09-05,2026-10-05,,,,,,,,,,Filed (portal acknowledgement),2026-09-05,,,overdue
+TG-214,TG,legal_salience,RA2,True,2026-09-07,,2026-10-07,,,,,,,,,,Filed (per RA sheet),2026-09-07,,,overdue
+TG-215,TG,legal_salience,RA2,True,2026-09-07,,2026-10-07,,,,,,,,,,Filed (per RA sheet),2026-09-07,,,overdue
+TG-216,TG,legal_salience,RA1,True,2026-09-05,2026-09-05,2026-10-05,,,,,,,,,,Filed (portal acknowledgement),2026-09-05,,,overdue
+TG-217,TG,legal_salience,RA3,True,2026-09-20,2026-09-20,2026-10-20,,,,,,,,,,Filed (portal acknowledgement),2026-09-20,,,overdue
+TG-218,TG,legal_salience,RA1,True,2026-09-05,2026-09-05,2026-10-05,,,,,,,,,,Filed (portal acknowledgement),2026-09-05,,,overdue
+TG-219,TG,plain,RA1,True,2026-09-05,2026-09-05,2026-10-05,,,,,,,,,,Filed (portal acknowledgement),2026-09-05,,,overdue
+TG-220,TG,plain,RA2,True,2026-09-07,,2026-10-07,,,,,,,,,,Filed (per RA sheet),2026-09-07,,,overdue
+TG-221,TG,legal_salience,RA1,True,2026-09-05,2026-09-05,2026-10-05,,,,,,,,,,Filed (portal acknowledgement),2026-09-05,,,overdue
+TG-222,TG,plain,RA3,True,2026-09-20,2026-09-20,2026-10-20,,,,,,,,,,Filed (portal acknowledgement),2026-09-20,,,overdue
+TG-223,TG,legal_salience,RA2,True,2026-09-07,,2026-10-07,,,,,,,,,,Filed (per RA sheet),2026-09-07,,,overdue
+TG-224,TG,plain,RA4,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TG-225,TG,plain,RA2,True,2026-09-07,,2026-10-07,,,,,,,,,,Filed (per RA sheet),2026-09-07,,,overdue
+TG-226,TG,legal_salience,RA1,True,2026-09-05,2026-09-05,2026-10-05,,,,,,,,,,Filed (portal acknowledgement),2026-09-05,,,overdue
+TG-227,TG,plain,RA1,True,2026-09-05,2026-09-05,2026-10-05,,,,,,,,,,Filed (portal acknowledgement),2026-09-05,,,overdue
+TG-228,TG,plain,RA4,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TG-229,TG,plain,RA4,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TG-230,TG,plain,RA4,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TG-231,TG,plain,RA2,True,2026-09-07,,2026-10-07,,,,,,,,,,Filed (per RA sheet),2026-09-07,,,overdue
+TG-232,TG,plain,RA3,True,2026-09-20,2026-09-20,2026-10-20,,,,,,,2026-10-14,2026-10-14,24,Response emailed by the office,2026-10-14,on file and coded,,responded
+TG-233,TG,plain,RA1,True,2026-09-05,2026-09-05,2026-10-05,,,,,,,,,,Filed (portal acknowledgement),2026-09-05,,,overdue
+TG-234,TG,legal_salience,RA1,True,2026-09-05,2026-09-05,2026-10-05,,,,,,,,,,Filed (portal acknowledgement),2026-09-05,,,overdue
+TG-235,TG,plain,RA4,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TG-236,TG,plain,RA1,True,2026-09-05,2026-09-05,2026-10-05,,,,,,,,,,Filed (portal acknowledgement),2026-09-05,,,overdue
+TG-237,TG,plain,RA2,True,2026-09-07,,2026-10-07,,,,,,,,,,Filed (per RA sheet),2026-09-07,,,overdue
+TG-238,TG,legal_salience,RA4,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TG-239,TG,plain,RA4,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TG-240,TG,plain,RA3,True,2026-09-20,2026-09-20,2026-10-20,,,,,,,,,,Filed (portal acknowledgement),2026-09-20,,,overdue
+TG-241,TG,plain,RA1,True,2026-09-05,2026-09-05,2026-10-05,,,,,,,,,,Filed (portal acknowledgement),2026-09-05,,,overdue
+TG-242,TG,plain,RA1,True,2026-09-05,2026-09-05,2026-10-05,,,,,,,,,,Filed (portal acknowledgement),2026-09-05,,,overdue
+TG-243,TG,legal_salience,RA2,True,2026-09-07,,2026-10-07,,,,,,,,,,Filed (per RA sheet),2026-09-07,,,overdue
+TG-244,TG,legal_salience,RA4,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TG-245,TG,plain,RA1,True,2026-09-06,2026-09-06,2026-10-06,,,,,,,,,,Filed (portal acknowledgement),2026-09-06,,,overdue
+TG-246,TG,plain,RA2,True,2026-09-07,,2026-10-07,,,,,,,,,,Filed (per RA sheet),2026-09-07,,,overdue
+TG-247,TG,plain,RA1,True,2026-09-06,2026-09-06,2026-10-06,,,,,,,,,,Filed (portal acknowledgement),2026-09-06,,,overdue
+TG-248,TG,legal_salience,RA2,True,2026-09-07,,2026-10-07,,,,,,,,,,Filed (per RA sheet),2026-09-07,,,overdue
+TG-249,TG,plain,RA2,True,2026-09-07,,2026-10-07,,,,,,,,,,Filed (per RA sheet),2026-09-07,,,overdue
+TG-250,TG,legal_salience,RA4,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TG-251,TG,plain,RA2,True,2026-10-11,,2026-11-10,,,,,,,,,,Filed (per RA sheet),2026-10-11,,,awaiting
+TG-252,TG,plain,RA1,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TG-253,TG,plain,RA4,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TG-254,TG,plain,RA2,True,2026-10-18,,2026-11-17,,,,,,,,,,Filed (per RA sheet),2026-10-18,,,awaiting
+TG-255,TG,plain,RA1,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TG-256,TG,legal_salience,RA3,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TG-257,TG,plain,RA1,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TG-258,TG,legal_salience,RA3,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TG-259,TG,plain,RA4,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TG-260,TG,plain,RA2,True,2026-10-18,,2026-11-17,,,,,,,,,,Filed (per RA sheet),2026-10-18,,,awaiting
+TG-261,TG,legal_salience,RA4,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TG-262,TG,plain,RA3,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TG-263,TG,legal_salience,RA4,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TG-264,TG,plain,RA2,True,2026-10-18,,2026-11-17,,,,,,,,,,Filed (per RA sheet),2026-10-18,,,awaiting
+TG-265,TG,plain,RA1,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TG-266,TG,legal_salience,RA2,True,2026-10-18,,2026-11-17,,,,,,,,,,Filed (per RA sheet),2026-10-18,,,awaiting
+TG-267,TG,legal_salience,RA1,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TG-268,TG,plain,RA1,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TG-269,TG,plain,RA3,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TG-270,TG,plain,RA4,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TG-271,TG,plain,RA4,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TG-272,TG,plain,RA3,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TG-273,TG,plain,RA1,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TG-274,TG,plain,RA1,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TG-275,TG,plain,RA4,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TG-276,TG,legal_salience,RA1,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TG-277,TG,plain,RA1,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TG-278,TG,plain,RA4,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TG-279,TG,plain,RA3,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TG-280,TG,plain,RA1,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TG-281,TG,legal_salience,RA2,True,2026-10-18,,2026-11-17,,,,,,,,,,Filed (per RA sheet),2026-10-18,,,awaiting
+TG-282,TG,plain,RA3,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TG-283,TG,legal_salience,RA2,True,2026-10-18,,2026-11-17,,,,,,,,,,Filed (per RA sheet),2026-10-18,,,awaiting
+TG-284,TG,plain,RA2,True,2026-10-20,,2026-11-19,,,,,,,,,,Filed (per RA sheet),2026-10-20,,,awaiting
+TG-285,TG,plain,RA4,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TG-286,TG,plain,RA4,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TG-287,TG,plain,RA2,True,2026-10-20,,2026-11-19,,,,,,,,,,Filed (per RA sheet),2026-10-20,,,awaiting
+TG-288,TG,plain,RA4,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TG-289,TG,plain,RA3,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TG-290,TG,legal_salience,RA1,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TG-291,TG,plain,RA2,True,2026-10-20,,2026-11-19,,,,,,,,,,Filed (per RA sheet),2026-10-20,,,awaiting
+TG-292,TG,plain,RA2,True,2026-10-20,,2026-11-19,,,,,,,,,,Filed (per RA sheet),2026-10-20,,,awaiting
+TG-293,TG,legal_salience,RA4,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TG-294,TG,plain,RA2,True,2026-10-20,,2026-11-19,,,,,,,,,,Filed (per RA sheet),2026-10-20,,,awaiting
+TG-295,TG,plain,RA1,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TG-296,TG,legal_salience,RA1,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TG-297,TG,plain,RA4,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TG-298,TG,legal_salience,RA4,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TG-299,TG,plain,RA1,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TG-300,TG,legal_salience,RA3,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TG-301,TG,legal_salience,RA1,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TG-302,TG,legal_salience,RA4,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TG-303,TG,plain,RA3,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TG-304,TG,plain,RA1,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TG-305,TG,plain,RA1,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TG-306,TG,plain,RA2,True,2026-10-20,,2026-11-19,,,,,,,,,,Filed (per RA sheet),2026-10-20,,,awaiting
+TG-307,TG,legal_salience,RA3,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TG-308,TG,legal_salience,RA2,True,2026-10-20,,2026-11-19,,,,,,,,,,Filed (per RA sheet),2026-10-20,,,awaiting
+TG-309,TG,plain,RA3,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TG-310,TG,legal_salience,RA2,True,2026-10-20,,2026-11-19,,,,,,,,,,Filed (per RA sheet),2026-10-20,,,awaiting
+TG-311,TG,legal_salience,RA2,True,2026-10-20,,2026-11-19,,,,,,,,,,Filed (per RA sheet),2026-10-20,,,awaiting
+TG-312,TG,plain,RA4,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TG-313,TG,plain,RA3,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TG-314,TG,legal_salience,RA3,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TG-315,TG,legal_salience,RA4,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TG-316,TG,legal_salience,RA2,True,2026-10-22,,2026-11-21,,,,,,,,,,Filed (per RA sheet),2026-10-22,,,awaiting
+TG-317,TG,legal_salience,RA1,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TG-318,TG,legal_salience,RA3,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TG-319,TG,plain,RA3,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TG-320,TG,plain,RA2,True,2026-10-22,,2026-11-21,,,,,,,,,,Filed (per RA sheet),2026-10-22,,,awaiting
+TG-321,TG,plain,RA2,True,2026-10-22,,2026-11-21,,,,,,,,,,Filed (per RA sheet),2026-10-22,,,awaiting
+TG-322,TG,plain,RA4,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TG-323,TG,plain,RA4,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TG-324,TG,plain,RA3,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TG-325,TG,plain,RA4,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TG-326,TG,plain,RA1,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TG-327,TG,legal_salience,RA1,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TG-328,TG,plain,RA4,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TG-329,TG,legal_salience,RA1,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TG-330,TG,legal_salience,RA2,True,2026-10-22,,2026-11-21,,,,,,,,,,Filed (per RA sheet),2026-10-22,,,awaiting
+TG-331,TG,plain,RA2,True,2026-10-22,,2026-11-21,,,,,,,,,,Filed (per RA sheet),2026-10-22,,,awaiting
+TG-332,TG,plain,RA1,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TG-333,TG,legal_salience,RA1,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TG-334,TG,plain,RA2,True,2026-10-22,,2026-11-21,,,,,,,,,,Filed (per RA sheet),2026-10-22,,,awaiting
+TG-335,TG,plain,RA4,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TG-336,TG,plain,RA2,True,2026-10-24,,2026-11-23,,,,,,,,,,Filed (per RA sheet),2026-10-24,,,awaiting
+TG-337,TG,plain,RA3,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TG-338,TG,plain,RA3,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TG-339,TG,plain,RA1,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TG-340,TG,plain,RA1,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TG-341,TG,legal_salience,RA3,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TG-342,TG,plain,RA4,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TG-343,TG,legal_salience,RA2,True,2026-10-24,,2026-11-23,,,,,,,,,,Filed (per RA sheet),2026-10-24,,,awaiting
+TG-344,TG,plain,RA2,True,2026-10-24,,2026-11-23,,,,,,,,,,Filed (per RA sheet),2026-10-24,,,awaiting
+TG-345,TG,plain,RA3,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TG-346,TG,legal_salience,RA3,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TG-347,TG,plain,RA2,True,2026-10-24,,2026-11-23,,,,,,,,,,Filed (per RA sheet),2026-10-24,,,awaiting
+TG-348,TG,plain,RA3,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TG-349,TG,legal_salience,RA2,True,2026-10-24,,2026-11-23,,,,,,,,,,Filed (per RA sheet),2026-10-24,,,awaiting
+TG-350,TG,plain,RA3,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TG-351,TG,plain,RA1,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TG-352,TG,legal_salience,RA4,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TG-353,TG,plain,RA2,True,2026-10-24,,2026-11-23,,,,,,,,,,Filed (per RA sheet),2026-10-24,,,awaiting
+TG-354,TG,plain,RA3,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TG-355,TG,plain,RA2,True,2026-10-24,,2026-11-23,,,,,,,,,,Filed (per RA sheet),2026-10-24,,,awaiting
+TG-356,TG,plain,RA4,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TG-357,TG,plain,RA4,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TG-358,TG,plain,RA2,True,2026-10-24,,2026-11-23,,,,,,,,,,Filed (per RA sheet),2026-10-24,,,awaiting
+TG-359,TG,plain,RA2,True,2026-10-24,,2026-11-23,,,,,,,,,,Filed (per RA sheet),2026-10-24,,,awaiting
+TG-360,TG,legal_salience,RA4,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TG-361,TG,plain,RA4,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TG-362,TG,plain,RA4,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TG-363,TG,plain,RA4,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TG-364,TG,plain,RA1,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TG-365,TG,plain,RA1,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TG-366,TG,legal_salience,RA4,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TG-367,TG,plain,RA3,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TG-368,TG,plain,RA1,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TG-369,TG,plain,RA3,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TG-370,TG,legal_salience,RA1,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TG-371,TG,plain,RA3,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TG-372,TG,plain,RA3,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TG-373,TG,plain,RA1,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TG-374,TG,legal_salience,RA3,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TG-375,TG,plain,RA3,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TN-026,TN,legal_salience,RA1,True,2026-08-28,2026-08-28,2026-09-27,,,,,,,,,,Filed (portal acknowledgement),2026-08-28,,,overdue
+TN-027,TN,plain,RA2,True,2026-08-26,2026-08-26,2026-09-25,,,,,,,,,,Filed (portal acknowledgement),2026-08-26,on file and coded,,overdue
+TN-028,TN,legal_salience,RA2,True,2026-08-26,2026-08-26,2026-09-25,,,,,,,,,,Filed (portal acknowledgement),2026-08-26,,,overdue
+TN-029,TN,plain,RA1,True,2026-08-28,2026-08-28,2026-09-27,,,,2026-09-16,,,,2026-09-16,19,Disposed of (response on the portal),2026-09-16,on file and coded,,responded
+TN-030,TN,plain,RA1,True,2026-08-28,2026-08-28,2026-09-27,,,,,,,,,,Filed (portal acknowledgement),2026-08-28,,,overdue
+TN-031,TN,plain,RA4,True,2026-10-25,2026-10-25,2026-11-24,,,,,,,,,,Filed (portal acknowledgement),2026-10-25,,,awaiting
+TN-032,TN,plain,RA1,True,2026-08-28,2026-08-28,2026-09-27,,,,,,,,,,Filed (portal acknowledgement),2026-08-28,,,overdue
+TN-033,TN,plain,RA4,True,2026-10-25,2026-10-25,2026-11-24,,,,,,,,,,Filed (portal acknowledgement),2026-10-25,,,awaiting
+TN-034,TN,plain,RA3,True,2026-10-24,2026-10-24,2026-11-23,,,,,,,,,,Filed (portal acknowledgement),2026-10-24,,,awaiting
+TN-035,TN,plain,RA2,True,2026-08-26,2026-08-26,2026-09-25,,,,,,,,,,Filed (portal acknowledgement),2026-08-26,,,overdue
+TN-036,TN,plain,RA3,True,2026-10-24,,2026-11-23,,,,,,,,,,Filed (per RA sheet),2026-10-24,,,awaiting
+TN-037,TN,plain,RA3,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TN-038,TN,plain,RA2,True,2026-08-26,2026-08-26,2026-09-25,,,,,,,,,,Filed (portal acknowledgement),2026-08-26,,,overdue
+TN-039,TN,legal_salience,RA4,True,2026-10-25,2026-10-25,2026-11-24,,,,,,,,,,Filed (portal acknowledgement),2026-10-25,,,awaiting
+TN-040,TN,plain,RA1,True,2026-08-28,2026-08-28,2026-09-27,,,,,,,,,,Filed (portal acknowledgement),2026-08-28,,,overdue
+TN-041,TN,legal_salience,RA3,True,2026-10-24,,2026-11-23,,,,,,,,,,Filed (per RA sheet),2026-10-24,,,awaiting
+TN-042,TN,plain,RA1,True,2026-08-28,2026-08-28,2026-09-27,,,,,,,,,,Filed (portal acknowledgement),2026-08-28,,,overdue
+TN-043,TN,legal_salience,RA4,True,2026-10-25,2026-10-25,2026-11-24,,,,,,,,,,Filed (portal acknowledgement),2026-10-25,,,awaiting
+TN-044,TN,legal_salience,RA1,True,2026-08-28,2026-08-28,2026-09-27,,,,,,,,,,Filed (portal acknowledgement),2026-08-28,,,overdue
+TN-045,TN,plain,RA4,True,2026-10-25,2026-10-25,2026-11-24,,,,,,,,,,Filed (portal acknowledgement),2026-10-25,,,awaiting
+TN-046,TN,plain,RA4,True,2026-10-25,2026-10-25,2026-11-24,,,,,,,,,,Filed (portal acknowledgement),2026-10-25,,,awaiting
+TN-047,TN,plain,RA2,True,2026-08-26,2026-08-26,2026-09-25,,,,,,,,,,Filed (portal acknowledgement),2026-08-26,,,overdue
+TN-048,TN,legal_salience,RA1,True,2026-08-28,2026-08-28,2026-09-27,,,,2026-09-16,,,,2026-09-16,19,Disposed of (response on the portal),2026-09-16,on file and coded,,responded
+TN-049,TN,plain,RA3,True,2026-10-24,2026-10-24,2026-11-23,,,,,,,,,,Filed (portal acknowledgement),2026-10-24,,,awaiting
+TN-050,TN,legal_salience,RA3,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TN-051,TN,legal_salience,RA2,True,2026-08-26,2026-08-26,2026-09-25,,,,,,,,,,Filed (portal acknowledgement),2026-08-26,,,overdue
+TN-052,TN,legal_salience,RA2,True,2026-08-26,2026-08-26,2026-09-25,,,,,,,,,,Filed (portal acknowledgement),2026-08-26,on file and coded,,overdue
+TN-053,TN,plain,RA3,True,2026-10-24,2026-10-24,2026-11-23,,,,,,,,,,Filed (portal acknowledgement),2026-10-24,,,awaiting
+TN-054,TN,plain,RA4,True,2026-10-25,2026-10-25,2026-11-24,,,,,,,,,,Filed (portal acknowledgement),2026-10-25,,,awaiting
+TN-055,TN,plain,RA2,True,2026-08-26,2026-08-26,2026-09-25,,,,2026-09-24,,,,2026-09-24,29,Disposed of (response on the portal),2026-09-24,on file and coded,,responded
+TN-056,TN,legal_salience,RA3,True,2026-10-24,2026-10-24,2026-11-23,,,,,,,,,,Filed (portal acknowledgement),2026-10-24,,,awaiting
+TN-057,TN,legal_salience,RA1,True,2026-08-28,2026-08-28,2026-09-27,,,,,,,2026-09-19,2026-09-19,22,Response emailed by the office,2026-09-19,on file and coded,,responded
+TN-058,TN,legal_salience,RA4,True,2026-10-25,2026-10-25,2026-11-24,,,,,,,,,,Filed (portal acknowledgement),2026-10-25,,,awaiting
+TN-059,TN,legal_salience,RA3,True,2026-10-24,2026-10-24,2026-11-23,,,,,,,,,,Filed (portal acknowledgement),2026-10-24,,,awaiting
+TN-060,TN,legal_salience,RA2,True,2026-08-26,2026-08-26,2026-09-25,,,,,,,,,,Filed (portal acknowledgement),2026-08-26,,,overdue
+TN-061,TN,plain,RA4,True,2026-10-25,2026-10-25,2026-11-24,,,,,,,,,,Filed (portal acknowledgement),2026-10-25,,,awaiting
+TN-062,TN,legal_salience,RA3,True,2026-10-24,2026-10-24,2026-11-23,,,,,,,,,,Filed (portal acknowledgement),2026-10-24,,,awaiting
+TN-063,TN,plain,RA3,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TN-064,TN,plain,RA1,True,2026-08-28,2026-08-28,2026-09-27,,,,,,,,,,Filed (portal acknowledgement),2026-08-28,,,overdue
+TN-065,TN,plain,RA2,True,2026-08-26,2026-08-26,2026-09-25,,,,,,,,,,Filed (portal acknowledgement),2026-08-26,,,overdue
+TN-066,TN,plain,RA1,True,2026-08-29,2026-08-29,2026-09-28,,,,,,,,,,Filed (portal acknowledgement),2026-08-29,,,overdue
+TN-067,TN,plain,RA4,True,2026-10-25,2026-10-25,2026-11-24,,,,,,,,,,Filed (portal acknowledgement),2026-10-25,,,awaiting
+TN-068,TN,plain,RA4,True,2026-10-25,2026-10-25,2026-11-24,,,,,,,,,,Filed (portal acknowledgement),2026-10-25,,,awaiting
+TN-069,TN,plain,RA2,True,2026-08-27,2026-08-27,2026-09-26,,,,,,,,,,Filed (portal acknowledgement),2026-08-27,,,overdue
+TN-070,TN,legal_salience,RA1,True,2026-08-29,,2026-09-28,,,,,,,,,,Filed (per RA sheet),2026-08-29,,,overdue
+TN-071,TN,plain,RA3,True,2026-10-24,2026-10-24,2026-11-23,,,,,,,,,,Filed (portal acknowledgement),2026-10-24,,,awaiting
+TN-072,TN,legal_salience,RA4,True,2026-10-25,2026-10-25,2026-11-24,,,,,,,,,,Filed (portal acknowledgement),2026-10-25,,,awaiting
+TN-073,TN,plain,RA2,True,2026-08-27,2026-08-27,2026-09-26,,,,,,,,,,Filed (portal acknowledgement),2026-08-27,,,overdue
+TN-074,TN,plain,RA4,True,2026-10-25,2026-10-25,2026-11-24,,,,,,,,,,Filed (portal acknowledgement),2026-10-25,,,awaiting
+TN-075,TN,plain,RA1,True,2026-08-29,2026-08-29,2026-09-28,,,,,,,,,,Filed (portal acknowledgement),2026-08-29,,,overdue
+TN-076,TN,plain,RA3,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TN-077,TN,plain,RA2,True,2026-08-27,2026-08-27,2026-09-26,,,,,,,,,,Filed (portal acknowledgement),2026-08-27,,,overdue
+TN-078,TN,legal_salience,RA2,True,2026-08-27,2026-08-27,2026-09-26,,,,,,,,,,Filed (portal acknowledgement),2026-08-27,,,overdue
+TN-079,TN,plain,RA3,True,2026-10-28,,2026-11-27,,,,,,,,,,Filed (per RA sheet),2026-10-28,,,awaiting
+TN-080,TN,plain,RA2,True,2026-08-27,2026-08-27,2026-09-26,,,,,,,,,,Filed (portal acknowledgement),2026-08-27,,,overdue
+TN-081,TN,plain,RA1,True,2026-08-29,2026-08-29,2026-09-28,,,,,,,,,,Filed (portal acknowledgement),2026-08-29,,,overdue
+TN-082,TN,plain,RA1,True,2026-08-29,,2026-09-28,,,,,,,,,,Filed (per RA sheet),2026-08-29,,,overdue
+TN-083,TN,legal_salience,RA4,True,2026-10-25,2026-10-25,2026-11-24,,,,,,,,,,Filed (portal acknowledgement),2026-10-25,,,awaiting
+TN-084,TN,plain,RA1,True,2026-08-29,,2026-09-28,,,,,,,,,,Filed (per RA sheet),2026-08-29,,,overdue
+TN-085,TN,plain,RA4,True,2026-10-25,2026-10-25,2026-11-24,,,,,,,,,,Filed (portal acknowledgement),2026-10-25,,,awaiting
+TN-086,TN,plain,RA3,True,2026-10-28,,2026-11-27,,,,,,,,,,Filed (per RA sheet),2026-10-28,,,awaiting
+TN-087,TN,legal_salience,RA1,True,2026-08-29,2026-08-29,2026-09-28,,,,,,,,,,Filed (portal acknowledgement),2026-08-29,,,overdue
+TN-088,TN,plain,RA3,True,2026-10-28,,2026-11-27,,,,,,,,,,Filed (per RA sheet),2026-10-28,,,awaiting
+TN-089,TN,plain,RA2,True,2026-08-27,2026-08-27,2026-09-26,,,,,,,,,,Filed (portal acknowledgement),2026-08-27,,,overdue
+TN-090,TN,legal_salience,RA4,True,2026-10-25,2026-10-25,2026-11-24,,,,,,,,,,Filed (portal acknowledgement),2026-10-25,,,awaiting
+TN-091,TN,legal_salience,RA3,True,2026-10-28,,2026-11-27,,,,,,,,,,Filed (per RA sheet),2026-10-28,,,awaiting
+TN-092,TN,legal_salience,RA1,True,2026-08-29,2026-08-29,2026-09-28,,,,,,,,,,Filed (portal acknowledgement),2026-08-29,,,overdue
+TN-093,TN,plain,RA2,True,2026-08-27,2026-08-27,2026-09-26,,,,,,,,,,Filed (portal acknowledgement),2026-08-27,,,overdue
+TN-094,TN,legal_salience,RA2,True,2026-08-27,2026-08-27,2026-09-26,,,,,,,,,,Filed (portal acknowledgement),2026-08-27,,,overdue
+TN-095,TN,plain,RA4,True,2026-10-25,,2026-11-24,,,,,,,,,,Filed (per RA sheet),2026-10-25,,,awaiting
+TN-096,TN,plain,RA3,True,2026-10-28,,2026-11-27,,,,,,,,,,Filed (per RA sheet),2026-10-28,,,awaiting
+TN-097,TN,plain,RA4,True,2026-10-25,2026-10-25,2026-11-24,,,,,,,,,,Filed (portal acknowledgement),2026-10-25,,,awaiting
+TN-098,TN,legal_salience,RA3,True,2026-10-28,,2026-11-27,,,,,,,,,,Filed (per RA sheet),2026-10-28,,,awaiting
+TN-099,TN,legal_salience,RA2,True,2026-08-27,2026-08-27,2026-09-26,,,,,,,,,,Filed (portal acknowledgement),2026-08-27,,,overdue
+TN-100,TN,plain,RA2,True,2026-08-27,2026-08-27,2026-09-26,,,,,,,,,,Filed (portal acknowledgement),2026-08-27,,,overdue
+TN-1000,TN,legal_salience,RA1,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TN-1001,TN,plain,RA4,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TN-1002,TN,plain,RA3,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TN-1003,TN,plain,RA1,True,2026-10-24,2026-10-24,2026-11-23,,,,,,,,,,Filed (portal acknowledgement),2026-10-24,,,awaiting
+TN-1004,TN,legal_salience,RA3,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TN-1005,TN,legal_salience,RA3,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TN-1006,TN,plain,RA3,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TN-1007,TN,plain,RA4,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TN-1008,TN,plain,RA1,True,2026-10-24,2026-10-24,2026-11-23,,,,,,,,,,Filed (portal acknowledgement),2026-10-24,,,awaiting
+TN-1009,TN,plain,RA3,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TN-101,TN,plain,RA3,True,2026-10-28,2026-10-28,2026-11-27,,,,,,,,,,Filed (portal acknowledgement),2026-10-28,,,awaiting
+TN-1010,TN,plain,RA4,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TN-1011,TN,legal_salience,RA1,True,2026-10-24,2026-10-24,2026-11-23,,,,,,,,,,Filed (portal acknowledgement),2026-10-24,,,awaiting
+TN-1012,TN,plain,RA3,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TN-1013,TN,plain,RA3,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TN-1014,TN,plain,RA2,True,2026-10-17,2026-10-17,2026-11-16,,,,,,,,,,Filed (portal acknowledgement),2026-10-17,,,awaiting
+TN-1015,TN,plain,RA2,True,2026-10-17,2026-10-17,2026-11-16,,,,,,,,,,Filed (portal acknowledgement),2026-10-17,,,awaiting
+TN-1016,TN,legal_salience,RA4,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TN-1017,TN,plain,RA1,True,2026-10-24,2026-10-24,2026-11-23,,,,,,,,,,Filed (portal acknowledgement),2026-10-24,,,awaiting
+TN-1018,TN,plain,RA4,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TN-1019,TN,plain,RA4,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TN-102,TN,plain,RA2,True,2026-08-28,2026-08-28,2026-09-27,,,,,,,,,,Filed (portal acknowledgement),2026-08-28,,,overdue
+TN-1020,TN,plain,RA2,True,2026-10-17,2026-10-17,2026-11-16,,,,,,,,,,Filed (portal acknowledgement),2026-10-17,,,awaiting
+TN-1021,TN,plain,RA1,True,2026-10-24,2026-10-24,2026-11-23,,,,,,,,,,Filed (portal acknowledgement),2026-10-24,,,awaiting
+TN-1022,TN,legal_salience,RA2,True,2026-10-17,2026-10-17,2026-11-16,,,,,,,,,,Filed (portal acknowledgement),2026-10-17,,,awaiting
+TN-1023,TN,legal_salience,RA2,True,2026-10-17,2026-10-17,2026-11-16,,,,,,,,,,Filed (portal acknowledgement),2026-10-17,,,awaiting
+TN-1024,TN,legal_salience,RA4,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TN-1025,TN,plain,RA2,True,2026-10-17,2026-10-17,2026-11-16,,,,,,,,,,Filed (portal acknowledgement),2026-10-17,,,awaiting
+TN-103,TN,plain,RA1,True,2026-08-29,2026-08-29,2026-09-28,,,,,,,,,,Filed (portal acknowledgement),2026-08-29,,,overdue
+TN-104,TN,plain,RA4,True,2026-10-25,2026-10-25,2026-11-24,,,,,,,,,,Filed (portal acknowledgement),2026-10-25,,,awaiting
+TN-105,TN,plain,RA3,True,2026-10-28,,2026-11-27,,,,,,,,,,Filed (per RA sheet),2026-10-28,,,awaiting
+TN-106,TN,plain,RA1,True,2026-08-29,2026-08-29,2026-09-28,,,,,,,,,,Filed (portal acknowledgement),2026-08-29,,,overdue
+TN-107,TN,legal_salience,RA4,True,2026-10-25,2026-10-25,2026-11-24,,,,,,,,,,Filed (portal acknowledgement),2026-10-25,,,awaiting
+TN-108,TN,plain,RA1,True,2026-08-29,2026-08-29,2026-09-28,,,,,,,,,,Filed (portal acknowledgement),2026-08-29,,,overdue
+TN-109,TN,plain,RA4,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TN-110,TN,legal_salience,RA1,True,2026-08-29,,2026-09-28,,,,,,,,,,Filed (per RA sheet),2026-08-29,,,overdue
+TN-111,TN,plain,RA2,True,2026-08-28,2026-08-28,2026-09-27,,,,,,,,,,Filed (portal acknowledgement),2026-08-28,,,overdue
+TN-112,TN,plain,RA1,True,2026-08-29,2026-08-29,2026-09-28,,,,,,,,,,Filed (portal acknowledgement),2026-08-29,,,overdue
+TN-113,TN,legal_salience,RA2,True,2026-08-28,2026-08-28,2026-09-27,,,,,,,,,,Filed (portal acknowledgement),2026-08-28,,,overdue
+TN-114,TN,plain,RA3,True,2026-10-28,,2026-11-27,,,,,,,,,,Filed (per RA sheet),2026-10-28,,,awaiting
+TN-115,TN,legal_salience,RA2,True,2026-08-28,2026-08-28,2026-09-27,,,,,,,,,,Filed (portal acknowledgement),2026-08-28,,,overdue
+TN-116,TN,plain,RA1,True,2026-08-29,2026-08-29,2026-09-28,,,,,,,,,,Filed (portal acknowledgement),2026-08-29,,,overdue
+TN-117,TN,plain,RA4,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TN-118,TN,plain,RA3,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TN-119,TN,plain,RA4,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TN-120,TN,plain,RA4,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TN-121,TN,plain,RA1,True,2026-08-29,2026-08-29,2026-09-28,,,,,,,,,,Filed (portal acknowledgement),2026-08-29,,,overdue
+TN-122,TN,plain,RA3,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TN-123,TN,plain,RA2,True,2026-08-28,2026-08-28,2026-09-27,,,,2026-10-27,,,,2026-10-27,60,Disposed of (response on the portal),2026-10-27,download from the portal,,responded
+TN-124,TN,plain,RA3,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TN-125,TN,legal_salience,RA1,True,2026-08-29,2026-08-29,2026-09-28,,,,,,,,,,Filed (portal acknowledgement),2026-08-29,,,overdue
+TN-126,TN,legal_salience,RA4,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TN-127,TN,legal_salience,RA3,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TN-128,TN,plain,RA2,True,2026-08-28,2026-08-28,2026-09-27,,,,,,,,,,Filed (portal acknowledgement),2026-08-28,,,overdue
+TN-129,TN,plain,RA4,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TN-130,TN,legal_salience,RA4,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TN-131,TN,plain,RA2,True,2026-08-29,2026-08-29,2026-09-28,,,,,,,,,,Filed (portal acknowledgement),2026-08-29,,,overdue
+TN-132,TN,plain,RA1,True,2026-08-29,2026-08-29,2026-09-28,,,,,,,,,,Filed (portal acknowledgement),2026-08-29,,,overdue
+TN-133,TN,plain,RA1,True,2026-08-29,,2026-09-28,,,,,,,,,,Filed (per RA sheet),2026-08-29,,,overdue
+TN-134,TN,legal_salience,RA3,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TN-135,TN,legal_salience,RA1,True,2026-08-29,2026-08-29,2026-09-28,,,,,,,,,,Filed (portal acknowledgement),2026-08-29,,,overdue
+TN-136,TN,legal_salience,RA2,True,2026-08-29,2026-08-29,2026-09-28,,,,,,,,,,Filed (portal acknowledgement),2026-08-29,,,overdue
+TN-137,TN,plain,RA2,True,2026-08-29,2026-08-29,2026-09-28,,,,2026-09-28,,,,2026-09-28,30,Disposed of (response on the portal),2026-09-28,on file and coded,,responded
+TN-138,TN,legal_salience,RA3,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TN-139,TN,plain,RA4,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TN-140,TN,plain,RA2,True,2026-08-29,2026-08-29,2026-09-28,,,,,,,,,,Filed (portal acknowledgement),2026-08-29,,,overdue
+TN-141,TN,plain,RA1,True,2026-08-29,2026-08-29,2026-09-28,,,,,,,,,,Filed (portal acknowledgement),2026-08-29,,,overdue
+TN-142,TN,plain,RA2,True,2026-08-29,2026-08-29,2026-09-28,,,,,,,,,,Filed (portal acknowledgement),2026-08-29,,,overdue
+TN-143,TN,plain,RA4,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TN-144,TN,plain,RA4,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TN-145,TN,plain,RA4,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TN-146,TN,legal_salience,RA2,True,2026-08-29,,2026-09-28,,,,,,,,,,Filed (per RA sheet),2026-08-29,on file and coded,,overdue
+TN-147,TN,legal_salience,RA3,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TN-148,TN,plain,RA1,True,2026-08-31,2026-08-31,2026-09-30,,,,,,,,,,Filed (portal acknowledgement),2026-08-31,,,overdue
+TN-149,TN,plain,RA1,True,2026-08-31,,2026-09-30,,,,,,,,,,Filed (per RA sheet),2026-08-31,,,overdue
+TN-150,TN,plain,RA4,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TN-151,TN,legal_salience,RA2,True,2026-08-29,2026-08-29,2026-09-28,,,,,,,,,,Filed (portal acknowledgement),2026-08-29,on file and coded,,overdue
+TN-152,TN,plain,RA4,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TN-153,TN,plain,RA2,True,2026-08-29,2026-08-29,2026-09-28,,,,,,,,,,Filed (portal acknowledgement),2026-08-29,,,overdue
+TN-154,TN,legal_salience,RA4,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TN-155,TN,legal_salience,RA4,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TN-156,TN,legal_salience,RA3,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TN-157,TN,legal_salience,RA4,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TN-158,TN,legal_salience,RA1,True,2026-08-31,2026-08-31,2026-09-30,,,,,,,,,,Filed (portal acknowledgement),2026-08-31,,,overdue
+TN-159,TN,plain,RA3,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TN-160,TN,plain,RA2,True,2026-08-29,2026-08-29,2026-09-28,,,,,,,,,,Filed (portal acknowledgement),2026-08-29,,,overdue
+TN-161,TN,plain,RA3,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TN-162,TN,plain,RA1,True,2026-08-31,2026-08-31,2026-09-30,,,,,,,,,,Filed (portal acknowledgement),2026-08-31,,,overdue
+TN-163,TN,plain,RA3,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TN-164,TN,plain,RA3,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TN-165,TN,plain,RA3,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TN-166,TN,plain,RA2,True,2026-08-29,2026-08-29,2026-09-28,,,,,,,,,,Filed (portal acknowledgement),2026-08-29,,,overdue
+TN-167,TN,plain,RA1,True,2026-08-31,,2026-09-30,,,,,,,,,,Filed (per RA sheet),2026-08-31,,,overdue
+TN-168,TN,legal_salience,RA1,True,2026-08-31,,2026-09-30,,,,,,,,,,Filed (per RA sheet),2026-08-31,,,overdue
+TN-169,TN,plain,RA1,True,2026-08-31,2026-08-31,2026-09-30,,,,,,,,,,Filed (portal acknowledgement),2026-08-31,,,overdue
+TN-170,TN,legal_salience,RA1,True,2026-08-31,2026-08-31,2026-09-30,,,,,,,,,,Filed (portal acknowledgement),2026-08-31,,,overdue
+TN-171,TN,plain,RA3,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TN-172,TN,plain,RA2,True,2026-08-29,2026-08-29,2026-09-28,,,,,,,,,,Filed (portal acknowledgement),2026-08-29,,,overdue
+TN-173,TN,legal_salience,RA2,True,2026-08-29,2026-08-29,2026-09-28,,,,,,,2026-09-03,2026-09-03,5,Response recorded by RA,2026-09-03,on file and coded,,responded
+TN-174,TN,plain,RA1,True,2026-09-01,,2026-10-01,,,,,,,,,,Filed (per RA sheet),2026-09-01,,,overdue
+TN-175,TN,legal_salience,RA3,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TN-176,TN,plain,RA3,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TN-177,TN,plain,RA4,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TN-178,TN,plain,RA1,True,2026-09-01,2026-09-01,2026-10-01,,,,,,,,,,Filed (portal acknowledgement),2026-09-01,,,overdue
+TN-179,TN,plain,RA3,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TN-180,TN,plain,RA1,True,2026-09-01,,2026-10-01,,,,,,,,,,Filed (per RA sheet),2026-09-01,,,overdue
+TN-181,TN,plain,RA2,True,2026-08-29,2026-08-29,2026-09-28,,,,,,,,,,Filed (portal acknowledgement),2026-08-29,,,overdue
+TN-182,TN,legal_salience,RA3,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TN-183,TN,legal_salience,RA4,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TN-184,TN,plain,RA2,True,2026-08-29,2026-08-29,2026-09-28,,,,,,,,,,Filed (portal acknowledgement),2026-08-29,,,overdue
+TN-185,TN,plain,RA4,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TN-186,TN,plain,RA3,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TN-187,TN,plain,RA4,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TN-188,TN,plain,RA1,True,2026-09-01,2026-09-01,2026-10-01,,,,,,,,,,Filed (portal acknowledgement),2026-09-01,,,overdue
+TN-189,TN,legal_salience,RA1,True,2026-09-01,2026-09-01,2026-10-01,,,,,,,,,,Filed (portal acknowledgement),2026-09-01,,,overdue
+TN-190,TN,plain,RA1,True,2026-09-01,2026-09-01,2026-10-01,,,,,,,,,,Filed (portal acknowledgement),2026-09-01,,,overdue
+TN-191,TN,plain,RA3,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TN-192,TN,legal_salience,RA2,True,2026-08-29,2026-08-29,2026-09-28,,,,,,,,,,Filed (portal acknowledgement),2026-08-29,,,overdue
+TN-193,TN,legal_salience,RA4,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TN-194,TN,legal_salience,RA2,True,2026-08-29,2026-08-29,2026-09-28,,,,,,,,,,Filed (portal acknowledgement),2026-08-29,,,overdue
+TN-195,TN,plain,RA4,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TN-196,TN,plain,RA3,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TN-197,TN,legal_salience,RA1,True,2026-09-01,2026-09-01,2026-10-01,,,,,,,,,,Filed (portal acknowledgement),2026-09-01,,,overdue
+TN-198,TN,plain,RA2,True,2026-08-29,,2026-09-28,,,,,,,,,,Filed (per RA sheet),2026-08-29,,,overdue
+TN-199,TN,plain,RA4,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TN-200,TN,plain,RA2,True,2026-08-29,2026-08-29,2026-09-28,,,,,,,,,,Filed (portal acknowledgement),2026-08-29,,,overdue
+TN-201,TN,legal_salience,RA3,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TN-202,TN,plain,RA4,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TN-203,TN,plain,RA3,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TN-204,TN,plain,RA2,True,2026-08-29,2026-08-29,2026-09-30,2026-08-31,,,,,,,,,Transferred to another office (s.6(3)),2026-08-31,,,transferred
+TN-205,TN,legal_salience,RA4,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TN-206,TN,plain,RA3,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TN-207,TN,plain,RA1,True,2026-09-01,2026-09-01,2026-10-01,,,,,,,,,,Filed (portal acknowledgement),2026-09-01,,,overdue
+TN-208,TN,plain,RA2,True,2026-08-30,2026-08-30,2026-09-29,,,,,,,,,,Filed (portal acknowledgement),2026-08-30,,,overdue
+TN-209,TN,plain,RA4,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TN-210,TN,plain,RA2,True,2026-08-30,2026-08-30,2026-09-29,,,,,,,,,,Filed (portal acknowledgement),2026-08-30,,,overdue
+TN-211,TN,legal_salience,RA2,True,2026-08-30,2026-08-30,2026-09-29,,,,,,,,,,Filed (portal acknowledgement),2026-08-30,,,overdue
+TN-212,TN,plain,RA2,True,2026-08-30,2026-08-30,2026-09-29,,,,,,,,,,Filed (portal acknowledgement),2026-08-30,,,overdue
+TN-213,TN,plain,RA3,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TN-214,TN,legal_salience,RA1,True,2026-09-01,2026-09-01,2026-10-01,,,,,,,,,,Filed (portal acknowledgement),2026-09-01,,,overdue
+TN-215,TN,plain,RA1,True,2026-09-01,,2026-10-01,,,,,,,,,,Filed (per RA sheet),2026-09-01,,,overdue
+TN-216,TN,plain,RA3,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TN-217,TN,legal_salience,RA3,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TN-218,TN,plain,RA3,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TN-219,TN,legal_salience,RA4,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TN-220,TN,plain,RA4,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TN-221,TN,legal_salience,RA2,True,2026-08-30,2026-08-30,2026-09-29,,,,,,,,,,Filed (portal acknowledgement),2026-08-30,,,overdue
+TN-222,TN,plain,RA4,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TN-223,TN,plain,RA2,True,2026-08-30,2026-08-30,2026-09-29,,,,,,,,,,Filed (portal acknowledgement),2026-08-30,on file and coded,,overdue
+TN-224,TN,plain,RA1,True,2026-09-01,,2026-10-01,,,,,,,,,,Filed (per RA sheet),2026-09-01,,,overdue
+TN-225,TN,plain,RA1,True,2026-09-01,,2026-10-01,,,,,,,,,,Filed (per RA sheet),2026-09-01,,,overdue
+TN-226,TN,legal_salience,RA1,True,2026-09-01,2026-09-01,2026-10-01,,,,,,,,,,Filed (portal acknowledgement),2026-09-01,,,overdue
+TN-227,TN,plain,RA4,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TN-228,TN,legal_salience,RA3,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TN-229,TN,legal_salience,RA4,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TN-230,TN,plain,RA3,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TN-231,TN,plain,RA2,True,2026-09-02,2026-09-02,2026-10-02,,,,,,,,,,Filed (portal acknowledgement),2026-09-02,on file and coded,,overdue
+TN-232,TN,plain,RA1,True,2026-09-01,,2026-10-01,,,,2026-10-01,,,,2026-10-01,30,Disposed of (response on the portal),2026-10-01,on file and coded,,responded
+TN-233,TN,legal_salience,RA1,True,2026-09-01,2026-09-01,2026-10-01,,,,,,,,,,Filed (portal acknowledgement),2026-09-01,on file and coded,,overdue
+TN-234,TN,plain,RA1,True,2026-09-01,2026-09-01,2026-10-01,,,,,,,,,,Filed (portal acknowledgement),2026-09-01,,,overdue
+TN-235,TN,plain,RA2,True,2026-09-02,2026-09-02,2026-10-02,,,,,,,,,,Filed (portal acknowledgement),2026-09-02,,,overdue
+TN-236,TN,plain,RA1,True,2026-09-01,2026-09-01,2026-10-01,,,,,,,,,,Filed (portal acknowledgement),2026-09-01,,,overdue
+TN-237,TN,plain,RA3,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TN-238,TN,legal_salience,RA1,True,2026-09-01,2026-09-01,2026-10-01,,,,,,,,,,Filed (portal acknowledgement),2026-09-01,,,overdue
+TN-239,TN,plain,RA4,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TN-240,TN,plain,RA1,True,2026-09-01,2026-09-01,2026-10-01,,,,,,,,,,Filed (portal acknowledgement),2026-09-01,,,overdue
+TN-241,TN,legal_salience,RA4,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TN-242,TN,legal_salience,RA2,True,2026-09-02,2026-09-02,2026-10-02,,,,,,,,,,Filed (portal acknowledgement),2026-09-02,,,overdue
+TN-243,TN,plain,RA2,True,2026-09-02,2026-09-02,2026-10-02,,,,,,,,,,Filed (portal acknowledgement),2026-09-02,,,overdue
+TN-244,TN,plain,RA4,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TN-245,TN,plain,RA2,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TN-246,TN,plain,RA4,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TN-247,TN,plain,RA2,True,2026-09-02,2026-09-02,2026-10-02,,,,,,,,,,Filed (portal acknowledgement),2026-09-02,on file and coded,,overdue
+TN-248,TN,plain,RA3,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TN-249,TN,plain,RA1,True,2026-09-01,2026-09-01,2026-10-01,,,,2026-09-17,,,,2026-09-17,16,Disposed of (response on the portal),2026-09-17,on file and coded,,responded
+TN-250,TN,legal_salience,RA3,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TN-251,TN,plain,RA4,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TN-252,TN,legal_salience,RA2,True,2026-09-02,2026-09-02,2026-10-02,,,,,,,,,,Filed (portal acknowledgement),2026-09-02,,,overdue
+TN-253,TN,legal_salience,RA3,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TN-254,TN,legal_salience,RA4,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TN-255,TN,plain,RA3,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TN-256,TN,legal_salience,RA1,True,2026-09-01,2026-09-01,2026-10-01,,,,,,,,,,Filed (portal acknowledgement),2026-09-01,,,overdue
+TN-257,TN,legal_salience,RA2,True,2026-09-02,2026-09-02,2026-10-02,,,,,,,,,,Filed (portal acknowledgement),2026-09-02,,,overdue
+TN-258,TN,plain,RA3,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TN-259,TN,plain,RA4,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TN-260,TN,plain,RA1,True,2026-09-01,,2026-10-01,,,,,,,,,,Filed (per RA sheet),2026-09-01,,,overdue
+TN-261,TN,legal_salience,RA3,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TN-262,TN,legal_salience,RA3,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TN-263,TN,legal_salience,RA4,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TN-264,TN,plain,RA3,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TN-265,TN,plain,RA2,True,2026-09-02,2026-09-02,2026-10-02,,,,,,,,,,Filed (portal acknowledgement),2026-09-02,,,overdue
+TN-266,TN,legal_salience,RA2,True,2026-09-02,2026-09-02,2026-10-02,,,,,,,,,,Filed (portal acknowledgement),2026-09-02,,,overdue
+TN-267,TN,plain,RA4,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TN-268,TN,plain,RA2,True,2026-09-02,2026-09-02,2026-10-02,,,,,,,,,,Filed (portal acknowledgement),2026-09-02,,,overdue
+TN-269,TN,plain,RA3,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TN-270,TN,plain,RA2,True,2026-09-02,2026-09-02,2026-10-02,,,,,,,,,,Filed (portal acknowledgement),2026-09-02,,,overdue
+TN-271,TN,legal_salience,RA1,True,2026-09-01,,2026-10-01,,,,,,,,,,Filed (per RA sheet),2026-09-01,,,overdue
+TN-272,TN,plain,RA4,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TN-273,TN,legal_salience,RA4,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TN-274,TN,plain,RA1,True,2026-09-01,2026-09-01,2026-10-01,,,,,,,,,,Filed (portal acknowledgement),2026-09-01,,,overdue
+TN-275,TN,plain,RA3,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TN-276,TN,plain,RA1,True,2026-09-01,,2026-10-01,,,,,2026-09-24,,,2026-09-24,23,Returned to applicant (response on the portal),2026-09-24,on file and coded,,responded
+TN-277,TN,plain,RA3,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TN-278,TN,plain,RA2,True,2026-09-02,2026-09-02,2026-10-02,,,,,,,,,,Filed (portal acknowledgement),2026-09-02,,,overdue
+TN-279,TN,plain,RA4,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TN-280,TN,plain,RA1,True,2026-09-01,,2026-10-01,,,,,,,,,,Filed (per RA sheet),2026-09-01,,,overdue
+TN-281,TN,legal_salience,RA1,True,2026-09-01,2026-09-01,2026-10-01,,,,,,,,,,Filed (portal acknowledgement),2026-09-01,,,overdue
+TN-282,TN,plain,RA4,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TN-283,TN,legal_salience,RA2,True,2026-09-02,2026-09-02,2026-10-02,,2026-09-18,138,,,,2026-09-18,2026-09-18,16,Additional fee demanded (s.7(3)),2026-09-18,on file and coded,,responded
+TN-284,TN,plain,RA2,True,2026-09-02,2026-09-02,2026-10-02,,,,,,,,,,Filed (portal acknowledgement),2026-09-02,,,overdue
+TN-285,TN,plain,RA1,True,2026-09-01,,2026-10-01,,,,,,,2026-10-07,2026-10-07,36,Portal asked for the filed document again,2026-10-07,on file and coded,,responded
+TN-286,TN,legal_salience,RA4,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TN-287,TN,legal_salience,RA3,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TN-288,TN,plain,RA1,True,2026-09-01,,2026-10-01,,,,,,,,,,Filed (per RA sheet),2026-09-01,,,overdue
+TN-289,TN,plain,RA2,False,2026-10-17,,2026-11-16,,,,,,,,,,Filed (per RA sheet),2026-10-17,,,not_filed
+TN-290,TN,plain,RA2,True,2026-10-07,2026-10-07,2026-11-06,,,,,,,,,,Filed (portal acknowledgement),2026-10-07,,,awaiting
+TN-291,TN,plain,RA4,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TN-292,TN,plain,RA3,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TN-293,TN,legal_salience,RA1,True,2026-09-01,2026-09-01,2026-10-01,,,,,,,,,,Filed (portal acknowledgement),2026-09-01,,,overdue
+TN-294,TN,plain,RA2,True,2026-10-07,,2026-11-06,,,,,,,,,,Filed (per RA sheet),2026-10-07,,,awaiting
+TN-295,TN,plain,RA4,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TN-296,TN,plain,RA4,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TN-297,TN,plain,RA3,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TN-298,TN,legal_salience,RA3,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TN-299,TN,plain,RA1,True,2026-09-01,2026-09-01,2026-10-01,,,,,,,,,,Filed (portal acknowledgement),2026-09-01,,,overdue
+TN-300,TN,legal_salience,RA2,True,2026-10-07,,2026-11-06,,,,,,,,,,Filed (per RA sheet),2026-10-07,,,awaiting
+TN-301,TN,plain,RA1,True,2026-09-01,2026-09-01,2026-10-01,,,,,,,,,,Filed (portal acknowledgement),2026-09-01,,,overdue
+TN-302,TN,plain,RA4,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TN-303,TN,legal_salience,RA4,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TN-304,TN,plain,RA3,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TN-305,TN,plain,RA3,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TN-306,TN,legal_salience,RA1,True,2026-09-01,,2026-10-01,,,,,,,,,,Filed (per RA sheet),2026-09-01,,,overdue
+TN-307,TN,legal_salience,RA2,True,2026-10-07,,2026-11-06,,,,,,,,,,Filed (per RA sheet),2026-10-07,,,awaiting
+TN-308,TN,plain,RA1,True,2026-09-01,2026-09-01,2026-10-01,,,,2026-09-10,,,2026-09-10,2026-09-10,9,Response emailed by the office,2026-09-10,on file and coded,,responded
+TN-309,TN,plain,RA2,True,2026-10-07,,2026-11-06,,,,,,,,,,Filed (per RA sheet),2026-10-07,,,awaiting
+TN-310,TN,plain,RA3,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TN-311,TN,legal_salience,RA3,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TN-312,TN,plain,RA1,True,2026-09-01,2026-09-01,2026-10-01,,,,,,,,,,Filed (portal acknowledgement),2026-09-01,,,overdue
+TN-313,TN,plain,RA4,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TN-314,TN,legal_salience,RA4,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TN-315,TN,legal_salience,RA1,True,2026-09-01,2026-09-01,2026-10-01,,,,,,,,,,Filed (portal acknowledgement),2026-09-01,,,overdue
+TN-316,TN,plain,RA3,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TN-317,TN,plain,RA4,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TN-318,TN,plain,RA3,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TN-319,TN,legal_salience,RA2,True,2026-10-07,,2026-11-06,,,,,,,,,,Filed (per RA sheet),2026-10-07,,,awaiting
+TN-320,TN,legal_salience,RA2,True,2026-10-07,,2026-11-06,,,,,,,,,,Filed (per RA sheet),2026-10-07,,,awaiting
+TN-321,TN,legal_salience,RA3,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TN-322,TN,plain,RA2,True,2026-10-07,,2026-11-06,,,,,,,,,,Filed (per RA sheet),2026-10-07,,,awaiting
+TN-323,TN,plain,RA2,True,2026-10-17,2026-10-17,2026-11-16,,,,,,,,,,Filed (portal acknowledgement),2026-10-17,,,awaiting
+TN-324,TN,plain,RA2,True,2026-10-07,,2026-11-06,,,,,,,,,,Filed (per RA sheet),2026-10-07,,,awaiting
+TN-325,TN,plain,RA3,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TN-326,TN,plain,RA1,True,2026-09-01,2026-09-01,2026-10-01,,,,,,,,,,Filed (portal acknowledgement),2026-09-01,,,overdue
+TN-327,TN,plain,RA2,True,2026-10-07,2026-10-07,2026-11-06,,,,,,,,,,Filed (portal acknowledgement),2026-10-07,,,awaiting
+TN-328,TN,plain,RA1,True,2026-10-06,2026-10-06,2026-11-05,,,,,,,,,,Filed (portal acknowledgement),2026-10-06,,,awaiting
+TN-329,TN,plain,RA1,True,2026-10-06,2026-10-06,2026-11-05,,,,,,,,,,Filed (portal acknowledgement),2026-10-06,,,awaiting
+TN-330,TN,plain,RA4,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TN-331,TN,plain,RA4,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TN-332,TN,legal_salience,RA4,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TN-333,TN,plain,RA3,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TN-334,TN,legal_salience,RA1,True,2026-10-06,,2026-11-05,,,,,,,,,,Filed (per RA sheet),2026-10-06,,,awaiting
+TN-335,TN,plain,RA4,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TN-336,TN,legal_salience,RA3,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TN-337,TN,plain,RA3,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TN-338,TN,plain,RA2,True,2026-10-07,,2026-11-06,,,,,,,,,,Filed (per RA sheet),2026-10-07,,,awaiting
+TN-339,TN,plain,RA1,True,2026-10-06,,2026-11-05,,,,,,,,,,Filed (per RA sheet),2026-10-06,,,awaiting
+TN-340,TN,legal_salience,RA4,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TN-341,TN,plain,RA1,True,2026-10-06,2026-10-06,2026-11-05,,,,,,,,,,Filed (portal acknowledgement),2026-10-06,,,awaiting
+TN-342,TN,legal_salience,RA3,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TN-343,TN,plain,RA3,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TN-344,TN,plain,RA2,True,2026-10-08,2026-10-08,2026-11-07,,,,,,,,,,Filed (portal acknowledgement),2026-10-08,,,awaiting
+TN-345,TN,legal_salience,RA3,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TN-346,TN,plain,RA4,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TN-347,TN,legal_salience,RA4,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TN-348,TN,plain,RA1,True,2026-10-06,2026-10-06,2026-11-05,,,,,,,,,,Filed (portal acknowledgement),2026-10-06,,,awaiting
+TN-349,TN,plain,RA3,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TN-350,TN,legal_salience,RA2,True,2026-10-08,2026-10-08,2026-11-07,,,,,,,,,,Filed (portal acknowledgement),2026-10-08,,,awaiting
+TN-351,TN,legal_salience,RA1,True,2026-10-06,,2026-11-05,,,,,,,,,,Filed (per RA sheet),2026-10-06,,,awaiting
+TN-352,TN,legal_salience,RA4,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TN-353,TN,plain,RA1,True,2026-10-06,,2026-11-05,,,,,,,,,,Filed (per RA sheet),2026-10-06,,,awaiting
+TN-354,TN,plain,RA4,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TN-355,TN,plain,RA3,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TN-356,TN,plain,RA4,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TN-357,TN,plain,RA2,True,2026-10-08,2026-10-08,2026-11-07,,,,,,,,,,Filed (portal acknowledgement),2026-10-08,,,awaiting
+TN-358,TN,plain,RA3,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TN-359,TN,plain,RA4,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TN-360,TN,plain,RA1,True,2026-10-06,,2026-11-05,,,,,,,,,,Filed (per RA sheet),2026-10-06,,,awaiting
+TN-361,TN,legal_salience,RA2,True,2026-10-08,2026-10-08,2026-11-07,,,,,,,,,,Filed (portal acknowledgement),2026-10-08,,,awaiting
+TN-362,TN,plain,RA2,True,2026-10-08,2026-10-08,2026-11-07,,,,,,,,,,Filed (portal acknowledgement),2026-10-08,,,awaiting
+TN-363,TN,plain,RA4,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TN-364,TN,plain,RA2,True,2026-10-08,2026-10-08,2026-11-07,,,,,,,,,,Filed (portal acknowledgement),2026-10-08,,,awaiting
+TN-365,TN,legal_salience,RA1,True,2026-10-06,,2026-11-05,,,,,,,,,,Filed (per RA sheet),2026-10-06,,,awaiting
+TN-366,TN,plain,RA1,True,2026-10-06,,2026-11-05,,,,,,,,,,Filed (per RA sheet),2026-10-06,,,awaiting
+TN-367,TN,legal_salience,RA1,True,2026-10-06,,2026-11-05,,,,,,,,,,Filed (per RA sheet),2026-10-06,,,awaiting
+TN-368,TN,legal_salience,RA2,True,2026-10-08,2026-10-08,2026-11-07,,,,,,,,,,Filed (portal acknowledgement),2026-10-08,,,awaiting
+TN-369,TN,plain,RA3,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TN-370,TN,plain,RA2,True,2026-10-08,2026-10-08,2026-11-07,,,,,,,,,,Filed (portal acknowledgement),2026-10-08,,,awaiting
+TN-371,TN,plain,RA4,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TN-372,TN,plain,RA2,True,2026-10-08,2026-10-08,2026-11-07,,,,,,,,,,Filed (portal acknowledgement),2026-10-08,,,awaiting
+TN-373,TN,legal_salience,RA3,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TN-374,TN,plain,RA1,True,2026-10-06,2026-10-06,2026-11-05,,,,,,,,,,Filed (portal acknowledgement),2026-10-06,,,awaiting
+TN-375,TN,legal_salience,RA4,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TN-376,TN,legal_salience,RA2,True,2026-10-17,2026-10-17,2026-11-16,,,,,,,,,,Filed (portal acknowledgement),2026-10-17,,,awaiting
+TN-377,TN,plain,RA1,True,2026-10-06,2026-10-06,2026-11-05,,,,,,,,,,Filed (portal acknowledgement),2026-10-06,,,awaiting
+TN-378,TN,plain,RA3,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TN-379,TN,plain,RA1,True,2026-10-06,,2026-11-05,,,,,,,,,,Filed (per RA sheet),2026-10-06,,,awaiting
+TN-380,TN,plain,RA2,True,2026-10-08,,2026-11-07,,,,,,,,,,Filed (per RA sheet),2026-10-08,,,awaiting
+TN-381,TN,plain,RA4,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TN-382,TN,legal_salience,RA3,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TN-383,TN,legal_salience,RA4,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TN-384,TN,plain,RA4,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TN-385,TN,plain,RA4,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TN-386,TN,plain,RA2,True,2026-10-17,2026-10-17,2026-11-16,,,,,,,,,,Filed (portal acknowledgement),2026-10-17,,,awaiting
+TN-387,TN,plain,RA2,True,2026-10-08,,2026-11-07,,,,,,,,,,Filed (per RA sheet),2026-10-08,,,awaiting
+TN-388,TN,plain,RA3,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TN-389,TN,legal_salience,RA1,True,2026-10-06,,2026-11-05,,,,,,,,,,Filed (per RA sheet),2026-10-06,,,awaiting
+TN-390,TN,plain,RA1,True,2026-10-06,2026-10-06,2026-11-05,,,,,,,,,,Filed (portal acknowledgement),2026-10-06,,,awaiting
+TN-391,TN,plain,RA3,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TN-392,TN,plain,RA3,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TN-393,TN,legal_salience,RA1,True,2026-10-06,,2026-11-05,,,,2026-10-13,,,,2026-10-13,7,Disposed of (response on the portal),2026-10-13,on file and coded,,responded
+TN-394,TN,plain,RA1,True,2026-10-06,,2026-11-05,,,,,,,,,,Filed (per RA sheet),2026-10-06,,,awaiting
+TN-395,TN,plain,RA2,True,2026-10-08,,2026-11-07,,,,,,,,,,Filed (per RA sheet),2026-10-08,,,awaiting
+TN-396,TN,plain,RA4,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TN-397,TN,legal_salience,RA3,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TN-398,TN,plain,RA3,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TN-399,TN,plain,RA3,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TN-400,TN,plain,RA2,True,2026-10-08,,2026-11-07,,,,,,,,,,Filed (per RA sheet),2026-10-08,,,awaiting
+TN-401,TN,legal_salience,RA2,True,2026-10-08,2026-10-08,2026-11-07,,,,,,,,,,Filed (portal acknowledgement),2026-10-08,,,awaiting
+TN-402,TN,plain,RA4,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TN-403,TN,legal_salience,RA2,True,2026-10-08,2026-10-08,2026-11-07,,,,,,,,,,Filed (portal acknowledgement),2026-10-08,,,awaiting
+TN-404,TN,plain,RA2,True,2026-10-08,,2026-11-07,,,,,,,,,,Filed (per RA sheet),2026-10-08,,,awaiting
+TN-405,TN,plain,RA3,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TN-406,TN,plain,RA3,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TN-407,TN,plain,RA2,True,2026-10-08,2026-10-08,2026-11-07,,,,,,,,,,Filed (portal acknowledgement),2026-10-08,,,awaiting
+TN-408,TN,plain,RA4,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TN-409,TN,plain,RA4,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TN-410,TN,plain,RA1,True,2026-10-11,2026-10-11,2026-11-10,,,,,,,,,,Filed (portal acknowledgement),2026-10-11,,,awaiting
+TN-411,TN,plain,RA1,True,2026-10-11,2026-10-11,2026-11-10,,,,,,,,,,Filed (portal acknowledgement),2026-10-11,,,awaiting
+TN-412,TN,legal_salience,RA1,True,2026-10-11,2026-10-11,2026-11-10,,,,,,,,,,Filed (portal acknowledgement),2026-10-11,,,awaiting
+TN-413,TN,legal_salience,RA4,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TN-414,TN,plain,RA4,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TN-415,TN,plain,RA1,True,2026-10-11,2026-10-11,2026-11-10,,,,,,,,,,Filed (portal acknowledgement),2026-10-11,,,awaiting
+TN-416,TN,legal_salience,RA3,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TN-417,TN,plain,RA2,True,2026-10-08,,2026-11-07,,,,,,,,,,Filed (per RA sheet),2026-10-08,,,awaiting
+TN-418,TN,legal_salience,RA4,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TN-419,TN,plain,RA1,True,2026-10-11,2026-10-11,2026-11-10,,,,,,,,,,Filed (portal acknowledgement),2026-10-11,,,awaiting
+TN-420,TN,plain,RA3,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TN-421,TN,plain,RA2,True,2026-10-09,2026-10-09,2026-11-12,2026-10-13,,,,,,,,,Transferred to another office (s.6(3)),2026-10-13,,,transferred
+TN-422,TN,plain,RA1,True,2026-10-11,2026-10-11,2026-11-10,,,,,,,,,,Filed (portal acknowledgement),2026-10-11,,,awaiting
+TN-423,TN,plain,RA4,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TN-424,TN,legal_salience,RA1,True,2026-10-11,2026-10-11,2026-11-10,,,,,,,,,,Filed (portal acknowledgement),2026-10-11,,,awaiting
+TN-425,TN,plain,RA1,True,2026-10-11,2026-10-11,2026-11-10,,,,,,,,,,Filed (portal acknowledgement),2026-10-11,,,awaiting
+TN-426,TN,plain,RA4,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TN-427,TN,legal_salience,RA3,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TN-428,TN,plain,RA3,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TN-429,TN,legal_salience,RA1,True,2026-10-11,2026-10-11,2026-11-10,,,,,,,,,,Filed (portal acknowledgement),2026-10-11,,,awaiting
+TN-430,TN,legal_salience,RA2,True,2026-10-09,2026-10-09,2026-11-08,,,,,,,,,,Filed (portal acknowledgement),2026-10-09,,,awaiting
+TN-431,TN,plain,RA1,True,2026-10-11,2026-10-11,2026-11-10,,,,,,,,,,Filed (portal acknowledgement),2026-10-11,,,awaiting
+TN-432,TN,plain,RA3,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TN-433,TN,legal_salience,RA2,True,2026-10-09,,2026-11-08,,,,,,,,,,Filed (per RA sheet),2026-10-09,,,awaiting
+TN-434,TN,plain,RA1,True,2026-10-11,2026-10-11,2026-11-10,,,,,,,,,,Filed (portal acknowledgement),2026-10-11,,,awaiting
+TN-435,TN,legal_salience,RA4,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TN-436,TN,plain,RA2,True,2026-10-09,2026-10-09,2026-11-08,,,,,,,,,,Filed (portal acknowledgement),2026-10-09,,,awaiting
+TN-437,TN,plain,RA4,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TN-438,TN,plain,RA3,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TN-439,TN,plain,RA4,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TN-440,TN,plain,RA2,True,2026-10-09,,2026-11-08,,,,,,,,,,Filed (per RA sheet),2026-10-09,,,awaiting
+TN-441,TN,plain,RA2,True,2026-10-09,,2026-11-08,,,,,,,,,,Filed (per RA sheet),2026-10-09,,,awaiting
+TN-442,TN,legal_salience,RA3,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TN-443,TN,plain,RA3,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TN-444,TN,plain,RA4,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TN-445,TN,plain,RA1,True,2026-10-11,2026-10-11,2026-11-10,,,,,,,,,,Filed (portal acknowledgement),2026-10-11,,,awaiting
+TN-446,TN,legal_salience,RA4,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TN-447,TN,plain,RA4,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TN-448,TN,plain,RA3,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TN-449,TN,plain,RA2,True,2026-10-09,2026-10-09,2026-11-08,,,,,,,,,,Filed (portal acknowledgement),2026-10-09,,,awaiting
+TN-450,TN,plain,RA3,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TN-451,TN,plain,RA2,True,2026-10-09,,2026-11-08,,,,,,,,,,Filed (per RA sheet),2026-10-09,,,awaiting
+TN-452,TN,plain,RA4,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TN-453,TN,legal_salience,RA1,True,2026-10-11,2026-10-11,2026-11-10,,,,,,,,,,Filed (portal acknowledgement),2026-10-11,,,awaiting
+TN-454,TN,plain,RA1,True,2026-10-11,2026-10-11,2026-11-10,,,,,,,,,,Filed (portal acknowledgement),2026-10-11,,,awaiting
+TN-455,TN,legal_salience,RA2,True,2026-10-09,2026-10-09,2026-11-08,,,,,,,,,,Filed (portal acknowledgement),2026-10-09,,,awaiting
+TN-456,TN,plain,RA1,True,2026-10-11,2026-10-11,2026-11-10,,,,,,,,,,Filed (portal acknowledgement),2026-10-11,,,awaiting
+TN-457,TN,plain,RA2,True,2026-10-09,2026-10-09,2026-11-08,,,,,,,,,,Filed (portal acknowledgement),2026-10-09,,,awaiting
+TN-458,TN,plain,RA3,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TN-459,TN,legal_salience,RA3,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TN-460,TN,plain,RA4,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TN-461,TN,plain,RA1,True,2026-10-11,2026-10-11,2026-11-10,,,,,,,,,,Filed (portal acknowledgement),2026-10-11,,,awaiting
+TN-462,TN,legal_salience,RA4,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TN-463,TN,plain,RA2,True,2026-10-09,2026-10-09,2026-11-08,,,,,,,,,,Filed (portal acknowledgement),2026-10-09,,,awaiting
+TN-464,TN,plain,RA3,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TN-465,TN,plain,RA2,True,2026-10-09,2026-10-09,2026-11-08,,,,,,,,,,Filed (portal acknowledgement),2026-10-09,,,awaiting
+TN-466,TN,plain,RA1,True,2026-10-11,2026-10-11,2026-11-10,,,,,,,,,,Filed (portal acknowledgement),2026-10-11,,,awaiting
+TN-467,TN,plain,RA4,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TN-468,TN,legal_salience,RA1,True,2026-10-11,2026-10-11,2026-11-10,,,,,,,,,,Filed (portal acknowledgement),2026-10-11,,,awaiting
+TN-469,TN,plain,RA1,True,2026-10-11,2026-10-11,2026-11-10,,,,,,,,,,Portal asked for the filed document again,2026-10-23,on file and coded,,awaiting
+TN-470,TN,plain,RA2,True,2026-10-09,2026-10-09,2026-11-08,,,,,,,,,,Filed (portal acknowledgement),2026-10-09,,,awaiting
+TN-471,TN,plain,RA3,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TN-472,TN,plain,RA1,True,2026-10-15,2026-10-15,2026-11-14,,,,,,,,,,Filed (portal acknowledgement),2026-10-15,,,awaiting
+TN-473,TN,plain,RA4,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TN-474,TN,plain,RA3,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TN-475,TN,plain,RA2,True,2026-10-09,2026-10-09,2026-11-08,,,,,,,,,,Filed (portal acknowledgement),2026-10-09,,,awaiting
+TN-476,TN,legal_salience,RA1,True,2026-10-15,,2026-11-14,,,,,,,,,,Filed (per RA sheet),2026-10-15,,,awaiting
+TN-477,TN,plain,RA4,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TN-478,TN,plain,RA4,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TN-479,TN,plain,RA1,True,2026-10-15,2026-10-15,2026-11-14,,,,,,,,,,Filed (portal acknowledgement),2026-10-15,,,awaiting
+TN-480,TN,legal_salience,RA3,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TN-481,TN,legal_salience,RA2,True,2026-10-09,,2026-11-08,,,,,,,,,,Filed (per RA sheet),2026-10-09,,,awaiting
+TN-482,TN,legal_salience,RA2,True,2026-10-09,2026-10-09,2026-11-08,,,,,,,,,,Filed (portal acknowledgement),2026-10-09,,,awaiting
+TN-483,TN,plain,RA2,True,2026-10-09,2026-10-09,2026-11-08,,,,,,,,,,Filed (portal acknowledgement),2026-10-09,,,awaiting
+TN-484,TN,legal_salience,RA3,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TN-485,TN,legal_salience,RA4,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TN-486,TN,plain,RA4,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TN-487,TN,plain,RA3,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TN-488,TN,plain,RA3,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TN-489,TN,plain,RA1,True,2026-10-15,,2026-11-14,,,,,,,,,,Filed (per RA sheet),2026-10-15,,,awaiting
+TN-490,TN,plain,RA4,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TN-491,TN,plain,RA3,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TN-492,TN,plain,RA2,True,2026-10-09,2026-10-09,2026-11-08,,,,,,,,,,Filed (portal acknowledgement),2026-10-09,,,awaiting
+TN-493,TN,legal_salience,RA4,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TN-494,TN,legal_salience,RA4,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TN-495,TN,legal_salience,RA2,True,2026-10-09,,2026-11-08,,,,,,,,,,Filed (per RA sheet),2026-10-09,,,awaiting
+TN-496,TN,plain,RA4,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TN-497,TN,plain,RA1,True,2026-10-15,2026-10-15,2026-11-14,,,,,,,,,,Filed (portal acknowledgement),2026-10-15,,,awaiting
+TN-498,TN,plain,RA4,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TN-499,TN,plain,RA1,True,2026-10-15,,2026-11-14,,,,,,,,,,Filed (per RA sheet),2026-10-15,,,awaiting
+TN-500,TN,plain,RA2,True,2026-10-11,2026-10-11,2026-11-10,,,,,,,,,,Filed (portal acknowledgement),2026-10-11,,,awaiting
+TN-501,TN,plain,RA4,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TN-502,TN,legal_salience,RA4,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TN-503,TN,plain,RA3,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TN-504,TN,plain,RA1,True,2026-10-15,,2026-11-14,,,,,,,,,,Filed (per RA sheet),2026-10-15,,,awaiting
+TN-505,TN,plain,RA3,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TN-506,TN,plain,RA2,True,2026-10-11,2026-10-11,2026-11-10,,,,,,,,,,Filed (portal acknowledgement),2026-10-11,,,awaiting
+TN-507,TN,legal_salience,RA3,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TN-508,TN,plain,RA3,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TN-509,TN,legal_salience,RA1,True,2026-10-15,,2026-11-14,,,,,,,,,,Filed (per RA sheet),2026-10-15,,,awaiting
+TN-510,TN,legal_salience,RA1,True,2026-10-15,2026-10-15,2026-11-14,,,,,,,,,,Filed (portal acknowledgement),2026-10-15,,,awaiting
+TN-511,TN,plain,RA4,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TN-512,TN,plain,RA4,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TN-513,TN,plain,RA1,True,2026-10-15,,2026-11-14,,,,,,,,,,Filed (per RA sheet),2026-10-15,,,awaiting
+TN-514,TN,plain,RA1,True,2026-10-16,2026-10-16,2026-11-15,,,,,,,,,,Filed (portal acknowledgement),2026-10-16,,,awaiting
+TN-515,TN,plain,RA3,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TN-516,TN,legal_salience,RA1,True,2026-10-16,2026-10-16,2026-11-15,,,,,,,,,,Filed (portal acknowledgement),2026-10-16,,,awaiting
+TN-517,TN,legal_salience,RA2,True,2026-10-11,2026-10-11,2026-11-10,,,,,,,,,,Filed (portal acknowledgement),2026-10-11,,,awaiting
+TN-518,TN,legal_salience,RA3,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TN-519,TN,plain,RA1,True,2026-10-16,2026-10-16,2026-11-15,,,,,,,,,,Filed (portal acknowledgement),2026-10-16,,,awaiting
+TN-520,TN,plain,RA2,True,2026-10-11,2026-10-11,2026-11-10,,,,,,,,,,Filed (portal acknowledgement),2026-10-11,,,awaiting
+TN-521,TN,plain,RA3,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TN-522,TN,plain,RA2,True,2026-10-11,2026-10-11,2026-11-10,,,,,,,,,,Filed (portal acknowledgement),2026-10-11,,,awaiting
+TN-523,TN,plain,RA2,True,2026-10-11,2026-10-11,2026-11-10,,,,,,,,,,Filed (portal acknowledgement),2026-10-11,,,awaiting
+TN-524,TN,plain,RA2,True,2026-10-11,2026-10-11,2026-11-10,,,,,,,,,,Filed (portal acknowledgement),2026-10-11,,,awaiting
+TN-525,TN,legal_salience,RA2,True,2026-10-11,2026-10-11,2026-11-10,,,,,,,,,,Filed (portal acknowledgement),2026-10-11,,,awaiting
+TN-526,TN,plain,RA4,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TN-527,TN,plain,RA3,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TN-528,TN,plain,RA1,True,2026-10-16,2026-10-16,2026-11-15,,,,,,,,,,Filed (portal acknowledgement),2026-10-16,,,awaiting
+TN-529,TN,plain,RA1,True,2026-10-16,2026-10-16,2026-11-15,,,,,,,,,,Filed (portal acknowledgement),2026-10-16,,,awaiting
+TN-530,TN,plain,RA3,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TN-531,TN,plain,RA2,True,2026-10-11,2026-10-11,2026-11-10,,,,,,,,,,Filed (portal acknowledgement),2026-10-11,,,awaiting
+TN-532,TN,legal_salience,RA3,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TN-533,TN,plain,RA4,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TN-534,TN,legal_salience,RA2,True,2026-10-11,2026-10-11,2026-11-10,,,,,,,,,,Filed (portal acknowledgement),2026-10-11,,,awaiting
+TN-535,TN,legal_salience,RA3,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TN-536,TN,plain,RA3,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TN-537,TN,legal_salience,RA4,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TN-538,TN,plain,RA2,True,2026-10-11,2026-10-11,2026-11-10,,,,,,,,,,Filed (portal acknowledgement),2026-10-11,,,awaiting
+TN-539,TN,legal_salience,RA1,True,2026-10-16,2026-10-16,2026-11-15,,,,,,,,,,Filed (portal acknowledgement),2026-10-16,,,awaiting
+TN-540,TN,plain,RA1,True,2026-10-16,2026-10-16,2026-11-15,,,,,,,,,,Filed (portal acknowledgement),2026-10-16,,,awaiting
+TN-541,TN,plain,RA3,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TN-542,TN,plain,RA2,True,2026-10-11,2026-10-11,2026-11-10,,,,,,,,,,Filed (portal acknowledgement),2026-10-11,,,awaiting
+TN-543,TN,plain,RA4,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TN-544,TN,plain,RA4,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TN-545,TN,plain,RA1,True,2026-10-16,2026-10-16,2026-11-15,,,,,,,,,,Filed (portal acknowledgement),2026-10-16,,,awaiting
+TN-546,TN,legal_salience,RA4,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TN-547,TN,plain,RA3,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TN-548,TN,plain,RA2,True,2026-10-11,2026-10-11,2026-11-10,,,,,,,,,,Filed (portal acknowledgement),2026-10-11,,,awaiting
+TN-549,TN,plain,RA4,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TN-550,TN,plain,RA1,True,2026-10-16,2026-10-16,2026-11-15,,,,,,,,,,Filed (portal acknowledgement),2026-10-16,,,awaiting
+TN-551,TN,plain,RA4,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TN-552,TN,plain,RA2,True,2026-10-11,2026-10-11,2026-11-10,,,,,,,,,,Filed (portal acknowledgement),2026-10-11,,,awaiting
+TN-553,TN,plain,RA2,True,2026-10-11,2026-10-11,2026-11-10,,,,,,,,,,Filed (portal acknowledgement),2026-10-11,,,awaiting
+TN-554,TN,plain,RA1,True,2026-10-16,2026-10-16,2026-11-15,,,,,,,,,,Filed (portal acknowledgement),2026-10-16,,,awaiting
+TN-555,TN,legal_salience,RA2,True,2026-10-11,2026-10-11,2026-11-10,,,,,,,,,,Filed (portal acknowledgement),2026-10-11,,,awaiting
+TN-556,TN,plain,RA3,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TN-557,TN,plain,RA4,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TN-558,TN,plain,RA1,True,2026-10-16,2026-10-16,2026-11-15,,,,,,,,,,Filed (portal acknowledgement),2026-10-16,,,awaiting
+TN-559,TN,plain,RA2,True,2026-10-11,2026-10-11,2026-11-10,,,,,,,,,,Filed (portal acknowledgement),2026-10-11,,,awaiting
+TN-560,TN,legal_salience,RA1,True,2026-10-16,2026-10-16,2026-11-15,,,,,,,,,,Filed (portal acknowledgement),2026-10-16,,,awaiting
+TN-561,TN,plain,RA2,True,2026-10-11,,2026-11-10,,,,,,,,,,Filed (per RA sheet),2026-10-11,,,awaiting
+TN-562,TN,plain,RA1,True,2026-10-17,,2026-11-16,,,,,,,,,,Filed (per RA sheet),2026-10-17,,,awaiting
+TN-563,TN,plain,RA3,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TN-564,TN,legal_salience,RA2,True,2026-10-11,2026-10-11,2026-11-10,,,,,,,,,,Filed (portal acknowledgement),2026-10-11,,,awaiting
+TN-565,TN,legal_salience,RA4,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TN-566,TN,plain,RA4,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TN-567,TN,legal_salience,RA3,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TN-568,TN,plain,RA3,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TN-569,TN,legal_salience,RA1,True,2026-10-17,2026-10-17,2026-11-16,,,,,,,,,,Filed (portal acknowledgement),2026-10-17,,,awaiting
+TN-570,TN,plain,RA3,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TN-571,TN,plain,RA4,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TN-572,TN,legal_salience,RA3,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TN-573,TN,plain,RA1,True,2026-10-17,2026-10-17,2026-11-16,,,,,,,,,,Filed (portal acknowledgement),2026-10-17,,,awaiting
+TN-574,TN,plain,RA2,True,2026-10-11,2026-10-11,2026-11-12,2026-10-13,,,,,,,,,Transferred to another office (s.6(3)),2026-10-13,,,transferred
+TN-575,TN,plain,RA3,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TN-576,TN,plain,RA2,True,2026-10-11,,2026-11-10,,,,,,,,,,Filed (per RA sheet),2026-10-11,,,awaiting
+TN-577,TN,plain,RA1,True,2026-10-17,,2026-11-16,,,,,,,,,,Filed (per RA sheet),2026-10-17,,,awaiting
+TN-578,TN,legal_salience,RA1,True,2026-10-17,,2026-11-16,,,,,,,,,,Filed (per RA sheet),2026-10-17,,,awaiting
+TN-579,TN,plain,RA4,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TN-580,TN,legal_salience,RA2,True,2026-10-11,,2026-11-10,,,,,,,,,,Filed (per RA sheet),2026-10-11,,,awaiting
+TN-581,TN,plain,RA4,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TN-582,TN,legal_salience,RA1,True,2026-10-17,,2026-11-16,,,,,,,,,,Filed (per RA sheet),2026-10-17,,,awaiting
+TN-583,TN,plain,RA2,True,2026-10-11,2026-10-11,2026-11-10,,,,,,,,,,Filed (portal acknowledgement),2026-10-11,,,awaiting
+TN-584,TN,plain,RA4,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TN-585,TN,plain,RA3,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TN-586,TN,legal_salience,RA3,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TN-587,TN,plain,RA1,True,2026-10-17,2026-10-17,2026-11-16,,,,,,,,,,Filed (portal acknowledgement),2026-10-17,,,awaiting
+TN-588,TN,plain,RA1,True,2026-10-17,2026-10-17,2026-11-16,,,,,,,,,,Filed (portal acknowledgement),2026-10-17,,,awaiting
+TN-589,TN,plain,RA3,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TN-590,TN,legal_salience,RA4,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TN-591,TN,plain,RA4,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TN-592,TN,plain,RA1,True,,,,,,,,,,,,,,,,,awaiting
+TN-593,TN,plain,RA2,True,2026-10-11,,2026-11-10,,,,,,,,,,Filed (per RA sheet),2026-10-11,,,awaiting
+TN-594,TN,plain,RA2,True,2026-10-11,2026-10-11,2026-11-10,,,,,,,,,,Filed (portal acknowledgement),2026-10-11,,,awaiting
+TN-595,TN,legal_salience,RA4,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TN-596,TN,plain,RA4,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TN-597,TN,plain,RA3,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TN-598,TN,plain,RA3,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TN-599,TN,plain,RA1,True,2026-10-17,2026-10-17,2026-11-16,,,,,,,,,,Filed (portal acknowledgement),2026-10-17,,,awaiting
+TN-600,TN,legal_salience,RA3,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TN-601,TN,legal_salience,RA4,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TN-602,TN,legal_salience,RA2,True,2026-10-11,,2026-11-10,,,,,,,,,,Filed (per RA sheet),2026-10-11,,,awaiting
+TN-603,TN,plain,RA2,True,2026-10-11,2026-10-11,2026-11-10,,,,,,,,,,Filed (portal acknowledgement),2026-10-11,,,awaiting
+TN-604,TN,legal_salience,RA1,True,2026-10-17,2026-10-17,2026-11-16,,,,,,,,,,Filed (portal acknowledgement),2026-10-17,,,awaiting
+TN-605,TN,plain,RA3,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TN-606,TN,plain,RA4,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TN-607,TN,legal_salience,RA2,True,2026-10-11,,2026-11-10,,,,,,,,,,Filed (per RA sheet),2026-10-11,,,awaiting
+TN-608,TN,plain,RA3,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TN-609,TN,plain,RA2,True,2026-10-11,2026-10-11,2026-11-10,,,,,2026-10-27,,,2026-10-27,16,Returned to applicant (response on the portal),2026-10-27,download from the portal,,responded
+TN-610,TN,plain,RA1,True,2026-10-17,2026-10-17,2026-11-16,,,,,,,,,,Filed (portal acknowledgement),2026-10-17,,,awaiting
+TN-611,TN,plain,RA4,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TN-612,TN,legal_salience,RA3,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TN-613,TN,plain,RA1,True,2026-10-17,2026-10-17,2026-11-16,,,,,,,,,,Filed (portal acknowledgement),2026-10-17,,,awaiting
+TN-614,TN,legal_salience,RA4,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TN-615,TN,plain,RA2,True,2026-10-11,2026-10-11,2026-11-10,,,,,,,,,,Filed (portal acknowledgement),2026-10-11,,,awaiting
+TN-616,TN,legal_salience,RA3,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TN-617,TN,plain,RA3,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TN-618,TN,plain,RA4,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TN-619,TN,plain,RA2,True,2026-10-11,,2026-11-10,,,,,,,,,,Filed (per RA sheet),2026-10-11,,,awaiting
+TN-620,TN,plain,RA4,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TN-621,TN,plain,RA1,True,2026-10-17,2026-10-17,2026-11-16,,,,,,,,,,Filed (portal acknowledgement),2026-10-17,,,awaiting
+TN-622,TN,plain,RA2,True,2026-10-11,,2026-11-10,,,,,,,,,,Filed (per RA sheet),2026-10-11,,,awaiting
+TN-623,TN,plain,RA2,True,2026-10-11,2026-10-11,2026-11-10,,,,,,,,,,Filed (portal acknowledgement),2026-10-11,,,awaiting
+TN-624,TN,plain,RA3,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TN-625,TN,plain,RA4,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TN-626,TN,legal_salience,RA1,True,2026-10-17,2026-10-17,2026-11-16,,,,,,,,,,Filed (portal acknowledgement),2026-10-17,,,awaiting
+TN-627,TN,plain,RA1,True,2026-10-17,2026-10-17,2026-11-16,,,,,,,,,,Filed (portal acknowledgement),2026-10-17,,,awaiting
+TN-628,TN,plain,RA3,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TN-629,TN,legal_salience,RA2,True,2026-10-11,,2026-11-11,2026-10-12,,,,,,,,,Transferred to another office (s.6(3)),2026-10-12,,,transferred
+TN-630,TN,plain,RA3,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TN-631,TN,plain,RA4,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TN-632,TN,legal_salience,RA4,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TN-633,TN,legal_salience,RA2,True,2026-10-12,2026-10-12,2026-11-11,,,,,,,,,,Filed (portal acknowledgement),2026-10-12,,,awaiting
+TN-634,TN,plain,RA1,True,2026-10-17,2026-10-17,2026-11-16,,,,,,,,,,Filed (portal acknowledgement),2026-10-17,,,awaiting
+TN-635,TN,legal_salience,RA1,True,2026-10-17,2026-10-17,2026-11-16,,,,,,,,,,Filed (portal acknowledgement),2026-10-17,,,awaiting
+TN-636,TN,plain,RA1,True,2026-10-17,2026-10-17,2026-11-16,,,,,,,,,,Filed (portal acknowledgement),2026-10-17,,,awaiting
+TN-637,TN,plain,RA3,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TN-638,TN,legal_salience,RA3,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TN-639,TN,plain,RA2,True,2026-10-12,,2026-11-11,,,,,,,,,,Filed (per RA sheet),2026-10-12,,,awaiting
+TN-640,TN,plain,RA4,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TN-641,TN,legal_salience,RA4,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TN-642,TN,plain,RA1,True,2026-10-17,2026-10-17,2026-11-16,,,,,,,,,,Filed (portal acknowledgement),2026-10-17,,,awaiting
+TN-643,TN,plain,RA1,True,2026-10-17,,2026-11-16,,,,,,,,,,Filed (per RA sheet),2026-10-17,,,awaiting
+TN-644,TN,plain,RA2,True,2026-10-12,,2026-11-11,,,,,,,,,,Filed (per RA sheet),2026-10-12,,,awaiting
+TN-645,TN,plain,RA4,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TN-646,TN,legal_salience,RA2,True,2026-10-12,,2026-11-11,,,,,,,,,,Filed (per RA sheet),2026-10-12,,,awaiting
+TN-647,TN,legal_salience,RA4,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TN-648,TN,legal_salience,RA1,True,2026-10-17,2026-10-17,2026-11-16,,,,,,,,,,Filed (portal acknowledgement),2026-10-17,,,awaiting
+TN-649,TN,plain,RA4,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TN-650,TN,plain,RA2,True,2026-10-12,,2026-11-11,,,,,,,,,,Filed (per RA sheet),2026-10-12,,,awaiting
+TN-651,TN,plain,RA2,True,2026-10-12,2026-10-12,2026-11-11,,,,,,,,,,Filed (portal acknowledgement),2026-10-12,,,awaiting
+TN-652,TN,plain,RA4,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TN-653,TN,plain,RA3,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TN-654,TN,plain,RA3,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TN-655,TN,plain,RA1,True,2026-10-17,,2026-11-16,,,,,,,,,,Filed (per RA sheet),2026-10-17,,,awaiting
+TN-656,TN,legal_salience,RA1,True,2026-10-17,,2026-11-16,,,,,,,,,,Filed (per RA sheet),2026-10-17,,,awaiting
+TN-657,TN,plain,RA3,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TN-658,TN,plain,RA2,True,2026-10-12,,2026-11-11,,,,,,,,,,Filed (per RA sheet),2026-10-12,,,awaiting
+TN-659,TN,legal_salience,RA3,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TN-660,TN,plain,RA1,True,2026-10-17,2026-10-17,2026-11-16,,,,,,,,,,Filed (portal acknowledgement),2026-10-17,,,awaiting
+TN-661,TN,plain,RA3,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TN-662,TN,plain,RA4,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TN-663,TN,legal_salience,RA2,True,2026-10-12,,2026-11-11,,,,,,,,,,Filed (per RA sheet),2026-10-12,,,awaiting
+TN-664,TN,plain,RA3,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TN-665,TN,plain,RA3,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TN-666,TN,plain,RA4,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TN-667,TN,plain,RA2,True,2026-10-12,2026-10-12,2026-11-11,,,,,,,,,,Filed (portal acknowledgement),2026-10-12,,,awaiting
+TN-668,TN,legal_salience,RA2,True,2026-10-12,2026-10-12,2026-11-11,,,,,,,,,,Filed (portal acknowledgement),2026-10-12,,,awaiting
+TN-669,TN,plain,RA1,True,2026-10-17,2026-10-17,2026-11-16,,,,,,,,,,Filed (portal acknowledgement),2026-10-17,,,awaiting
+TN-670,TN,plain,RA2,True,2026-10-12,2026-10-12,2026-11-11,,,,,,,,,,Filed (portal acknowledgement),2026-10-12,,,awaiting
+TN-671,TN,legal_salience,RA3,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TN-672,TN,legal_salience,RA3,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TN-673,TN,plain,RA1,True,2026-10-17,2026-10-17,2026-11-16,,,,,,,,,,Filed (portal acknowledgement),2026-10-17,,,awaiting
+TN-674,TN,legal_salience,RA1,True,2026-10-17,,2026-11-16,,,,,,,,,,Filed (per RA sheet),2026-10-17,,,awaiting
+TN-675,TN,plain,RA4,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TN-676,TN,plain,RA1,True,2026-10-17,,2026-11-16,,,,,,,,,,Filed (per RA sheet),2026-10-17,,,awaiting
+TN-677,TN,legal_salience,RA4,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TN-678,TN,plain,RA3,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TN-679,TN,plain,RA1,True,2026-10-17,,2026-11-16,,,,,,,,,,Filed (per RA sheet),2026-10-17,,,awaiting
+TN-680,TN,plain,RA2,True,2026-10-12,,2026-11-11,,,,,,,,,,Filed (per RA sheet),2026-10-12,,,awaiting
+TN-681,TN,plain,RA2,True,2026-10-12,2026-10-12,2026-11-11,,,,,,,,,,Filed (portal acknowledgement),2026-10-12,,,awaiting
+TN-682,TN,plain,RA4,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TN-683,TN,plain,RA3,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TN-684,TN,plain,RA4,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TN-685,TN,plain,RA1,True,2026-10-17,2026-10-17,2026-11-22,2026-10-23,,,,,,,,,Transferred to another office (s.6(3)),2026-10-23,on file and coded,,transferred
+TN-686,TN,plain,RA2,True,2026-10-12,,2026-11-11,,,,,,,,,,Filed (per RA sheet),2026-10-12,,,awaiting
+TN-687,TN,legal_salience,RA4,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TN-688,TN,plain,RA2,True,2026-10-12,,2026-11-11,,,,,,,,,,Filed (per RA sheet),2026-10-12,,,awaiting
+TN-689,TN,plain,RA2,True,2026-10-12,,2026-11-11,,,,,,,,,,Filed (per RA sheet),2026-10-12,,,awaiting
+TN-690,TN,plain,RA3,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TN-691,TN,plain,RA3,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TN-692,TN,plain,RA3,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TN-693,TN,plain,RA3,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TN-694,TN,legal_salience,RA3,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TN-695,TN,legal_salience,RA4,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TN-696,TN,plain,RA4,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TN-697,TN,legal_salience,RA3,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TN-698,TN,plain,RA1,True,2026-10-17,,2026-11-16,,,,,,,,,,Filed (per RA sheet),2026-10-17,,,awaiting
+TN-699,TN,plain,RA1,True,2026-10-17,,2026-11-16,,,,,,,,,,Filed (per RA sheet),2026-10-17,,,awaiting
+TN-700,TN,plain,RA1,True,2026-10-17,2026-10-17,2026-11-16,,,,,,,,,,Filed (portal acknowledgement),2026-10-17,,,awaiting
+TN-701,TN,plain,RA4,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TN-702,TN,legal_salience,RA2,True,2026-10-13,,2026-11-12,,,,,,,,,,Filed (per RA sheet),2026-10-13,,,awaiting
+TN-703,TN,legal_salience,RA1,True,2026-10-17,,2026-11-16,,,,,,,,,,Filed (per RA sheet),2026-10-17,,,awaiting
+TN-704,TN,legal_salience,RA1,True,2026-10-17,2026-10-17,2026-11-16,,,,,,,,,,Filed (portal acknowledgement),2026-10-17,,,awaiting
+TN-705,TN,plain,RA4,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TN-706,TN,legal_salience,RA2,True,2026-10-13,,2026-11-12,,,,,,,,,,Filed (per RA sheet),2026-10-13,,,awaiting
+TN-707,TN,plain,RA4,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TN-708,TN,plain,RA1,True,2026-10-17,2026-10-17,2026-11-16,,,,,,,,,,Filed (portal acknowledgement),2026-10-17,,,awaiting
+TN-709,TN,plain,RA3,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TN-710,TN,plain,RA2,True,2026-10-13,,2026-11-12,,,,,,,,,,Filed (per RA sheet),2026-10-13,,,awaiting
+TN-711,TN,plain,RA2,True,2026-10-13,2026-10-13,2026-11-12,,,,,,,,,,Filed (portal acknowledgement),2026-10-13,,,awaiting
+TN-712,TN,plain,RA4,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TN-713,TN,plain,RA3,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TN-714,TN,plain,RA2,True,2026-10-13,2026-10-13,2026-11-12,,,,,,,,,,Filed (portal acknowledgement),2026-10-13,,,awaiting
+TN-715,TN,plain,RA1,True,2026-10-18,2026-10-18,2026-11-17,,,,,,,,,,Filed (portal acknowledgement),2026-10-18,,,awaiting
+TN-716,TN,legal_salience,RA4,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TN-717,TN,plain,RA4,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TN-718,TN,plain,RA2,True,2026-10-13,2026-10-13,2026-11-12,,,,,,,,,,Filed (portal acknowledgement),2026-10-13,,,awaiting
+TN-719,TN,legal_salience,RA2,True,2026-10-13,2026-10-13,2026-11-12,,,,,,,,,,Filed (portal acknowledgement),2026-10-13,,,awaiting
+TN-720,TN,plain,RA2,True,2026-10-13,,2026-11-12,,,,,,,,,,Filed (per RA sheet),2026-10-13,,,awaiting
+TN-721,TN,legal_salience,RA2,True,2026-10-13,,2026-11-12,,,,,,,,,,Filed (per RA sheet),2026-10-13,,,awaiting
+TN-722,TN,plain,RA4,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TN-723,TN,plain,RA3,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TN-724,TN,legal_salience,RA4,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TN-725,TN,plain,RA1,True,2026-10-18,2026-10-18,2026-11-17,,,,,,,,,,Filed (portal acknowledgement),2026-10-18,,,awaiting
+TN-726,TN,plain,RA3,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TN-727,TN,legal_salience,RA1,True,2026-10-18,2026-10-18,2026-11-17,,,,,,,,,,Filed (portal acknowledgement),2026-10-18,,,awaiting
+TN-728,TN,plain,RA1,True,2026-10-18,2026-10-18,2026-11-17,,,,,,,,,,Filed (portal acknowledgement),2026-10-18,,,awaiting
+TN-729,TN,plain,RA2,True,2026-10-13,,2026-11-12,,,,,,,,,,Filed (per RA sheet),2026-10-13,,,awaiting
+TN-730,TN,plain,RA1,True,2026-10-18,2026-10-18,2026-11-17,,,,,,,,,,Filed (portal acknowledgement),2026-10-18,,,awaiting
+TN-731,TN,plain,RA3,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TN-732,TN,plain,RA4,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TN-733,TN,legal_salience,RA3,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TN-734,TN,plain,RA1,True,2026-10-18,2026-10-18,2026-11-17,,,,,,,,,,Filed (portal acknowledgement),2026-10-18,,,awaiting
+TN-735,TN,legal_salience,RA4,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TN-736,TN,plain,RA2,True,2026-10-13,2026-10-13,2026-11-12,,,,,,,,,,Filed (portal acknowledgement),2026-10-13,,,awaiting
+TN-737,TN,legal_salience,RA1,True,2026-10-18,2026-10-18,2026-11-17,,,,,,,,,,Filed (portal acknowledgement),2026-10-18,,,awaiting
+TN-738,TN,legal_salience,RA3,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TN-739,TN,plain,RA4,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TN-740,TN,plain,RA3,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TN-741,TN,plain,RA1,True,2026-10-18,2026-10-18,2026-11-17,,,,2026-10-27,,,,2026-10-27,9,Disposed of (response on the portal),2026-10-27,download from the portal,,responded
+TN-742,TN,plain,RA4,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TN-743,TN,plain,RA2,True,2026-10-13,,2026-11-13,2026-10-14,,,,,,,,,Transferred to another office (s.6(3)),2026-10-14,,,transferred
+TN-744,TN,legal_salience,RA1,True,2026-10-18,2026-10-18,2026-11-17,,,,,,,,,,Filed (portal acknowledgement),2026-10-18,,,awaiting
+TN-745,TN,plain,RA1,True,2026-10-18,2026-10-18,2026-11-17,,,,,,,,,,Filed (portal acknowledgement),2026-10-18,,,awaiting
+TN-746,TN,plain,RA3,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TN-747,TN,plain,RA4,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TN-748,TN,plain,RA3,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TN-749,TN,plain,RA3,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TN-750,TN,legal_salience,RA4,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TN-751,TN,plain,RA4,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TN-752,TN,plain,RA4,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TN-753,TN,plain,RA2,True,2026-10-13,,2026-11-12,,,,,,,,,,Filed (per RA sheet),2026-10-13,,,awaiting
+TN-754,TN,legal_salience,RA1,True,2026-10-18,2026-10-18,2026-11-17,,,,,,,,,,Filed (portal acknowledgement),2026-10-18,,,awaiting
+TN-755,TN,plain,RA2,True,2026-10-13,,2026-11-12,,,,,,,,,,Filed (per RA sheet),2026-10-13,,,awaiting
+TN-756,TN,legal_salience,RA3,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TN-757,TN,legal_salience,RA2,True,2026-10-13,2026-10-13,2026-11-12,,,,,,,,,,Filed (portal acknowledgement),2026-10-13,,,awaiting
+TN-758,TN,plain,RA3,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TN-759,TN,plain,RA4,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TN-760,TN,legal_salience,RA4,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TN-761,TN,plain,RA4,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TN-762,TN,plain,RA2,True,2026-10-13,2026-10-13,2026-11-12,,,,,,,,,,Filed (portal acknowledgement),2026-10-13,,,awaiting
+TN-763,TN,plain,RA2,True,2026-10-13,2026-10-13,2026-11-12,,,,,,,,,,Filed (portal acknowledgement),2026-10-13,,,awaiting
+TN-764,TN,legal_salience,RA3,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TN-765,TN,plain,RA4,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TN-766,TN,plain,RA1,True,2026-10-18,2026-10-18,2026-11-17,,,,,,,,,,Filed (portal acknowledgement),2026-10-18,,,awaiting
+TN-767,TN,plain,RA1,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TN-768,TN,plain,RA3,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TN-769,TN,legal_salience,RA1,True,2026-10-18,2026-10-18,2026-11-17,,,,,,,,,,Filed (portal acknowledgement),2026-10-18,,,awaiting
+TN-770,TN,plain,RA3,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TN-771,TN,plain,RA3,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TN-772,TN,plain,RA3,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TN-773,TN,legal_salience,RA2,True,2026-10-13,,2026-11-12,,,,,,,,,,Filed (per RA sheet),2026-10-13,,,awaiting
+TN-774,TN,plain,RA4,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TN-775,TN,plain,RA3,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TN-776,TN,plain,RA2,True,2026-10-14,2026-10-14,2026-11-13,,,,,,,,,,Filed (portal acknowledgement),2026-10-14,,,awaiting
+TN-777,TN,plain,RA1,True,2026-10-18,,2026-11-17,,,,,,,,,,Filed (per RA sheet),2026-10-18,,,awaiting
+TN-778,TN,plain,RA4,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TN-779,TN,plain,RA1,True,2026-10-18,2026-10-18,2026-11-17,,,,,,,,,,Filed (portal acknowledgement),2026-10-18,,,awaiting
+TN-780,TN,legal_salience,RA1,True,2026-10-18,,2026-11-17,,,,,,,,,,Filed (per RA sheet),2026-10-18,,,awaiting
+TN-781,TN,plain,RA2,True,2026-10-14,,2026-11-13,,,,,,,,,,Filed (per RA sheet),2026-10-14,,,awaiting
+TN-782,TN,plain,RA4,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TN-783,TN,plain,RA2,True,2026-10-14,2026-10-14,2026-11-13,,,,,,,,,,Filed (portal acknowledgement),2026-10-14,,,awaiting
+TN-784,TN,plain,RA1,True,2026-10-18,2026-10-18,2026-11-17,,,,,,,,,,Filed (portal acknowledgement),2026-10-18,,,awaiting
+TN-785,TN,plain,RA3,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TN-786,TN,legal_salience,RA2,True,2026-10-14,2026-10-14,2026-11-13,,,,,,,,,,Filed (portal acknowledgement),2026-10-14,,,awaiting
+TN-787,TN,legal_salience,RA1,True,2026-10-18,2026-10-18,2026-11-17,,,,,,,,,,Filed (portal acknowledgement),2026-10-18,,,awaiting
+TN-788,TN,plain,RA1,True,2026-10-18,2026-10-18,2026-11-17,,,,,,,,,,Filed (portal acknowledgement),2026-10-18,,,awaiting
+TN-789,TN,plain,RA1,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TN-790,TN,plain,RA2,True,2026-10-14,2026-10-14,2026-11-13,,,,,,,,,,Filed (portal acknowledgement),2026-10-14,,,awaiting
+TN-791,TN,plain,RA2,True,2026-10-14,2026-10-14,2026-11-13,,,,,,,,,,Filed (portal acknowledgement),2026-10-14,,,awaiting
+TN-792,TN,plain,RA4,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TN-793,TN,legal_salience,RA2,True,2026-10-14,,2026-11-13,,,,,,,,,,Filed (per RA sheet),2026-10-14,,,awaiting
+TN-794,TN,legal_salience,RA1,True,2026-10-18,,2026-11-17,,,,,,,,,,Filed (per RA sheet),2026-10-18,,,awaiting
+TN-795,TN,plain,RA1,True,2026-10-18,,2026-11-17,,,,,,,,,,Filed (per RA sheet),2026-10-18,,,awaiting
+TN-796,TN,plain,RA4,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TN-797,TN,plain,RA3,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TN-798,TN,plain,RA2,True,2026-10-14,2026-10-14,2026-11-13,,,,,,,,,,Filed (portal acknowledgement),2026-10-14,,,awaiting
+TN-799,TN,plain,RA4,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TN-800,TN,plain,RA2,True,2026-10-14,2026-10-14,2026-11-13,,,,,,,,,,Filed (portal acknowledgement),2026-10-14,,,awaiting
+TN-801,TN,legal_salience,RA3,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TN-802,TN,legal_salience,RA1,True,2026-10-18,,2026-11-17,,,,,,,,,,Filed (per RA sheet),2026-10-18,,,awaiting
+TN-803,TN,plain,RA3,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TN-804,TN,plain,RA2,True,2026-10-14,2026-10-14,2026-11-13,,,,,,,,,,Filed (portal acknowledgement),2026-10-14,,,awaiting
+TN-805,TN,plain,RA1,True,2026-10-19,2026-10-19,2026-11-18,,,,,,,,,,Filed (portal acknowledgement),2026-10-19,,,awaiting
+TN-806,TN,plain,RA4,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TN-807,TN,plain,RA3,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TN-808,TN,legal_salience,RA2,True,2026-10-14,,2026-11-13,,,,,,,,,,Filed (per RA sheet),2026-10-14,,,awaiting
+TN-809,TN,legal_salience,RA2,True,2026-10-14,,2026-11-13,,,,,,,,,,Filed (per RA sheet),2026-10-14,,,awaiting
+TN-810,TN,plain,RA1,True,2026-10-19,2026-10-19,2026-11-18,,,,,,,,,,Filed (portal acknowledgement),2026-10-19,,,awaiting
+TN-811,TN,plain,RA4,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TN-812,TN,legal_salience,RA4,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TN-813,TN,plain,RA2,True,2026-10-14,,2026-11-13,,,,,,,,,,Filed (per RA sheet),2026-10-14,,,awaiting
+TN-814,TN,plain,RA3,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TN-815,TN,plain,RA2,True,2026-10-14,2026-10-14,2026-11-13,,,,,,,,,,Filed (portal acknowledgement),2026-10-14,,,awaiting
+TN-816,TN,legal_salience,RA2,True,2026-10-14,2026-10-14,2026-11-13,,,,,,,,,,Filed (portal acknowledgement),2026-10-14,,,awaiting
+TN-817,TN,plain,RA4,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TN-818,TN,plain,RA4,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TN-819,TN,plain,RA1,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TN-820,TN,plain,RA1,True,2026-10-19,2026-10-19,2026-11-18,,,,,,,,,,Filed (portal acknowledgement),2026-10-19,,,awaiting
+TN-821,TN,legal_salience,RA4,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TN-822,TN,plain,RA1,True,2026-10-19,2026-10-19,2026-11-18,,,,,,,,,,Filed (portal acknowledgement),2026-10-19,,,awaiting
+TN-823,TN,legal_salience,RA1,True,2026-10-19,2026-10-19,2026-11-18,,,,,,,,,,Filed (portal acknowledgement),2026-10-19,,,awaiting
+TN-824,TN,plain,RA2,True,2026-10-14,,2026-11-13,,,,,,,,,,Filed (per RA sheet),2026-10-14,,,awaiting
+TN-825,TN,plain,RA3,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TN-826,TN,plain,RA3,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TN-827,TN,legal_salience,RA4,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TN-828,TN,plain,RA1,True,2026-10-19,2026-10-19,2026-11-18,,,,,,,,,,Filed (portal acknowledgement),2026-10-19,,,awaiting
+TN-829,TN,plain,RA3,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TN-830,TN,legal_salience,RA3,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TN-831,TN,legal_salience,RA3,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TN-832,TN,plain,RA1,True,2026-10-19,2026-10-19,2026-11-18,,,,,,,,,,Filed (portal acknowledgement),2026-10-19,,,awaiting
+TN-833,TN,plain,RA2,True,2026-10-14,2026-10-14,2026-11-13,,,,,,,,,,Filed (portal acknowledgement),2026-10-14,,,awaiting
+TN-834,TN,plain,RA1,True,2026-10-19,2026-10-19,2026-11-18,,,,,,,,,,Filed (portal acknowledgement),2026-10-19,,,awaiting
+TN-835,TN,legal_salience,RA3,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TN-836,TN,legal_salience,RA4,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TN-837,TN,plain,RA4,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TN-838,TN,legal_salience,RA3,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TN-839,TN,legal_salience,RA4,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TN-840,TN,plain,RA2,True,2026-10-14,,2026-11-13,,,,,,,,,,Filed (per RA sheet),2026-10-14,,,awaiting
+TN-841,TN,plain,RA3,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TN-842,TN,plain,RA4,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TN-843,TN,plain,RA1,True,2026-10-19,2026-10-19,2026-11-18,,,,,,,,,,Filed (portal acknowledgement),2026-10-19,,,awaiting
+TN-844,TN,plain,RA3,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TN-845,TN,plain,RA2,True,2026-10-14,2026-10-14,2026-11-13,,,,,,,,,,Filed (portal acknowledgement),2026-10-14,,,awaiting
+TN-846,TN,legal_salience,RA2,True,2026-10-14,,2026-11-13,,,,,,,,,,Filed (per RA sheet),2026-10-14,,,awaiting
+TN-847,TN,plain,RA4,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TN-848,TN,legal_salience,RA1,True,2026-10-19,2026-10-19,2026-11-18,,,,,,,,,,Filed (portal acknowledgement),2026-10-19,,,awaiting
+TN-849,TN,plain,RA1,True,2026-10-19,2026-10-19,2026-11-18,,,,,,,,,,Filed (portal acknowledgement),2026-10-19,,,awaiting
+TN-850,TN,plain,RA1,True,2026-10-19,2026-10-19,2026-11-18,,,,,,,,,,Filed (portal acknowledgement),2026-10-19,,,awaiting
+TN-851,TN,legal_salience,RA2,True,2026-10-14,2026-10-14,2026-11-13,,,,,,,,,,Filed (portal acknowledgement),2026-10-14,,,awaiting
+TN-852,TN,plain,RA2,True,2026-10-14,2026-10-14,2026-11-13,,,,2026-10-29,,,,2026-10-29,15,Disposed of (response on the portal),2026-10-29,download from the portal,,responded
+TN-853,TN,plain,RA4,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TN-854,TN,plain,RA3,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TN-855,TN,plain,RA2,True,2026-10-14,2026-10-14,2026-11-13,,,,,,,,,,Filed (portal acknowledgement),2026-10-14,,,awaiting
+TN-856,TN,plain,RA3,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TN-857,TN,plain,RA1,True,2026-10-19,2026-10-19,2026-11-18,,,,,,,,,,Filed (portal acknowledgement),2026-10-19,,,awaiting
+TN-858,TN,legal_salience,RA4,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TN-859,TN,legal_salience,RA1,True,2026-10-19,2026-10-19,2026-11-18,,,,,,,,,,Filed (portal acknowledgement),2026-10-19,,,awaiting
+TN-860,TN,plain,RA1,True,2026-10-19,2026-10-19,2026-11-18,,,,,,,,,,Filed (portal acknowledgement),2026-10-19,,,awaiting
+TN-861,TN,plain,RA2,True,2026-10-14,,2026-11-13,,,,,,,,,,Filed (per RA sheet),2026-10-14,,,awaiting
+TN-862,TN,plain,RA3,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TN-863,TN,plain,RA4,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TN-864,TN,plain,RA4,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TN-865,TN,plain,RA2,True,2026-10-14,,2026-11-13,,,,,,,,,,Filed (per RA sheet),2026-10-14,,,awaiting
+TN-866,TN,legal_salience,RA4,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TN-867,TN,legal_salience,RA3,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TN-868,TN,plain,RA3,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TN-869,TN,plain,RA4,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TN-870,TN,legal_salience,RA3,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TN-871,TN,plain,RA1,True,2026-10-19,2026-10-19,2026-11-18,,,,,,,,,,Filed (portal acknowledgement),2026-10-19,,,awaiting
+TN-872,TN,plain,RA3,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TN-873,TN,legal_salience,RA2,True,2026-10-14,,2026-11-13,,,,,,,,,,Filed (per RA sheet),2026-10-14,,,awaiting
+TN-874,TN,plain,RA2,True,2026-10-14,,2026-11-13,,,,,,,,,,Filed (per RA sheet),2026-10-14,,,awaiting
+TN-875,TN,plain,RA4,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TN-876,TN,plain,RA2,True,2026-10-14,,2026-11-13,,,,,,,,,,Filed (per RA sheet),2026-10-14,,,awaiting
+TN-877,TN,legal_salience,RA3,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TN-878,TN,plain,RA1,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TN-879,TN,plain,RA3,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TN-880,TN,plain,RA1,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TN-881,TN,plain,RA1,True,2026-10-19,2026-10-19,2026-11-18,,,,,,,,,,Filed (portal acknowledgement),2026-10-19,,,awaiting
+TN-882,TN,plain,RA4,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TN-883,TN,legal_salience,RA3,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TN-884,TN,plain,RA4,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TN-885,TN,plain,RA2,True,2026-10-14,2026-10-14,2026-11-13,,,,,,,,,,Filed (portal acknowledgement),2026-10-14,,,awaiting
+TN-886,TN,legal_salience,RA1,True,2026-10-19,2026-10-19,2026-11-18,,,,,,,,,,Filed (portal acknowledgement),2026-10-19,,,awaiting
+TN-887,TN,plain,RA2,True,2026-10-14,,2026-11-13,,,,,,,,,,Filed (per RA sheet),2026-10-14,,,awaiting
+TN-888,TN,legal_salience,RA2,True,2026-10-14,,2026-11-13,,,,,,,,,,Filed (per RA sheet),2026-10-14,,,awaiting
+TN-889,TN,plain,RA4,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TN-890,TN,plain,RA3,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TN-891,TN,plain,RA2,True,2026-10-14,2026-10-14,2026-11-13,,,,,,,,,,Filed (portal acknowledgement),2026-10-14,,,awaiting
+TN-892,TN,legal_salience,RA4,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TN-893,TN,plain,RA3,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TN-894,TN,plain,RA1,True,2026-10-19,,2026-11-18,,,,,,,,,,Filed (per RA sheet),2026-10-19,,,awaiting
+TN-895,TN,plain,RA4,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TN-896,TN,plain,RA1,True,2026-10-19,,2026-11-18,,,,,,,,,,Filed (per RA sheet),2026-10-19,,,awaiting
+TN-897,TN,legal_salience,RA1,True,2026-10-19,2026-10-19,2026-11-18,,,,,,,,,,Filed (portal acknowledgement),2026-10-19,,,awaiting
+TN-898,TN,plain,RA3,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TN-899,TN,legal_salience,RA4,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TN-900,TN,plain,RA2,False,2026-10-14,,2026-11-13,,,,,,,,,,Filed (per RA sheet),2026-10-14,,,not_filed
+TN-901,TN,plain,RA4,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TN-902,TN,plain,RA3,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TN-903,TN,plain,RA1,True,2026-10-19,2026-10-19,2026-11-18,,,,,,,,,,Filed (portal acknowledgement),2026-10-19,,,awaiting
+TN-904,TN,legal_salience,RA2,True,2026-10-14,,2026-11-13,,,,,,,,,,Filed (per RA sheet),2026-10-14,,,awaiting
+TN-905,TN,plain,RA2,True,2026-10-15,2026-10-15,2026-11-14,,,,,,,,,,Filed (portal acknowledgement),2026-10-15,,,awaiting
+TN-906,TN,plain,RA1,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TN-907,TN,legal_salience,RA2,True,2026-10-15,,2026-11-14,,,,,,,,,,Filed (per RA sheet),2026-10-15,,,awaiting
+TN-908,TN,plain,RA4,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TN-909,TN,plain,RA2,True,2026-10-15,,2026-11-14,,,,,,,,,,Filed (per RA sheet),2026-10-15,,,awaiting
+TN-910,TN,plain,RA1,True,2026-10-19,,2026-11-18,,,,,,,,,,Filed (per RA sheet),2026-10-19,,,awaiting
+TN-911,TN,plain,RA4,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TN-912,TN,plain,RA3,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TN-913,TN,plain,RA2,True,2026-10-15,,2026-11-14,,,,,,,,,,Filed (per RA sheet),2026-10-15,,,awaiting
+TN-914,TN,legal_salience,RA3,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TN-915,TN,plain,RA3,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TN-916,TN,plain,RA4,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TN-917,TN,plain,RA3,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TN-918,TN,legal_salience,RA4,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TN-919,TN,legal_salience,RA1,True,2026-10-19,,2026-11-18,,,,,,,,,,Filed (per RA sheet),2026-10-19,,,awaiting
+TN-920,TN,plain,RA1,True,2026-10-19,,2026-11-18,,,,,,,,,,Filed (per RA sheet),2026-10-19,,,awaiting
+TN-921,TN,plain,RA4,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TN-922,TN,plain,RA3,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TN-923,TN,plain,RA2,True,2026-10-15,,2026-11-14,,,,,,,,,,Filed (per RA sheet),2026-10-15,,,awaiting
+TN-924,TN,legal_salience,RA3,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TN-925,TN,legal_salience,RA4,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TN-926,TN,plain,RA1,True,2026-10-19,,2026-11-20,2026-10-21,,,,,,,,,Transferred to another office (s.6(3)),2026-10-21,on file and coded,,transferred
+TN-927,TN,legal_salience,RA1,True,2026-10-19,2026-10-19,2026-11-18,,,,,,,,,,Filed (portal acknowledgement),2026-10-19,,,awaiting
+TN-928,TN,plain,RA2,True,2026-10-15,2026-10-15,2026-11-14,,,,,,,,,,Filed (portal acknowledgement),2026-10-15,,,awaiting
+TN-929,TN,plain,RA3,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TN-930,TN,plain,RA4,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TN-931,TN,plain,RA3,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TN-932,TN,legal_salience,RA2,True,2026-10-15,2026-10-15,2026-11-14,,,,,,,,,,Filed (portal acknowledgement),2026-10-15,,,awaiting
+TN-933,TN,plain,RA2,True,2026-10-15,,2026-11-14,,,,,,,,,,Filed (per RA sheet),2026-10-15,,,awaiting
+TN-934,TN,plain,RA4,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TN-935,TN,plain,RA4,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TN-936,TN,plain,RA2,True,2026-10-15,,2026-11-14,,,,,,,,,,Filed (per RA sheet),2026-10-15,,,awaiting
+TN-937,TN,plain,RA2,True,2026-10-15,2026-10-15,2026-11-14,,,,,,,,,,Filed (portal acknowledgement),2026-10-15,,,awaiting
+TN-938,TN,plain,RA3,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TN-939,TN,plain,RA1,True,2026-10-19,2026-10-19,2026-11-18,,,,,,,,,,Filed (portal acknowledgement),2026-10-19,,,awaiting
+TN-940,TN,plain,RA3,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TN-941,TN,legal_salience,RA1,True,2026-10-19,2026-10-19,2026-11-20,2026-10-21,,,,,,,,,Transferred to another office (s.6(3)),2026-10-21,on file and coded,,transferred
+TN-942,TN,plain,RA1,True,2026-10-19,2026-10-19,2026-11-18,,,,,,,,,,Filed (portal acknowledgement),2026-10-19,,,awaiting
+TN-943,TN,legal_salience,RA4,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TN-944,TN,plain,RA2,True,2026-10-15,2026-10-15,2026-11-14,,,,,,,,,,Filed (portal acknowledgement),2026-10-15,,,awaiting
+TN-945,TN,legal_salience,RA3,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TN-946,TN,plain,RA3,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TN-947,TN,legal_salience,RA2,True,2026-10-15,2026-10-15,2026-11-14,,,,,,,,,,Filed (portal acknowledgement),2026-10-15,,,awaiting
+TN-948,TN,plain,RA1,True,2026-10-19,2026-10-19,2026-11-18,,,,,,,,,,Filed (portal acknowledgement),2026-10-19,,,awaiting
+TN-949,TN,plain,RA1,True,2026-10-19,2026-10-19,2026-11-19,2026-10-20,,,,,,,,,Transferred to another office (s.6(3)),2026-10-20,on file and coded,,transferred
+TN-950,TN,plain,RA4,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TN-951,TN,legal_salience,RA3,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TN-952,TN,plain,RA4,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TN-953,TN,plain,RA1,True,2026-10-24,2026-10-24,2026-11-23,,,,,,,,,,Filed (portal acknowledgement),2026-10-24,,,awaiting
+TN-954,TN,legal_salience,RA3,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TN-955,TN,plain,RA3,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TN-956,TN,plain,RA1,True,2026-10-24,,2026-11-23,,,,,,,,,,Filed (per RA sheet),2026-10-24,,,awaiting
+TN-957,TN,legal_salience,RA2,True,2026-10-15,2026-10-15,2026-11-14,,,,,,,,,,Filed (portal acknowledgement),2026-10-15,,,awaiting
+TN-958,TN,plain,RA4,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TN-959,TN,plain,RA2,True,2026-10-15,2026-10-15,2026-11-14,,,,,,,,,,Filed (portal acknowledgement),2026-10-15,,,awaiting
+TN-960,TN,plain,RA4,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TN-961,TN,plain,RA1,True,2026-10-19,,2026-11-18,,,,,,,,,,Filed (per RA sheet),2026-10-19,,,awaiting
+TN-962,TN,legal_salience,RA4,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TN-963,TN,plain,RA2,True,2026-10-15,,2026-11-14,,,,,,,,,,Filed (per RA sheet),2026-10-15,,,awaiting
+TN-964,TN,legal_salience,RA4,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TN-965,TN,plain,RA2,True,2026-10-15,2026-10-15,2026-11-14,,,,,,,,,,Filed (portal acknowledgement),2026-10-15,,,awaiting
+TN-966,TN,plain,RA3,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TN-967,TN,legal_salience,RA1,True,2026-10-19,2026-10-19,2026-11-18,,,,,,,,,,Filed (portal acknowledgement),2026-10-19,,,awaiting
+TN-968,TN,legal_salience,RA1,True,2026-10-19,2026-10-19,2026-11-18,,,,,,,,,,Filed (portal acknowledgement),2026-10-19,,,awaiting
+TN-969,TN,plain,RA3,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TN-970,TN,plain,RA4,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TN-971,TN,plain,RA1,True,2026-10-19,,2026-11-18,,,,,,,,,,Filed (per RA sheet),2026-10-19,,,awaiting
+TN-972,TN,plain,RA4,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TN-973,TN,plain,RA3,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TN-974,TN,plain,RA2,True,2026-10-15,2026-10-15,2026-11-14,,,,,,,,,,Filed (portal acknowledgement),2026-10-15,,,awaiting
+TN-975,TN,legal_salience,RA2,True,2026-10-15,,2026-11-14,,,,,,,,,,Filed (per RA sheet),2026-10-15,,,awaiting
+TN-976,TN,plain,RA1,True,2026-10-19,2026-10-19,2026-11-18,,,,,,,,,,Filed (portal acknowledgement),2026-10-19,,,awaiting
+TN-977,TN,plain,RA2,True,2026-10-16,,2026-11-15,,,,,,,,,,Filed (per RA sheet),2026-10-16,,,awaiting
+TN-978,TN,legal_salience,RA4,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TN-979,TN,legal_salience,RA4,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TN-980,TN,plain,RA4,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TN-981,TN,plain,RA2,True,2026-10-16,,2026-11-15,,,,,,,,,,Filed (per RA sheet),2026-10-16,,,awaiting
+TN-982,TN,plain,RA4,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TN-983,TN,plain,RA1,True,2026-10-20,,2026-11-19,,,,,,,,,,Filed (per RA sheet),2026-10-20,,,awaiting
+TN-984,TN,plain,RA1,True,2026-10-20,,2026-11-19,,,,,,,,,,Filed (per RA sheet),2026-10-20,,,awaiting
+TN-985,TN,plain,RA4,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TN-986,TN,plain,RA4,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TN-987,TN,plain,RA2,True,2026-10-16,2026-10-16,2026-11-15,,,,,,,,,,Filed (portal acknowledgement),2026-10-16,,,awaiting
+TN-988,TN,legal_salience,RA1,True,2026-10-20,,2026-11-19,,,,,,,,,,Filed (per RA sheet),2026-10-20,,,awaiting
+TN-989,TN,plain,RA1,True,2026-10-20,2026-10-20,2026-11-19,,,,,,,,,,Filed (portal acknowledgement),2026-10-20,,,awaiting
+TN-990,TN,plain,RA3,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TN-991,TN,plain,RA2,True,2026-10-16,,2026-11-15,,,,,,,,,,Filed (per RA sheet),2026-10-16,,,awaiting
+TN-992,TN,legal_salience,RA3,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TN-993,TN,plain,RA3,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TN-994,TN,plain,RA3,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TN-995,TN,plain,RA3,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TN-996,TN,legal_salience,RA3,False,,,,,,,,,,,,,Not filed,,,,not_filed
+TN-997,TN,legal_salience,RA2,True,2026-10-16,,2026-11-15,,,,,,,,,,Filed (per RA sheet),2026-10-16,,,awaiting
+TN-998,TN,plain,RA1,True,2026-10-20,2026-10-20,2026-11-19,,,,,,,,,,Filed (portal acknowledgement),2026-10-20,,,awaiting
+TN-999,TN,plain,RA2,True,2026-10-17,2026-10-17,2026-11-16,,,,,,,,,,Filed (portal acknowledgement),2026-10-17,,,awaiting
