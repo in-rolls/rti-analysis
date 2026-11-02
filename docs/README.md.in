@@ -1,27 +1,27 @@
-# Does RTI Work?
+# Measuring the Right to Know
 
-**First-cut tables and figures from an audit of India's Right to Information Act**
+An audit of online Right to Information requests in five Indian states.
 
 Priyadarshi Amar and Gaurav Sood
 
-[Read the paper](output/paper.pdf) · [Read the tables and figures](output/first_cut_note.pdf) · [Design and definitions](docs/design.md) · [Data and provenance](docs/data.md)
+[Read the paper](ms/main.pdf) · [Read the tables and figures](ms/exhibits.pdf) · [Design and definitions](docs/design.md) · [Data and provenance](docs/data.md)
 
 ## TL;DR
 
-**Does RTI work for a citizen who files online?** Not reliably, so far. As of @@AS_OF@@, @@N_FILED@@ of @@N_DRAWN@@ drawn applications are filed and @@N_PAST30@@ have passed the 30-day limit in s.7(1). Outside Telangana, @@ANY_EXTG@@% of those got any response in time and @@INFO_EXTG@@% got information.
+**Does RTI work for a citizen who files online?** Not reliably, so far. As of @@as_of@@, @@n_filed@@ of @@n_drawn@@ drawn applications are filed and @@n_past30@@ have passed the 30-day limit in s.7(1). Outside Telangana, @@any_extg@@% of those got any response in time and @@info_extg@@% got information.
 
-@@RESULTS_TABLE@@
+@@results_table@@
 
 Any response is any office action, including a transfer or fee demand. Reply excludes transfers. Information supplied is a reply coded full or partial, a lower bound while some replies have not been downloaded.
 
-- **Response varies widely by state**, from @@ANY_TN@@% in Tamil Nadu (@@ANY_TN_W@@% after weighting the results to match the proportions of headquarters and subordinate offices on the portal; this does not account for which departments were filed first) to @@ANY_KA@@% in Karnataka. States differ in portals and in the kinds of offices sampled, so these gaps are not causal.
-- **Telangana's @@ANY_TG@@% is a lower bound.** Its portal sends no status emails and no status checks are recorded, so it cannot yet be read as silence.
-- **Few replies answer everything.** Of @@N_CODED@@ coded replies, @@N_INFORMED@@ supply some information and @@N_FULL@@ answer both the register request and the Section 25 return. Two coders agree on whether information was supplied in @@AGREE_INFO@@% of replies, but only @@AGREE_DISP@@% on the full disposition.
-- **The legal letter shows no detectable effect yet.** The effect on any response by day 30 is @@B_TN@@ points (SE @@SE_TN@@) in Tamil Nadu and @@B_OTHER@@ (SE @@SE_OTHER@@) in other states, or @@B_EXTG@@ (SE @@SE_EXTG@@) in Karnataka, Delhi and Maharashtra. The smallest effects we could detect are about @@MDE_TN@@, @@MDE_OTHER@@ and @@MDE_EXTG@@ points, so a null says little yet. One specification with department-group fixed effects shows a large effect, but it rests on 41 applications and is not significant at 5% under randomization inference; see the main table. This is an interim, unregistered look while filing continues.
+- **Response varies widely by state**, from @@any_tn@@% in Tamil Nadu (@@any_tn_w@@% after weighting the results to match the proportions of headquarters and subordinate offices on the portal; this does not account for which departments were filed first) to @@any_ka@@% in Karnataka. States differ in portals and in the kinds of offices sampled, so these gaps are not causal.
+- **Telangana's @@any_tg@@% is a lower bound.** Its portal sends no status emails and no status checks are recorded, so it cannot yet be read as silence.
+- **Few replies answer everything.** Of @@n_coded@@ coded replies, @@n_informed@@ supply some information and @@n_full@@ answer both the register request and the Section 25 return. Two coders agree on whether information was supplied in @@agree_info@@% of replies, but only @@agree_disp@@% on the full disposition.
+- **The legal letter shows no detectable effect yet.** The effect on any response by day 30 is @@b_tn@@ points (SE @@se_tn@@) in Tamil Nadu and @@b_other@@ (SE @@se_other@@) in other states, or @@b_extg@@ (SE @@se_extg@@) in Karnataka, Delhi and Maharashtra. The smallest effects we could detect are about @@mde_tn@@, @@mde_other@@ and @@mde_extg@@ points, so a null says little yet. One specification with department-group fixed effects shows a large effect, but it rests on 41 applications and is not significant at 5% under randomization inference; see the main table. This is an interim, unregistered look while filing continues.
 
 ## Reproduce
 
-Use R 4.5.2, GNU Make and a TeX installation with `pdflatex`. R packages are pinned in `renv.lock`.
+Use R 4.6.0, GNU Make, and a TeX installation with XeLaTeX and `latexmk`. R packages are pinned in `renv.lock`.
 
 **From the derived data in this repository:**
 
@@ -30,7 +30,11 @@ make restore
 make check
 ```
 
-`make check` reruns the analysis, compiles the note, regenerates this README, lints the code, runs the tests and runs the privacy check.
+`make check` reruns the analysis, builds the paper and exhibit appendix, regenerates this README, lints the code, runs the tests and runs the privacy check.
+
+`make ci-docker` runs the same checks in the standard `rocker/verse:4.6.0` image. It requires a running Docker daemon and network access for dependency restoration.
+
+The analysis and input preparation use R throughout. There is no Python dependency. Naming, layout, and formatting conventions are documented in [docs/naming.md](docs/naming.md).
 
 **From the original inputs:** the originals hold personal data, so they stay in the shared Drive folder rather than in git. You also need `poppler` and `tesseract`.
 
@@ -50,11 +54,11 @@ make check
 | `data/upstream.csv` | The frames and drawn assignment lists, pinned to commits in the public repositories; downloaded on first run |
 | `data/raw_manifest.csv` | Size and checksum of each of the original files kept in Drive |
 | `data/hand/` | Everything made by judgment: reply coding, second coding, adjudication, hand corrections, phone calls |
-| `data/derived/` | Built from the originals by `code/raw_*.R`, with no personal data |
-| `data/cleaned/` | One row per drawn application, and the function-coding crosswalk |
-| `code/raw_*.R` | Originals to derived data |
-| `code/00_*.R` to `code/08_*.R` | Derived data to tables and figures |
-| `output/` | The note, tables and figures |
+| `data/derived/` | Status records, analysis data, and coding crosswalks generated by R |
+| `R/` | Shared functions for parsing, coding, estimation, tables, and figures |
+| `scripts/` | Ordered analysis stages and commands for rebuilding the private inputs |
+| `tabs/`, `figs/` | Generated tables, numerical macros, and figures |
+| `ms/` | Editable manuscript, bibliography, and compiled PDFs |
 | `docs/` | Design, definitions, provenance, and what is still missing |
 | `tests/` | Parsers, sample accounting, estimators, outputs and privacy |
 | `hooks/` | Pre-push guard; install with `make hooks` |
@@ -63,4 +67,4 @@ The README is generated from `docs/README.md.in`. Edit the template, not this fi
 
 ## Paper development
 
-Edit `ms/paper.tex.in`; `make check` generates `output/paper.tex` and `output/paper.pdf` from the computed summaries. See [the audit and design reconciliation](docs/paper-audit.md) for interpretation limits and unresolved evidence gaps.
+Edit `ms/main.tex`. `make paper` runs the analysis and builds `ms/main.pdf` and `ms/exhibits.pdf`; `make manuscript` rebuilds the PDFs from existing exhibits. R writes numerical values to `tabs/macros.tex`, which the manuscript reads directly. See [the audit and design reconciliation](docs/paper_audit.md) for interpretation limits and unresolved evidence gaps.

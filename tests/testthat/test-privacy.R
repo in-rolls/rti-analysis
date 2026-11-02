@@ -1,4 +1,4 @@
-source(file.path(root, "code", "check_privacy.R"))
+source(file.path(root, "R", "privacy.R"))
 
 testthat::test_that("the scan catches each kind of personal data", {
   testthat::expect_equal(scan_text("write to someone@example.com"), "email")
@@ -16,10 +16,10 @@ testthat::test_that("the scan leaves ordinary project text alone", {
 })
 
 testthat::test_that("forbidden columns are caught in a header", {
-  testthat::expect_equal(forbidden_in_header("app_id,reg_no,filed"), "reg_no")
-  testthat::expect_length(forbidden_in_header("app_id,state,treatment"), 0L)
+  testthat::expect_equal(find_forbidden_columns("app_id,reg_no,filed"), "reg_no")
+  testthat::expect_length(find_forbidden_columns("app_id,state,treatment"), 0L)
 })
 
 testthat::test_that("git is not tracking anything personal", {
-  testthat::expect_identical(privacy_findings(root), character())
+  testthat::expect_identical(find_privacy_issues(root), character())
 })

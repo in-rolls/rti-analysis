@@ -4,9 +4,9 @@
 
 ```
 raw emails, attachments ─┐
-RA sheets (frozen)       ├─ code/raw_*.R ──> data/derived/ ─┐
+RA sheets (frozen)       ├─ scripts/rebuild_raw.R ──> data/derived/ ─┐
 overrides, hand fixes    │                                  │
-frames, assignment lists ┘                                  ├─ code/0*.R ──> tables, figures
+frames, assignment lists ┘                                  ├─ scripts/99_run_all.R ──> tables, figures
                                                             │
 reply PDFs ── read by two coders and an adjudicator ──> data/hand/ ─┘
 ```
@@ -86,14 +86,14 @@ Ten of 1,665 applications differed:
 
 ## Privacy
 
-Registration numbers, PIO contacts, filer names and addresses stay out of git. Parsed emails and sheets go to `data/private/`, which is gitignored. `code/check_privacy.R` fails if git would publish an email, a phone number, a registration number or a filled personal column. It also checks any terms in a local, gitignored `.private_terms` file, so filer names can be checked without being published. It runs in `make check`, in CI and, after `make hooks`, before every push.
+Registration numbers, PIO contacts, filer names and addresses stay out of git. Parsed emails and sheets go to `data/private/`, which is gitignored. `scripts/check_privacy.R` fails if git would publish an email, a phone number, a registration number or a filled personal column. It also checks any terms in a local, gitignored `.private_terms` file, so filer names can be checked without being published. It runs in `make check`, in CI and, after `make hooks`, before every push.
 
 This repository is private because filing continues and it holds interim results by letter. Office names appear because they are public.
 
 ## A new data date
 
-1. Update `RAW_FREEZE` and `AS_OF` in `code/00_config.R`.
-2. Copy the RA sheets for that date, and set `RTI_SHEETS_COPY` to the copy. Run `code/raw_00_freeze.R`, which writes the dated Drive folder. It refuses to overwrite a freeze.
-3. Run `code/raw_00b_manifest.R` to pin the originals.
+1. Update `raw_freeze` and `as_of` in `scripts/00_config.R`.
+2. Copy the RA sheets for that date, and set `RTI_SHEETS_COPY` to the copy. Run `scripts/freeze_inputs.R`, which writes the dated Drive folder. It refuses to overwrite a freeze.
+3. Run `scripts/write_manifest.R` to pin the originals.
 4. If a new batch was drawn, add its assignment list to `data/upstream.csv`.
 5. `make rebuild`, code any new replies by hand, then revisit the counts checked in `01_data_cleaning.R` and `tests/`.
