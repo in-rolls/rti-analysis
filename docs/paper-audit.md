@@ -62,3 +62,30 @@ The paper does not import unverified novelty claims, current legal claims, regis
 - The locally rebuilt coefficient CSV differs from upstream only at floating-point precision (roughly 1e-14); displayed estimates and standard errors are unchanged.
 - To repeat the local fallback, set `RENV_CONFIG_AUTOLOADER_ENABLED=false`, `R_USER_CONFIG_DIR=/private/tmp/rti-r-config`, and `R_LIBS_USER` to this checkout's `renv/library/macos/R-4.6/aarch64-apple-darwin23`, then run `make check`. These are environment workarounds, not replacements for the pinned replication environment.
 - Private source documents, human coding validation, registration and ethics records remain outstanding. The draft is suitable for author review, not a claim that those tasks have been completed.
+
+## Prose and literature revision
+
+The paper now explains weighting as adjusting the mix of department headquarters, head-of-department offices, and subordinate offices to match their shares on the portal. The table uses an explained `Adjusted` row. This is the same calculation previously labeled tier-standardized; no weights or outcomes changed. Repository paths, build instructions, and author-facing verification notes have been removed from the article and retained here.
+
+The expanded review uses 17 references in `ms/references.bib`, organized around Indian assessments, implementation and enforcement, request wording, requester identity, administrative burden, and measurement of successful access. BibTeX generates the bibliography and all entries are cited. In addition to the sources above, the following primary records were checked:
+
+| Reference | Primary record | Use in paper |
+| --- | --- | --- |
+| RaaG and NCPRI (2009) | https://www.snsindia.org/wp-content/uploads/2018/10/RAAG-study-executive-summary.pdf | Mixed-method assessment including researcher-filed applications |
+| RaaG and CES (2014) | https://www.snsindia.org/wp-content/uploads/2024/01/Report-RaaG-2014.pdf | Applicant accounts, reported performance, and research-team requests; request and sample comparability |
+| Peisakhin (2012) | https://www.journals.uchicago.edu/doi/abs/10.1086/663727 | Experimental evidence on service access in India |
+| Relly et al. (2020) | https://experts.arizona.edu/en/publications/more-than-a-decade-in-the-making-a-study-of-the-implementation-of/ | Implementation, civic engagement, bureaucratic and political factors |
+| SNS (2025) | https://www.snsindia.org/wp-content/uploads/2025/10/Report-Card-Key-findings-2025.pdf | Vacancies, backlogs, and penalties in its reporting period |
+| Grimmelikhuijsen et al. (2019) | https://journal-bpa.org/index.php/jbpa/article/view/34 | Dutch replication of formal versus informal requests |
+| Spac et al. (2018) | https://www.muni.cz/en/research/publications/1417556 | Legal reference versus moral appeal in Slovakia |
+| Cuillier (2010) | https://experts.arizona.edu/en/publications/honey-v-vinegar-testing-compliance-gaining-theories-in-the-contex/ | Different effects of threatening and friendly wording |
+| ben-Aaron et al. (2017) | https://www.microsoft.com/en-us/research/publication/transparency-by-conformity-a-field-experiment-evaluating-openness-in-local-governments/ | Peer compliance information, response speed and completeness |
+| Michener et al. (2020) | https://onlinelibrary.wiley.com/doi/abs/10.1111/gove.12416 | Institutional versus noninstitutional requesters in Brazil |
+| Pineiro Rodriguez and Rossel (2018) | https://investigadores.ucu.edu.uy/en/publications/a-field-experiment-on-bureaucratic-discretionary-bias-under-foi-l/ | Gender differences in the benefit of invoking the law in Uruguay |
+| Lagunes and Pocasangre (2019) | https://cgeg.sipa.columbia.edu/news/dynamic-transparency-audit-mexicos-freedom-information-act | Changes in response frequency, speed, and quality in Mexico |
+| Cicatiello et al. (2024) | https://www.sciencedirect.com/science/article/pii/S0167268124000489 | Regional variation in treatment of prominent requesters in Italy |
+| Spac et al. (2025) | https://www.muni.cz/en/research/publications/2491597 | Interaction between information burden and legal references |
+
+Relly et al.'s year was corrected to 2020 in the paper's bibliography using the authors' institutional record; the companion bibliography listed 2021. No change was made to the companion repository. Claims use the evidence inspected in abstracts, institutional records, and reports; this is not a claim to have read every article in full or conducted an exhaustive systematic review.
+
+After the prose revision, the complete analysis, lint, privacy scan, and 216 assertions passed again (one unavailable-originals test skipped). The final paper has twelve pages, all visually inspected. All seventeen bibliography entries are cited, and LaTeX/BibTeX report no missing citations, references, overfull boxes, or bibliography warnings.

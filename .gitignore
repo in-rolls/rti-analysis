@@ -25,3 +25,6 @@ renv/library/
 
 # Terms the privacy check looks for but must not publish, one per line
 .private_terms
+
+*.bbl
+*.blg

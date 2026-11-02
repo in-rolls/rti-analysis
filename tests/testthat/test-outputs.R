@@ -66,11 +66,13 @@ testthat::test_that("paper values are generated from the same frozen analysis", 
   testthat::expect_false(any(grepl("@@", paper, fixed = TRUE)))
   testthat::expect_true(file.exists(out("paper.pdf")))
   n_filed <- formatC(sum(d$filed), format = "d", big.mark = ",")
-  testthat::expect_true(any(grepl(paste(n_filed, "filed applications"), paper, fixed = TRUE)))
+  testthat::expect_true(any(grepl(
+    paste("are", n_filed, "filed applications"), paper, fixed = TRUE
+  )))
   rates <- read.csv(out("tables", "response_by_state.csv"))
   value <- rates$info[rates$sample == "All excl. Telangana"]
   testthat::expect_true(any(grepl(
-    sprintf("%.1f percent have documented information", value), paper,
+    sprintf("%.1f percent received at least some requested information", value), paper,
     fixed = TRUE
   )))
 })
