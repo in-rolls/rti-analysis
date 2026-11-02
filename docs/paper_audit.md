@@ -101,3 +101,13 @@ The application CSV and all four result CSVs are byte-identical to the saved pre
 The manuscript has thirteen pages and the exhibit appendix eleven. All pages were visually inspected; final LaTeX logs contain no overfull boxes, unresolved references, or warnings. `actionlint` and `git diff --check` passed. Docker is installed but no daemon is available, so the container target was not validated. A fresh network-only installation and Linux CI are distinct from the successful local restoration using installed packages.
 
 In this sandbox, the successful command set `RENV_PATHS_CACHE=/private/tmp/rti-renv-cache`, `R_USER_CONFIG_DIR=/private/tmp/rti-r-config`, and `R_USER_CACHE_DIR=/private/tmp/rti-r-cache` to writable locations. It did not disable renv. `other/r_packages_info.csv` records the tested versions.
+
+## Consolidated inputs and recovered originals (November 2, 2026)
+
+The ten upstream frame and assignment inputs now point to one immutable commit in `in-rolls/rti`, introduced by fieldwork PR #3. Every input retains its prior MD5 checksum. Local `make check` passes 212 assertions, lint, and privacy checks; the analysis CSV and all four result CSVs remain byte-identical to the pre-refactor baseline. The manuscript and exhibits require no numerical changes.
+
+The connected Drive supplied the three frozen extraction configuration files and 18 frozen RA sheet exports. Together with the local ZIP and recovered email/attachment files, 694 original files have been downloaded and checked against the manifest, with no content differences. This includes all pinned email batches, attachments, and frozen extraction settings. Re-running email parsing, sheet ingestion, and event matching reproduces their existing derived CSVs byte-for-byte.
+
+The current Drive listing and local ZIP still lack 131 pinned receipt or response-document paths. Other receipt/response files are listed on Drive but have not all been downloaded; the full 1,473-file audit and status reconstruction remain incomplete. These limits do not change the frozen analytical results. Response extraction remains in this repository until the full cutover can be verified.
+
+The development fork is now `in-rolls/rti-paper`. Priyadarshi plans to transfer the original repository to `in-rolls/rti-analysis`, which will become the destination for a subsequent paper PR.
