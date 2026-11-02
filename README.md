@@ -4,7 +4,7 @@
 
 Priyadarshi Amar and Gaurav Sood
 
-[Read the tables and figures](output/first_cut_note.pdf) · [Design and definitions](docs/design.md) · [Data and provenance](docs/data.md)
+[Read the paper](output/paper.pdf) · [Read the tables and figures](output/first_cut_note.pdf) · [Design and definitions](docs/design.md) · [Data and provenance](docs/data.md)
 
 ## TL;DR
 
@@ -13,7 +13,7 @@ Priyadarshi Amar and Gaurav Sood
 | State | Past day 30 | Any response (%) | Reply (%) | Information supplied (%) |
 | --- | ---: | ---: | ---: | ---: |
 | Tamil Nadu | 140 | 12.9 | 12.1 | 5.0 |
-| Tamil Nadu, weighted to frame |  | 7.0 | 6.9 | 2.1 |
+| Tamil Nadu, tier-standardized |  | 7.0 | 6.9 | 2.1 |
 | Telangana | 187 | 1.1 | 1.1 | 1.1 |
 | Karnataka | 78 | 52.6 | 51.3 | 28.2 |
 | Delhi | 22 | 22.7 | 18.2 | 13.6 |
@@ -23,7 +23,7 @@ Priyadarshi Amar and Gaurav Sood
 
 Any response is any office action, including a transfer or fee demand. Reply excludes transfers. Information supplied is a reply coded full or partial, a lower bound while some replies have not been downloaded.
 
-- **Response varies widely by state**, from 12.9% in Tamil Nadu (7.0% weighted to its frame, since nearly all its offices are sub-offices) to 52.6% in Karnataka. States differ in portals and in the kinds of offices sampled, so these gaps are not causal.
+- **Response varies widely by state**, from 12.9% in Tamil Nadu (7.0% standardized to frame tier shares; this does not adjust for department composition or selective filing) to 52.6% in Karnataka. States differ in portals and in the kinds of offices sampled, so these gaps are not causal.
 - **Telangana's 1.1% is a lower bound.** Its portal sends no status emails and no status checks are recorded, so it cannot yet be read as silence.
 - **Few replies answer everything.** Of 104 coded replies, 54 supply some information and 15 answer both the register request and the Section 25 return. Two coders agree on whether information was supplied in 92% of replies, but only 74% on the full disposition.
 - **The legal letter shows no detectable effect yet.** The effect on any response by day 30 is 1.1 points (SE 5.8) in Tamil Nadu and 3.6 (SE 3.9) in other states, or 10.9 (SE 9.3) in Karnataka, Delhi and Maharashtra. The smallest effects we could detect are about 16.2, 10.9 and 26.1 points, so a null says little yet. One specification with department-group fixed effects shows a large effect, but it rests on 41 applications and is not significant at 5% under randomization inference; see the main table. This is an interim, unregistered look while filing continues.
@@ -69,3 +69,7 @@ make check
 | `hooks/` | Pre-push guard; install with `make hooks` |
 
 The README is generated from `docs/README.md.in`. Edit the template, not this file.
+
+## Paper development
+
+Edit `ms/paper.tex.in`; `make check` generates `output/paper.tex` and `output/paper.pdf` from the computed summaries. See [the audit and design reconciliation](docs/paper-audit.md) for interpretation limits and unresolved evidence gaps.

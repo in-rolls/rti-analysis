@@ -74,7 +74,7 @@ save_table(
     paste0(
       "Linear probability models, applications past day 30, percentage points, ",
       "robust SEs. Legal letter: cites the s.7(1) deadline and s.20 penalties. ",
-      "Any response includes transfers and fee demands; reply excludes them; ",
+      "Any response includes transfers and fee demands; reply excludes transfers; ",
       "information: coded full or partial. Blocks: department $\\times$ tier ",
       "(Tamil Nadu), state $\\times$ batch (others). Columns (4), (6) rest on ",
       "%d, %d applications in department groups with both letters."

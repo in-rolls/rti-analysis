@@ -60,3 +60,17 @@ testthat::test_that("the README was generated and its numbers match the tables",
   testthat::expect_length(row, 1L)
   testthat::expect_true(grepl(sprintf("| %.1f |", tn$any), row, fixed = TRUE))
 })
+
+testthat::test_that("paper values are generated from the same frozen analysis", {
+  paper <- readLines(out("paper.tex"))
+  testthat::expect_false(any(grepl("@@", paper, fixed = TRUE)))
+  testthat::expect_true(file.exists(out("paper.pdf")))
+  n_filed <- formatC(sum(d$filed), format = "d", big.mark = ",")
+  testthat::expect_true(any(grepl(paste(n_filed, "filed applications"), paper, fixed = TRUE)))
+  rates <- read.csv(out("tables", "response_by_state.csv"))
+  value <- rates$info[rates$sample == "All excl. Telangana"]
+  testthat::expect_true(any(grepl(
+    sprintf("%.1f percent have documented information", value), paper,
+    fixed = TRUE
+  )))
+})

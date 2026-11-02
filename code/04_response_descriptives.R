@@ -41,7 +41,7 @@ body <- c(
       return(row)
     }
     c(row, tab_row(
-      "\\quad weighted to frame", "",
+      "\\quad tier-standardized", "",
       f1(weighted_any), f_ci(
         max(weighted_any - 1.96 * weighted_se, 0),
         weighted_any + 1.96 * weighted_se
@@ -62,8 +62,8 @@ save_table(
     "Applications past day 30. Any response: any office action, including a ",
     "transfer or fee demand. Reply: excludes transfers. Information supplied: ",
     "reply coded full or partial, a lower bound. Telangana is a lower bound ",
-    "because its portal sends no status emails. Brackets: Wilson 95\\% ",
-    "intervals."
+    "because its portal sends no status emails. Intervals: 95\\% Wilson, ",
+    "except normal for the tier-standardized row."
   ),
   "lrrcrr",
   tab_row("State", "N", "Any response", "95\\% CI", "Reply", "Information supplied"),
@@ -81,7 +81,7 @@ rate_row <- function(d, label) {
 response_by_state <- bind_rows(
   map_dfr(STATE_ORDER, \(s) rate_row(filter(eligible, state == s), STATE_LABELS[[s]])),
   tibble(
-    sample = "Tamil Nadu, weighted to frame", n = NA_integer_, any = weighted_any,
+    sample = "Tamil Nadu, tier-standardized", n = NA_integer_, any = weighted_any,
     reply = sum(tn_weighted$w * tn_weighted$reply), info = sum(tn_weighted$w * tn_weighted$info)
   ),
   rate_row(eligible, "All states"),

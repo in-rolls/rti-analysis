@@ -1,0 +1,114 @@
+\documentclass[11pt]{article}
+\usepackage[margin=1in]{geometry}
+\usepackage[T1]{fontenc}
+\usepackage{mathptmx,amsmath,booktabs,threeparttable,graphicx,placeins,natbib}
+\usepackage[font=small,labelfont=bf]{caption}
+\usepackage[colorlinks=true,allcolors=blue]{hyperref}
+\setlength{\emergencystretch}{2em}
+\title{Measuring the Right to Know:\\Early Evidence from an Online RTI Audit in India}
+\author{Priyadarshi Amar \and Gaurav Sood}
+\date{Working draft: data through 29 October 2026}
+\pdftrailerid{}
+\begin{document}
+\maketitle
+\begin{abstract}
+A recorded response to an information request need not provide information. We study this distinction using standardized requests for public authorities' own Right to Information (RTI) records in Tamil Nadu, Telangana, Karnataka, Delhi, and Maharashtra. Of 1,665 drawn applications, 996 had been filed by the data cutoff and 455 had reached thirty days. Excluding Telangana, where portal outcomes are especially poorly observed, 28.7 percent of these mature applications had a recorded response within thirty days, while 14.2 percent had documented provision of information. These are interim, sample-conditional rates; incomplete retrieval also affects the other jurisdictions. A randomized legal-salience paragraph produces imprecise estimates, with no basis for concluding that reminders have no effect. The results distinguish administrative activity from substantive disclosure and identify the observation and sampling conditions needed for a broader assessment of the RTI regime.
+\end{abstract}
+
+\section{Introduction}
+The operation of a right to information depends on what a citizen receives after asking. A portal can register an application, mark it disposed, or forward it without supplying the requested records. Measuring these steps separately matters for assessing access: a recorded administrative action and an answer to the question serve different purposes.
+
+We examine requests for each public authority's own RTI register and reporting records. This common subject makes offices more comparable than a collection of unrelated requests, while locating the inquiry in the administration of the transparency regime itself. The requests ask for existing records, permit alternative levels of aggregation, and do not ask for applicants' names or addresses. The design document in the companion \texttt{in-rolls/rti} repository motivates a descriptive audit with embedded randomized variation. This paper implements that framework on the existing frozen snapshot; it does not report the completion of the larger proposed study.
+
+The observed gap between response and information is substantial. Among mature applications outside Telangana, the recorded response rate is 28.7 percent and the information-supplied rate is 14.2 percent. Neither number establishes the true rate of silence: some answers remain on portals or in postal channels outside the retrieved record. The distinction is therefore between observed activity and documented information receipt. It is not an estimate of unlawful refusal.
+
+The study connects two strands of research. \citet{peisakhin} show that an RTI application can help applicants obtain ration cards in Delhi. Their outcome is access to a service; ours is access to the requested information. \citet{worthy} compare statutory and informal requests to English parish councils. Our contrast is narrower: both arms use the statutory channel, and one adds a reminder of deadlines and penalties. Finally, \citet{berliner} study the topics of information requests in Mexico. The registers requested here could eventually support an analogous account of demand, but only conditional on obtaining those records. This interim paper concerns the response to the register request itself.
+
+\section{Design and scope}
+\subsection{The request and the sampling frame}
+The instrument requests the authority's RTI record for the preceding twelve months and its Section 25 return. Acceptable responses include application-level records, category counts, or period totals. Full disclosure requires register information and either the return or a statement that the return is not held. Partial disclosure requires some requested information actually present in the retrieved material. This operational definition measures content supplied, rather than a letter's assertion that an enclosure was sent.
+
+Offices were drawn from portal authority rosters. Tamil Nadu uses department-by-tier quotas, with separate department, head-of-department, and sub-office categories. Telangana and Karnataka use department-group sampling with caps; Delhi and Maharashtra also use department-group sampling. These are different designs, and their pooled realized sample is not a probability sample of all Indian public authorities. The analysis preserves their distinct treatment blocks rather than treating administrative departments as interchangeable randomization strata.
+
+The intended population in the local design document is the set of offices reachable through online portals. The present analytic population is narrower still: drawn offices whose applications were successfully filed and had sufficient follow-up by the cutoff. Table~\ref{tab:tab_sample} documents this transition. Filing order was not randomized. Differences between the drawn and mature samples can therefore change both the descriptive population and the interpretation of treatment comparisons.
+\input{tables/tab_sample}
+\FloatBarrier
+
+\subsection{Legal salience and applicant characteristics}
+The legal-salience letter adds a reference to the Section 7(1) deadline and Section 20 penalties. The plain letter omits that paragraph. Maharashtra uses a shorter instrument because of its portal's word limit, so the appendix reports a specification excluding it. The contrast does not isolate a particular psychological mechanism: the reminder could convey awareness of the law, willingness to follow up, or an expectation of enforcement.
+
+Tamil Nadu assigns treatment within department-by-tier strata. Telangana and Karnataka assign it over the batch, while Delhi and Maharashtra assign it within state and batch. The analysis uses department-by-tier blocks for Tamil Nadu and state-by-batch blocks elsewhere. Department-group controls in the latter states are additional adjustments, not a description of the assignment mechanism.
+
+The design does not manipulate applicant identity. Research-assistant labels do not identify independent people: some labels refer to the same filer. Phone reachability is bundled with filer name and postal address. Consequently, filer and phone comparisons are descriptive and cannot identify gender, identity, or telephone-access effects.
+
+\section{Data and measurement}
+The frozen dataset joins assignment lists, filing sheets, email events, and coded reply documents. Assignment files are pinned to upstream commits and checksums. Filing requires a real registration number or a portal acknowledgment; free text in the registration-number field is insufficient. The derived data contain one row per drawn application. Repeat submissions to an office remain part of that application's history rather than becoming new randomized units.
+
+The snapshot contains 996 filed applications out of 1,665 drawn, with 455 observed for at least thirty days. Reply dates use the letter date where legible and otherwise the recorded arrival date, so elapsed time is not uniformly time to applicant receipt. The outcome window starts from the recorded filing date, using the portal date where available and otherwise the filing sheet. A common thirty-day window permits comparison, but does not adjudicate each case's legal deadline: transfers, fee requests, or other procedures can change the applicable clock.
+
+We distinguish three nested outcomes. Any response includes a recorded office action, including a transfer or fee demand. Reply excludes transfers but includes fee demands. Information supplied requires a reply coded full or partial. Phone calls are reported separately. Applications with insufficient exposure do not enter fixed-horizon denominators. Survival curves use their available follow-up, with administrative censoring at the cutoff.
+
+Outcome observation differs across portals. Telangana's portal supplies filing acknowledgments without corresponding status emails, and the frozen filing sheets do not record status checks. Delhi and Maharashtra also lack status notices in the inboxes. Missing downloads and unlogged postal arrivals further limit ascertainment. A zero in a recorded-response indicator therefore need not mean that an office did nothing. Even the sample excluding Telangana does not eliminate this problem.
+
+The reply corpus contains 104 coded replies, of which 54 supply some information and 15 meet the full-disclosure definition. These corpus totals include replies outside the thirty-day analysis window and must not be used as its numerator. The first coding pass, second pass, and adjudication were conducted with Claude in separate contexts. Agreement on information supplied is 92 percent; agreement on disposition is 74 percent. Agreement between model runs is not validation against human judgment. Human review and access to the underlying documents are needed before treating the coding as a validated measure of substantive compliance.
+
+\section{Analysis}
+For each jurisdiction, the principal descriptive statistic is the proportion of mature filed applications with a recorded event by day thirty. These rates pool both letter arms and describe the realized intervention mixture. They are not estimates of the plain-letter baseline proposed in the design document. Table~\ref{tab:tab_main} separately reports the plain-letter mean within each regression sample.
+
+The Tamil Nadu standardization weights tier-specific mature-sample rates by the tier shares in the portal frame. It illustrates sensitivity to the sample's tier composition; it does not recover department inclusion probabilities or adjust for selective filing and follow-up. Its interpretation requires transportability of the early tier-specific rates to the wider frame, which the current data do not establish.
+
+Treatment comparisons use linear probability models with the appropriate block fixed effects and heteroskedasticity-robust standard errors. Outcomes are scaled to percentages, so coefficients are percentage-point differences. Tamil Nadu is estimated separately. The appendix preserves alternative department-group adjustments, later horizons, and exploratory survival models. Randomization-inference results condition on the analyzed sample and observed treatment totals within blocks; specifications with department-group fixed effects further condition on block-by-department-group treatment totals. These conditional tests do not remove selection into that sample.
+
+Conditioning on filing and maturity occurs after treatment assignment. A causal reading consequently requires that assignment did not affect inclusion, and that outcome ascertainment is comparable across arms. Balance diagnostics and filing rates can reveal problems but cannot establish those assumptions. The estimates below are interim comparisons from an ongoing experiment, not confirmatory tests certified by a prospective registration.
+
+\section{Results}
+\subsection{Recorded response and information receipt}
+Table~\ref{tab:tab_response_state} reports observed outcomes. Tamil Nadu records a response within thirty days for 12.9 percent of mature applications; Karnataka records 52.6 percent. Telangana's 1.1 percent should be read as a recorded lower bound, given its missing portal monitoring. Cross-state differences combine office composition, filing schedules, and observation systems with any underlying differences in responsiveness. They do not identify the effect of a state administration.
+
+Outside Telangana, 28.7 percent have any recorded response and 14.2 percent have documented information. A transfer can move an application toward the appropriate custodian, and a fee demand can precede eventual disclosure. Both register activity without establishing that information has reached the applicant. Conversely, a disposal notice without its document leaves substantive provision unknown. Reporting each stage avoids treating these different processes as equivalent success.
+\input{tables/tab_response_state}
+\FloatBarrier
+
+Tamil Nadu's tier-standardized response rate is 7.0 percent, below its unweighted rate. This difference demonstrates the importance of the office mix. It does not resolve the remaining selection of departments and filing dates. The survival curves in Figure~\ref{fig:fig_km_state} describe the timing of recorded events among filed applications. Their censoring adjustment requires assumptions about follow-up and observation that can fail when filing sequence tracks office characteristics; they do not recover unobserved portal replies.
+\input{figures/fig_km_state}
+\FloatBarrier
+
+\subsection{Legal-salience comparisons}
+The block-adjusted difference in any recorded response is 1.1 percentage points in Tamil Nadu (standard error 5.8) and 3.6 points in the other states (standard error 3.9). Excluding Telangana from the latter group yields 10.9 points (standard error 9.3). Table~\ref{tab:tab_main} reports the other outcomes and alternative adjustments. These specifications address different realized samples, and their differences should not be presented as independent replications.
+
+The estimates are too imprecise to establish that legal reminders are ineffective. The table's detectable-effect heuristic, calculated as a multiple of the estimated standard error, is an interim precision diagnostic rather than prospective power for the original design. Department-group fixed effects also change the observations retained and leave limited within-group treatment variation. A large coefficient in that specification is not stronger evidence merely because it is larger.
+\input{tables/tab_main}
+\FloatBarrier
+
+\section{Discussion}
+The existing evidence supports a distinction between recorded administrative action and documented disclosure. It does not yet support a national compliance rate, a causal ranking of states, or a definitive estimate of the legal-salience effect. Those boundaries follow from the data-generating process: the mature sample is selected from an unfinished filing program, portal observation varies, and substantive coding has not received human validation.
+
+The local design document asks broader questions about demand composition, exemption use, appeals, and discrepancies between office-reported and applicant-observed performance. The current tables do not answer those questions. Register-based analyses would condition on obtaining a register, while an office-level discrepancy requires comparable reporting periods and definitions on both sides. Longer follow-up is also needed for the proposed later horizons and appeals. Neither the absence of these analyses nor an early null should be turned into evidence about their eventual outcomes.
+
+Before a submission-ready version, the most valuable work is to retrieve outstanding portal and postal responses, validate content coding against documents, and document selection from assignment through filing and follow-up. Those tasks improve measurement directly. Additional regression specifications cannot substitute for them. The present draft preserves the frozen evidence so that later data collection can be distinguished from retrospective analytical changes.
+
+\begin{thebibliography}{9}
+\bibitem[Peisakhin and Pinto(2010)]{peisakhin} Peisakhin, Leonid, and Paul Pinto. 2010. Is transparency an effective anti-corruption strategy? Evidence from a field experiment in India. \emph{Regulation \& Governance} 4:261--280. \href{https://doi.org/10.1111/j.1748-5991.2010.01081.x}{doi:10.1111/j.1748-5991.2010.01081.x}.
+\bibitem[Worthy et al.(2017)]{worthy} Worthy, Ben, Peter John, and Matia Vannoni. 2017. Transparency at the Parish Pump: A Field Experiment to Measure the Effectiveness of Freedom of Information Requests in England. \emph{Journal of Public Administration Research and Theory} 27:485--500. \href{https://doi.org/10.1093/jopart/muw063}{doi:10.1093/jopart/muw063}.
+\bibitem[Berliner et al.(2018)]{berliner} Berliner, Daniel, Benjamin E. Bagozzi, and Brian Palmer-Rubin. 2018. What Information Do Citizens Want? Evidence from One Million Information Requests in Mexico. \emph{World Development}. \href{https://doi.org/10.1016/j.worlddev.2018.04.016}{doi:10.1016/j.worlddev.2018.04.016}.
+\end{thebibliography}
+
+\clearpage
+\appendix
+\section{Design provenance and departures}
+The reference design is \texttt{ms/ms.tex} in \texttt{in-rolls/rti}, at commit \texttt{a2815a4}. The existing analysis documentation refers to an Overleaf \texttt{main.tex}; equivalence to that unavailable file has not been established. The manuscript uses the local document specified by the authors. No registration record was supplied, so the design's prospective language is not evidence that this interim analysis was registered.
+
+The reference design places primary descriptive weight on the plain arm and specifies broader geography and later follow-up. This snapshot pools arms for the state summaries, uses the existing jurisdictions, and emphasizes the thirty-day window. The Cox specifications and permutation tests are additions documented by the upstream analysis. Tier standardization is confined to Tamil Nadu. Peer-information treatments, the reservation-records arm, appeals, and commission-report comparisons are outside this analysis. These distinctions are retained as departures rather than silently rewriting the design around available outcomes.
+
+\section{Additional exhibits}
+Table~\ref{tab:tab_balance} reports filing and maturity by arm among drawn applications and the treatment composition of Tamil Nadu tiers; Table~\ref{tab:tab_content} separates the content of retrieved replies. Table~\ref{tab:tab_robust} compares alternative horizons and specifications, whose eligible samples differ. These checks describe sensitivity within the observed data and cannot correct missing portal outcomes or establish human coding validity.
+\input{tables/tab_balance}
+\FloatBarrier
+\input{tables/tab_content}
+\FloatBarrier
+\input{tables/tab_robust}
+\FloatBarrier
+
+\section{Reproducibility and access}
+The private analysis repository contains derived data, pinned upstream inputs, judgment-based coding files, and the scripts generating every exhibit and numerical statement. The manuscript template is filled from the same computed summaries used for the README. Running \texttt{make check} regenerates the analysis and both PDFs, then runs lint, tests, and privacy checks. Original emails, receipts, and reply documents remain outside Git because they contain personal information. Reproduction from the committed derived data does not independently validate their extraction. A raw-data rebuild requires the private archive matching the recorded manifest. No ethics approval or preregistration identifier is asserted in this draft; those records must be documented by the authors before submission.
+\end{document}

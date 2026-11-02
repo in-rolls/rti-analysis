@@ -70,7 +70,7 @@ rate <- \(sample, y = "any") sprintf("%.1f", by_state[[y]][by_state$sample == sa
 effect <- \(sample, y) sprintf("%.1f", effects[[y]][effects$sample == sample])
 
 display_order <- c(
-  "Tamil Nadu", "Tamil Nadu, weighted to frame", "Telangana", "Karnataka", "Delhi",
+  "Tamil Nadu", "Tamil Nadu, tier-standardized", "Telangana", "Karnataka", "Delhi",
   "Maharashtra", "All states", "All excl. Telangana"
 )
 results_table <- c(
@@ -99,7 +99,7 @@ fill <- c(
   AS_OF = format(AS_OF, "%d %B %Y"), N_DRAWN = f0(nrow(rti)), N_FILED = f0(sum(rti$filed)),
   N_PAST30 = f0(sum(rti$past30)), RESULTS_TABLE = paste(results_table, collapse = "\n"),
   ANY_EXTG = rate("All excl. Telangana"), INFO_EXTG = rate("All excl. Telangana", "info"),
-  ANY_TN = rate("Tamil Nadu"), ANY_TN_W = rate("Tamil Nadu, weighted to frame"),
+  ANY_TN = rate("Tamil Nadu"), ANY_TN_W = rate("Tamil Nadu, tier-standardized"),
   ANY_KA = rate("Karnataka"), ANY_TG = rate("Telangana"),
   B_TN = effect("Tamil Nadu", "b"), SE_TN = effect("Tamil Nadu", "se"),
   MDE_TN = effect("Tamil Nadu", "mde"),
@@ -112,6 +112,23 @@ fill <- c(
 readme <- readLines(here("docs", "README.md.in"))
 for (key in names(fill)) readme <- gsub(paste0("@@", key, "@@"), fill[[key]], readme, fixed = TRUE)
 writeLines(readme, here("README.md"))
+
+# Manuscript uses the same computed values as the README.
+paper <- readLines(here("ms", "paper.tex.in"))
+for (key in names(fill)) paper <- gsub(paste0("@@", key, "@@"), fill[[key]], paper, fixed = TRUE)
+if (any(grepl("@@", paper, fixed = TRUE))) stop("Unresolved manuscript value")
+writeLines(paper, here("output", "paper.tex"))
+old_wd <- setwd(here("output"))
+for (i in 1:2) {
+  status <- system2("pdflatex", c(
+    "-interaction=nonstopmode", "-halt-on-error", "paper.tex"
+  ), stdout = FALSE, stderr = FALSE)
+  if (status != 0) {
+    setwd(old_wd)
+    stop("pdflatex failed; see output/paper.log")
+  }
+}
+setwd(old_wd)
 
 # Record package versions ----
 pkgs <- sessionInfo()
