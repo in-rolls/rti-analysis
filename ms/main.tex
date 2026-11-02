@@ -117,6 +117,10 @@ The results apply to one kind of request and to the offices reached so far. Info
 
 \clearpage
 \appendix
+\counterwithin{table}{section}
+\renewcommand{\thetable}{\thesection\arabic{table}}
+\counterwithin{figure}{section}
+\renewcommand{\thefigure}{\thesection\arabic{figure}}
 \section{Additional results}
 Table~\ref{tab:tab_balance} reports filing and thirty-day follow-up by treatment arm among selected applications, and treatment composition by office level in Tamil Nadu. Table~\ref{tab:tab_content} describes the information contained in available replies. Table~\ref{tab:tab_robust} reports estimates with alternative controls and outcome windows. The samples change with the length of follow-up required, so differences across those specifications can reflect changes in sample composition as well as response timing.
 \input{../tabs/tab_balance}
