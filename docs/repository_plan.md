@@ -2,7 +2,7 @@
 
 Recommendation: keep two active repositories, organized by access and responsibility. Use public `in-rolls/rti` for fieldwork and versioned, de-identified data releases; keep private `in-rolls/rti-analysis` for analysis and the manuscript. Consolidate the state repositories into `rti`, including the Delhi–Maharashtra dependency discovered during this review. Maintain the resulting pipelines in R.
 
-Implementation is underway on `in-rolls/rti` branch `consolidate/r-fieldwork`. The analysis fork was renamed to `in-rolls/rti-paper` on November 2, 2026. Priyadarshi plans to transfer the original to `in-rolls/rti-analysis`, after which our paper branch should be proposed there through a PR. The fork remains in `in-rolls`; GitHub's transfer rules may require resolving that fork-network conflict before the transfer. No repositories have been archived or deleted, and visibility is unchanged.
+Implementation is underway on `in-rolls/rti` branch `consolidate/r-fieldwork`. The analysis fork was renamed to `in-rolls/rti-paper` on November 2, 2026. Priyadarshi has transferred the original to `in-rolls/rti-analysis`. GitHub confirms that it is the parent of `in-rolls/rti-paper`; both remain private and coexist within the organization. Our paper branch is ready for a PR against the transferred original. No repositories have been archived or deleted, and visibility is unchanged.
 
 ## What the repositories contain
 
@@ -94,6 +94,6 @@ The migration is complete when old assignments and instruments retain their hash
 
 ## Implementation update
 
-Fieldwork consolidation is available in [in-rolls/rti PR #3](https://github.com/in-rolls/rti/pull/3). It includes the shared R implementation, frozen sources and instruments, one viewer, and 80 passing regression assertions. The paper's upstream manifest now pins the consolidated source commit without changing any input checksum or analytical result. The renamed development fork is `in-rolls/rti-paper`; the original repository's transfer and the subsequent upstream paper PR remain separate steps.
+Fieldwork consolidation is available in [in-rolls/rti PR #3](https://github.com/in-rolls/rti/pull/3). It includes the shared R implementation, frozen sources and instruments, one viewer, and 80 passing regression assertions. The paper's upstream manifest now pins the consolidated source commit without changing any input checksum or analytical result. The renamed development fork is `in-rolls/rti-paper`; the original repository has been transferred, and the subsequent upstream paper PR remains to be opened.
 
 Email parsing, frozen sheet ingestion, and event matching have been rebuilt against recovered private originals and reproduce their prior derived CSVs exactly. Full receipt/response-document verification is still incomplete, as documented in `docs/paper_audit.md`. The fieldwork PR remains a draft; the replacement viewer has not been deployed, and no state forks have been archived.

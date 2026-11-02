@@ -110,4 +110,4 @@ The connected Drive supplied the three frozen extraction configuration files and
 
 The current Drive listing and local ZIP still lack 131 pinned receipt or response-document paths. Other receipt/response files are listed on Drive but have not all been downloaded; the full 1,473-file audit and status reconstruction remain incomplete. These limits do not change the frozen analytical results. Response extraction remains in this repository until the full cutover can be verified.
 
-The development fork is now `in-rolls/rti-paper`. Priyadarshi plans to transfer the original repository to `in-rolls/rti-analysis`, which will become the destination for a subsequent paper PR.
+The development fork is now `in-rolls/rti-paper`. Priyadarshi has transferred the original repository to `in-rolls/rti-analysis`. GitHub confirms the fork relationship, and that repository is now the destination for a subsequent paper PR.
