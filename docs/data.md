@@ -35,9 +35,9 @@ These are public, so the project does not copy them. `data/upstream.csv` pins ea
 | Files | Repository |
 | --- | --- |
 | Tamil Nadu frame and assignment list | `in-rolls/rti` |
-| Telangana frame and two assignment lists | `priyadarshiamar/rti-telangana` |
-| Karnataka frame and assignment list | `priyadarshiamar/rti-karnataka` |
-| Delhi and Maharashtra frame and two assignment lists | `priyadarshiamar/rti-delhi-maharashtra` |
+| Telangana frame and two assignment lists | `in-rolls/rti-telangana` |
+| Karnataka frame and assignment list | `in-rolls/rti-karnataka` |
+| Delhi and Maharashtra frame and two assignment lists | `in-rolls/rti-delhi-maharashtra` |
 
 This keeps the chain connected from frame to sample to analysis. On 30 October 2026 the samplers in the three state repositories were rerun on fresh clones, and their frames and seeds regenerated every assignment list with no file changed. Tamil Nadu's sampler in `in-rolls/rti` was not rerun; its list is byte-identical to the copy used since the first cut.
 
