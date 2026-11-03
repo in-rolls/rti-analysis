@@ -1,36 +1,47 @@
-.PHONY: restore rebuild verify-raw analysis format lint test privacy hooks check clean
+.PHONY: restore rebuild verify-raw analysis manuscript paper format lint test privacy hooks check ci-docker clean
 
 restore:
 	Rscript --vanilla -e 'if (!requireNamespace("renv", quietly = TRUE)) install.packages("renv", repos = "https://cloud.r-project.org"); renv::load(project = getwd()); renv::restore(prompt = FALSE)'
 
-# Needs RTI_RAW, the path to the shared Drive rti/ folder
 rebuild:
-	Rscript code/raw_master.R
+	Rscript scripts/rebuild_raw.R
 
 verify-raw:
-	Rscript code/raw_verify.R
+	Rscript scripts/verify_raw.R
 
 analysis:
-	Rscript code/00_master.R
+	Rscript scripts/99_run_all.R
+
+manuscript:
+	cd ms && latexmk -xelatex -interaction=nonstopmode -halt-on-error main.tex exhibits.tex
+
+paper: analysis
+	$(MAKE) manuscript
 
 format:
-	Rscript -e 'for (p in c("code", "tests")) styler::style_dir(p)'
+	Rscript -e 'for (path in c("R", "scripts", "tests")) styler::style_dir(path)'
 
 lint:
-	Rscript -e 'l <- unlist(lapply(c("code", "tests"), lintr::lint_dir), recursive = FALSE); print(l); quit(status = as.integer(length(l) > 0))'
+	Rscript -e 'lints <- unlist(lapply(c("R", "scripts", "tests"), lintr::lint_dir), recursive = FALSE); print(lints); quit(status = as.integer(length(lints) > 0))'
 
 test: analysis
 	Rscript -e 'testthat::test_dir("tests/testthat", stop_on_failure = TRUE)'
 
 privacy:
-	Rscript --vanilla code/check_privacy.R
+	Rscript --vanilla scripts/check_privacy.R
 
 hooks:
-	@cp hooks/pre-push .git/hooks/pre-push
-	@chmod +x .git/hooks/pre-push
-	@echo "pre-push hook installed: pushes are blocked if personal data is tracked"
+	git config extensions.worktreeConfig true
+	git config --worktree core.hooksPath hooks
 
-check: analysis lint test privacy
+check: paper lint test privacy
+
+ci-docker:
+	docker run --rm -v "$(CURDIR):/project" -w /project \
+		-v r_renv_cache:/root/.cache/R/renv \
+		-e RENV_CONFIG_REPOS_OVERRIDE=https://packagemanager.posit.co/cran/latest \
+		rocker/verse:4.6.0 bash -c "tlmgr install latexmk fontspec booktabs threeparttable placeins caption natbib xurl setspace adjustbox && make restore check"
 
 clean:
-	rm -f output/*.aux output/*.log output/*.out Rplots.pdf data/cleaned/analysis.rds
+	cd ms && latexmk -C main.tex exhibits.tex
+	rm -f Rplots.pdf data/derived/analysis.rds

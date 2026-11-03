@@ -1,11 +1,11 @@
 Package: rtianalysis
 Type: Project
-Title: Does RTI Work? First-Cut Analysis of an Audit of the Right to Information Act
+Title: Measuring the Right to Know: An Online RTI Audit in India
 Version: 0.1.0
 Authors@R: c(
     person("Priyadarshi", "Amar", role = c("aut", "cre")),
     person("Gaurav", "Sood", role = "aut"))
-Description: Reproducible first-cut tables and figures on response to standardized
+Description: Reproducible analysis of responses to standardized
     Right to Information requests filed online across five Indian states, including
     the effect of a randomized legal-salience letter.
 Encoding: UTF-8
@@ -18,7 +18,6 @@ Imports:
     here,
     jsonlite,
     lubridate,
-    pacman,
     purrr,
     readr,
     scales,

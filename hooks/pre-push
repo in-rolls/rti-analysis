@@ -5,7 +5,7 @@
 # cannot be taken back. Installed by `make hooks`. To push anyway, if you are certain the
 # findings are false positives: git push --no-verify
 
-if ! Rscript --vanilla code/check_privacy.R; then
+if ! Rscript --vanilla scripts/check_privacy.R; then
     echo "" >&2
     echo "Push refused. Fix the findings above." >&2
     exit 1

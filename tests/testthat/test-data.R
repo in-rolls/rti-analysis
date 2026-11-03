@@ -1,4 +1,4 @@
-d <- read_analysis()
+applications <- read_analysis()
 
 testthat::test_that("the manifest pins every original, and matches them when they are available", {
   manifest <- read.csv(file.path(root, "data", "raw_manifest.csv"), colClasses = "character")
@@ -9,18 +9,18 @@ testthat::test_that("the manifest pins every original, and matches them when the
   testthat::expect_equal(nrow(manifest), 1473L)
   raw_root <- path.expand(Sys.getenv("RTI_RAW"))
   testthat::skip_if(!nzchar(raw_root) || !dir.exists(raw_root), "originals are not on this machine")
-  source(file.path(root, "code", "raw_utils.R"), local = TRUE)
-  batches <- pinned_originals(raw_root, "email_tracker/raw", manifest)
+  source(file.path(root, "R", "raw.R"), local = TRUE)
+  batches <- find_pinned_originals(raw_root, "email_tracker/raw", manifest)
   testthat::expect_equal(unname(tools::md5sum(file.path(raw_root, batches$path))), batches$md5)
 })
 
 testthat::test_that("sample accounting holds by state", {
-  testthat::expect_equal(nrow(d), 1665L)
-  testthat::expect_false(any(duplicated(d$app_id)))
-  testthat::expect_equal(sum(d$filed), 996L)
-  testthat::expect_equal(sum(!is.na(d$filing_date)), 996L)
-  testthat::expect_equal(sum(d$past30), 455L)
-  past30 <- table(d$state[d$past30 == 1])
+  testthat::expect_equal(nrow(applications), 1665L)
+  testthat::expect_false(any(duplicated(applications$app_id)))
+  testthat::expect_equal(sum(applications$filed), 996L)
+  testthat::expect_equal(sum(!is.na(applications$filing_date)), 996L)
+  testthat::expect_equal(sum(applications$past30), 455L)
+  past30 <- table(applications$state[applications$past30 == 1])
   testthat::expect_equal(
     as.integer(past30[c("TN", "TG", "KA", "DL", "MH")]), c(140L, 187L, 78L, 22L, 28L)
   )
@@ -28,24 +28,25 @@ testthat::test_that("sample accounting holds by state", {
 
 testthat::test_that("a note in the number cell does not make an application filed", {
   failed <- c("KA-150", "TN-509", "TN-513", "TN-592")
-  testthat::expect_true(all(d$filed[d$app_id %in% failed] == 0L))
-  testthat::expect_true(all(is.na(d$filing_date[d$app_id %in% failed])))
+  testthat::expect_true(all(applications$filed[applications$app_id %in% failed] == 0L))
+  testthat::expect_true(all(is.na(applications$filing_date[applications$app_id %in% failed])))
   ## A note in the cell plus a portal acknowledgment is still a filing
-  testthat::expect_equal(d$filed[d$app_id == "TN-223"], 1L)
+  testthat::expect_equal(applications$filed[applications$app_id == "TN-223"], 1L)
 })
 
 testthat::test_that("past day 30 means exactly 30 or more days of exposure", {
-  testthat::expect_true(all(d$exposure[d$past30 == 1] >= 30))
-  testthat::expect_true(all(is.na(d$exposure[d$past30 == 0]) | d$exposure[d$past30 == 0] < 30))
-  testthat::expect_true(all(is.na(d$any_30[d$past30 == 0])))
-  testthat::expect_false(any(is.na(d$any_30[d$past30 == 1])))
+  testthat::expect_true(all(applications$exposure[applications$past30 == 1] >= 30))
+  immature_exposure <- applications$exposure[applications$past30 == 0]
+  testthat::expect_true(all(is.na(immature_exposure) | immature_exposure < 30))
+  testthat::expect_true(all(is.na(applications$any_30[applications$past30 == 0])))
+  testthat::expect_false(any(is.na(applications$any_30[applications$past30 == 1])))
 })
 
 testthat::test_that("outcomes are nested and dated in order", {
-  testthat::expect_true(all(is.na(d$days_any) | d$days_any >= 0))
-  testthat::expect_true(all(is.na(d$date_any) | d$date_any <= AS_OF))
-  testthat::expect_true(all(d$filed[!is.na(d$date_any)] == 1L))
-  e <- d[d$past30 == 1, ]
+  testthat::expect_true(all(is.na(applications$days_any) | applications$days_any >= 0))
+  testthat::expect_true(all(is.na(applications$date_any) | applications$date_any <= as_of))
+  testthat::expect_true(all(applications$filed[!is.na(applications$date_any)] == 1L))
+  e <- applications[applications$past30 == 1, ]
   testthat::expect_true(all(e$reply_30 <= e$any_30))
   testthat::expect_true(all(e$info_30 <= e$reply_30))
   testthat::expect_true(all(e$any_strict_30 <= e$any_30))
@@ -54,11 +55,11 @@ testthat::test_that("outcomes are nested and dated in order", {
 })
 
 testthat::test_that("arms follow the design: 30% legal within each randomization block", {
-  tn <- d[d$state == "TN", ]
+  tn <- applications[applications$state == "TN", ]
   testthat::expect_equal(sum(tn$legal), 300L)
   by_stratum <- tapply(tn$legal, tn$block, function(x) abs(sum(x) - 0.3 * length(x)))
   testthat::expect_true(all(by_stratum <= 1))
-  other <- d[d$state != "TN", ]
+  other <- applications[applications$state != "TN", ]
   by_block <- tapply(other$legal, other$block, function(x) abs(sum(x) - 0.3 * length(x)))
   testthat::expect_true(all(by_block <= 1))
   testthat::expect_equal(sort(unique(other$block[other$state == "DL"])), c(
@@ -67,7 +68,7 @@ testthat::test_that("arms follow the design: 30% legal within each randomization
 })
 
 testthat::test_that("phone calls appear only where they could be received", {
-  calls <- d[d$phone_call == 1L, ]
+  calls <- applications[applications$phone_call == 1L, ]
   testthat::expect_equal(nrow(calls), 9L)
   testthat::expect_true(all(calls$assigned_ra %in% c("RA2", "RA4")))
   testthat::expect_true(all(calls$filed == 1L))
@@ -75,25 +76,25 @@ testthat::test_that("phone calls appear only where they could be received", {
 })
 
 testthat::test_that("hand corrections and adjudicated coding are applied", {
-  testthat::expect_true(is.na(d$disposition[d$app_id == "TG-150"]))
-  testthat::expect_equal(d$disposition[d$app_id == "TG-162"], "full")
-  testthat::expect_equal(d$date_notice[d$app_id == "MH-002"], as.Date("2026-09-29"))
-  testthat::expect_equal(d$treatment[d$app_id == "TN-027"], "plain")
+  testthat::expect_true(is.na(applications$disposition[applications$app_id == "TG-150"]))
+  testthat::expect_equal(applications$disposition[applications$app_id == "TG-162"], "full")
+  testthat::expect_equal(applications$date_notice[applications$app_id == "MH-002"], as.Date("2026-09-29"))
+  testthat::expect_equal(applications$treatment[applications$app_id == "TN-027"], "plain")
   ## A portal status page is not a reply
-  testthat::expect_true(is.na(d$disposition[d$app_id == "TN-469"]))
+  testthat::expect_true(is.na(applications$disposition[applications$app_id == "TN-469"]))
   ## Coded only in the second round
-  testthat::expect_equal(d$disposition[d$app_id == "TN-492"], "partial")
+  testthat::expect_equal(applications$disposition[applications$app_id == "TN-492"], "partial")
   ## Letter dated 13 October, not the portal's 22 October
-  testthat::expect_equal(d$coded_response_date[d$app_id == "KA-137"], as.Date("2026-10-13"))
+  testthat::expect_equal(applications$coded_response_date[applications$app_id == "KA-137"], as.Date("2026-10-13"))
   ## No dated letter, but still a reply with a date
-  testthat::expect_equal(d$coded_response_date[d$app_id == "MH-022"], as.Date("2026-10-23"))
-  testthat::expect_equal(sum(d$coded), 104L)
+  testthat::expect_equal(applications$coded_response_date[applications$app_id == "MH-022"], as.Date("2026-10-23"))
+  testthat::expect_equal(sum(applications$coded), 104L)
   ## Full requires the Section 25 return to be answered as well
-  testthat::expect_equal(sum(d$disposition == "full", na.rm = TRUE), 15L)
+  testthat::expect_equal(sum(applications$disposition == "full", na.rm = TRUE), 15L)
 })
 
 testthat::test_that("every coded reply obeys the written coding rules", {
-  coded <- d[d$coded == 1L, ]
+  coded <- applications[applications$coded == 1L, ]
   has_data <- coded$granularity %in% c("format_a", "format_b", "format_c")
   supplied <- coded$q3_sec25 == "supplied"
   full <- coded$disposition == "full"
@@ -106,7 +107,7 @@ testthat::test_that("every coded reply obeys the written coding rules", {
 
 testthat::test_that("every coded reply has its document in the archive", {
   ## Except the reply filed under the wrong id, which is counted under TG-150's name
-  coded <- d[d$coded == 1L & d$app_id != "TG-162", ]
+  coded <- applications[applications$coded == 1L & applications$app_id != "TG-162", ]
   testthat::expect_true(all(coded$n_reply_pdfs > 0))
 })
 
@@ -116,7 +117,7 @@ testthat::test_that("every upstream file is pinned to a full commit and a checks
   testthat::expect_true(all(grepl("^[0-9a-f]{40}$", pins$ref)))
   testthat::expect_true(all(grepl("^[0-9a-f]{32}$", pins$md5)))
   for (name in pins$name) {
-    testthat::expect_true(file.exists(upstream_file(name, root)))
+    testthat::expect_true(file.exists(find_upstream_file(name, root)))
   }
 })
 
@@ -134,6 +135,6 @@ testthat::test_that("derived data carries no personal columns", {
     "account"
   )
   for (f in files) {
-    testthat::expect_length(intersect(names(read.csv(f, nrows = 1)), personal), 0L)
+    testthat::expect_length(dplyr::intersect(names(read.csv(f, nrows = 1)), personal), 0L)
   }
 })

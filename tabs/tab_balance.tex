@@ -1,0 +1,31 @@
+\begin{table}[!htbp]
+\centering
+\caption{Does the letter predict who is filed and who has reached day 30?}
+\label{tab:tab_balance}
+\small
+\begin{adjustbox}{max width=\textwidth}
+\begin{threeparttable}
+\begin{tabular}{lrrrrrrr}
+\toprule
+& & \multicolumn{3}{c}{Filed (\%)} & \multicolumn{3}{c}{Past day 30 (\%)} \\ \cmidrule(lr){3-5}\cmidrule(lr){6-8} State & N & Plain & Legal & $p$ & Plain & Legal & $p$ \\
+\midrule
+\addlinespace\multicolumn{8}{l}{\textit{Panel A. All drawn applications}} \\
+Tamil Nadu & 1,000 & 52.0 & 53.7 & 0.867 & 13.3 & 15.7 & 0.901 \\
+Telangana & 375 & 57.6 & 59.3 & 0.702 & 49.6 & 50.4 & 0.774 \\
+Karnataka & 180 & 81.7 & 83.3 & 0.797 & 41.3 & 48.1 & 0.399 \\
+Delhi & 44 & 100.0 & 100.0 &  & 50.0 & 50.0 &  \\
+Maharashtra & 66 & 93.5 & 90.0 & 0.641 & 43.5 & 40.0 & 0.641 \\
+\midrule
+\addlinespace\multicolumn{8}{l}{\textit{Panel B. Tamil Nadu past day 30, by tier}} \\
+ & N & Plain & Legal &  & Legal (\%) & Drawn (\%) &  \\
+Department & 7 & 0 & 7 &  & 100.0 & 32.5 &  \\
+Head of Department & 21 & 15 & 6 &  & 28.6 & 25.7 &  \\
+Sub Office & 112 & 78 & 34 &  & 30.4 & 30.6 &  \\
+\bottomrule
+\end{tabular}
+\begin{tablenotes}[flushleft]\footnotesize
+\item \textit{Notes:} Past day 30: filed by 29 September. Panel A: $p$-values on the letter in a linear probability model with randomization-block fixed effects and robust SEs. Panel B: counts, with the legal share among them and among all drawn in that tier. All 7 department-tier filings past day 30 got the legal letter.
+\end{tablenotes}
+\end{threeparttable}
+\end{adjustbox}
+\end{table}
