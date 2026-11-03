@@ -31,8 +31,8 @@ privacy:
 	Rscript --vanilla scripts/check_privacy.R
 
 hooks:
-	cp hooks/pre-push .git/hooks/pre-push
-	chmod +x .git/hooks/pre-push
+	git config extensions.worktreeConfig true
+	git config --worktree core.hooksPath hooks
 
 check: paper lint test privacy
 
